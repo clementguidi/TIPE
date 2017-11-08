@@ -1,0 +1,10 @@
+/b {
+	134 1139 hsbw
+	167 hmoveto
+	133 vlineto
+	71 -105 99 -52 125 0 rrcurveto
+	126 0 108 50 90 99 rrcurveto
+	...
+	closepath
+	endchar
+	} ND

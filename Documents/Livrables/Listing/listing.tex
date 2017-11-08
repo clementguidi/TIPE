@@ -1,0 +1,1660 @@
+\documentclass[10pt,twoside,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=2cm,left=3cm,bottom=2cm,right=2cm,portrait]{geometry}
+\usepackage[french]{babel}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{caption}
+\usepackage{fancyhdr}
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{redComment}{rgb}{0.7,0,0.1}
+\definecolor{redOp}{rgb}{0.6,0,0.1}
+\definecolor{redString}{rgb}{0.4,0,0.2}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+
+\lstset{literate=
+  {á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+  {Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+  {à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+  {À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+  {ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+  {Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+  {â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+  {Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+  {œ}{{\oe}}1 {Œ}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+  {ű}{{\H{u}}}1 {Ű}{{\H{U}}}1 {ő}{{\H{o}}}1 {Ő}{{\H{O}}}1
+  {ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+  {€}{{\euro}}1 {£}{{\pounds}}1 {«}{{\guillemotleft}}1
+  {»}{{\guillemotright}}1 {ñ}{{\~n}}1 {Ñ}{{\~N}}1 {¿}{{?`}}1,
+  language=[light]caml,
+  breakatwhitespace=false,
+  breaklines=true,
+  classoffset=0,
+  deletekeywords={fun,function,mod},
+  keywordstyle=\color{blue}\textbf,
+  classoffset=1,
+  morekeywords={when,fun,function,failwith,mod},
+  keywordstyle=\color{magenta},
+  classoffset=2,
+  morekeywords={},
+  keywordstyle=\color{redOp},
+  commentstyle=\color{redComment}\scriptsize,
+  stringstyle=\color{redString},
+  numbers=left,
+  numberstyle=\small\color{gray},
+  firstnumber=auto,
+  numberblanklines=false,
+  captionpos=b,
+  classoffset=3,
+  emph={[3]+,-,*,/,+.,-.,*.,/.,&&,||},
+  emphstyle={[3]\color{redOp}},
+  fontadjust
+}
+
+\begin{document}
+
+\pagestyle{plain}
+
+\begin{center}
+  \Large \textbf{TIPE : Quantité d'encre utilisée par une fonte d'écriture} \\ Listing du programme
+\end{center}
+
+\bigskip
+
+\tableofcontents
+
+\newpage
+
+\pagestyle{fancy}
+
+\section{Types}%-------------------------------------------------------------------------------------------------------------------
+
+\begin{lstlisting}{name=Types}
+type commande =
+  | Rmoveto
+  | Vmoveto
+  | Hmoveto
+  | Rlineto
+  | Vlineto
+  | Hlineto
+  | Rrcurveto
+  | Vhcurveto
+  | Hvcurveto
+  |Closepath
+  | Endchar
+;;
+type arguments == float list ;;
+type instruction == commande * arguments ;;
+type definition == instruction list ;;
+type glyphe == char * definition ;;
+type fonte == glyphe list ;;
+type point == float * float ;;
+type boundingBox == point * point ;;
+\end{lstlisting}
+
+\section{Fonctions utilitaires}%--------------------------------------------------------------------------------------------------------
+
+\begin{lstlisting}{name=Utilitaires}
+let rec pow_fl fl = function
+
+  (* float -> int -> float *)
+
+  (* Fonction puissance, appliquée à un flottant
+     Utilise l'exponentiation rapide *)
+
+  |0 -> 1.
+  |1 -> fl
+  |n -> pow_fl fl (n mod 2) *. r *. r where r = pow_fl fl (n/2)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let rec pow x = function
+
+  (* int -> int -> int *)
+
+  (* Fonction puissance, appliquée à un entier
+     Utilise l'exponentiation rapide *)
+
+  |0 -> 1
+  |1 -> x
+  |n -> pow x (n mod 2) * r * r where r = pow x (n/2)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let abs_fl = function
+
+  (* float -> float *)
+
+  (* Renvoie la valeur absolue d'un flottant *)
+
+  |x when x >= 0. -> x
+  |x              -> -.x
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Utilitaires}
+let rec somme_liste = function
+
+  (* float list -> float *)
+
+  (* Fais la somme de tous les flottants de la liste (analogue de apply) *)
+
+  |[]   -> 0.
+  |t::q -> t +. somme_liste q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let norme1 (x,y) =
+
+  (* point -> float *)
+
+  (* Renvoie la norme 1 d'un point du plan dont les coordonnées sont des flottants *)
+  
+  max (abs_fl x) (abs_fl y)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let distance1 (x1,y1) (x2,y2) =
+
+  (* point -> point -> float *)
+
+  (* Renvoie la distance liée à la norme 1 entre deux points dont les coordonnées sont des flottants *)
+  
+  norme1 (x1-.x2,y1-.y2)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let fst_4 (e,_,_,_) =
+
+  (* 'a * 'b * 'c * 'd -> 'a *)
+
+  (* Renvoie la première composante d'un quadruplet *)
+  
+  e
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let snd_4 (_,e,_,_) =
+  
+  (* 'a * 'b * 'c * 'd -> 'b *)
+
+  (* Renvoie la deuxième composante d'un quadruplet *)
+  
+  e
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let trd_4 (_,_,e,_) =
+
+  (* 'a * 'b * 'c * 'd -> 'c *)
+
+  (* Renvoie la troisième composante d'un quadruplet *)
+  
+  e
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Utilitaires}
+let fth_4 (_,_,_,e) =
+  
+  (* 'a * 'b * 'c * 'd -> 'd *)
+
+  (* Renvoie la quatrième composante d'un quadruplet *)
+  
+  e
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let rec int_of_float' x =
+
+  (* float -> int *)
+
+  (* Renvoie l'entier le plus proche (translation de la fonction partie entière) *)
+
+  if x >= 0.
+  then int_of_float (x+.0.5)
+  else - int_of_float' (-.x)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let float_of_int_2 (a,b) =
+
+  (* point -> point *)
+
+  (* Applique float_of_int à un point du plan *)
+  
+  (float_of_int a,float_of_int b)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let int_of_float_2 (a,b) =
+
+  (* point -> int * int *)
+
+  (* Fonction int_of_float pour un couple *)
+  
+  (int_of_float' a,int_of_float' b)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let somme_R2 (x1,y1) (x2,y2) =
+
+  (* point -> point -> point *)
+
+  (* Somme de deux points du plan *)
+  
+  x1+.x2,y1+.y2
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let prod_R2 k (x,y) =
+
+  (* float -> point -> point *)
+
+  (* Multiplication par un scalaire dans le plan *)
+  
+  (k*.x,k*.y)
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Utilitaires}
+let diff_R2 a b =
+
+  (* point -> point -> point *)
+
+  (* Différence de deux points du plan *)
+  
+  somme_R2 a (prod_R2 (-1.) b)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let init_graph () =
+
+  (* unit -> unit *)
+
+  (* Initialise la sortie graphique *)
+  
+  moveto 0 0 ;
+  clear_graph() ;
+  set_color black
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let rec applique f = function
+
+  (* ('a -> 'a -> 'a) -> 'a list -> 'a *)
+
+  (* Applique une fonction prenant deux arguments à une liste *)
+
+  |[e]  -> e
+  |t::q -> f t (applique f q)
+  |[]   -> failwith "cannot_apply_to_empty_list"
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let min_list =
+
+  (* 'a list -> 'a *)
+
+  (* Renvoie le minimum d'une liste, avec une complexité linéaire *)
+
+  applique min
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let max_list =
+
+  (* 'a list -> 'a *)
+
+  (* Renvoie le maximum d'une liste, avec une complexité linéaire *)
+
+  applique max
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let list_of_string mot =
+
+  (* string -> char list *)
+
+  (* Décompose une chaîne de caractères en la liste de ses caractères *)
+
+  
+  let res = ref [] in
+  for i = string_length mot - 1 downto 0 do
+    res := mot.[i] :: !res
+  done;
+  !res
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let rec bar = function
+
+  (* (float * float) list -> float *)
+
+  (* Renvoie le barycentre des réels dont le poids est la deuxième composante du couple
+     Suppose que la somme des poids est égale à 1 *)
+
+  |[]       -> 0.
+  |(p,t)::q -> p *. t +. bar q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let bar2 l =
+
+  (* (point * float) list -> point *)
+
+  (* Renvoie le barycentre des points du plan dont le poids est la deuxième composante du couple
+     Suppose que la somme des poids est égale à 1 *)
+  
+  bar (map (fun ((x,_),t) -> x,t) l),bar (map (fun ((_,y),t) -> y,t) l)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Utilitaires}
+let attendre t =
+
+  (* float -> unit *)
+  
+  (* Arrête le processus en cours pour une durée t, en secondes *)
+
+  let heureDebut= sys__time() in
+  while sys__time() < (heureDebut +.t) do
+    ()
+  done
+;;
+\end{lstlisting}
+
+\section{Récupération d'une fonte}%-----------------------------------------------------------------------------------------------
+
+\begin{lstlisting}{name=RécupérationFonte}
+let lit fichier =
+
+  (* string -> string list *)
+  
+  (* Renvoie la liste des lignes du fichier fichier *)
+  
+  let entree = open_in fichier in
+  let rec creerListe acc =
+    try
+      creerListe (input_line entree :: acc)
+    with End_of_file -> rev acc
+  in
+  creerListe []
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=RécupérationFonte}
+let split_ligne sep com ligne =
+
+  (* char -> char -> string -> string list *)
+
+  (* Sépare une chaîne de caractères en mots, délimités par sep, en s'arrêtant si le symbole de commentaire com est rencontré. Supprime par ailleurs les tabulations *)
+  
+  let res = ref [] in
+  let mot = ref "" in
+  let stop = ref false in
+  let i = ref 0 in
+  while !i < string_length ligne && not !stop do
+    begin match ligne.[!i] with
+    |c when c=sep && !mot="" -> ()
+    |c when c=sep            -> res := !mot :: !res ; mot := ""
+    |c when c=com            -> stop := true
+    |c when c=`\t`           -> ()
+    |c                       -> mot := !mot ^ string_of_char c
+    end ;
+    incr i
+  done;
+  if !mot = "" then rev !res
+  else rev (!mot :: !res)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=RécupérationFonte}
+let rec formate_ligne' acc = function
+
+  (* int list -> string list -> string * int list *)
+
+  (* Fonction auxiliaire de formate_liste, la généralisant *)
+
+  |[]   -> "",[]
+  |[a]  -> a,rev acc
+  |t::q -> formate_ligne' (int_of_string t::acc) q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=RécupérationFonte}
+let formate_ligne =
+
+  (* string list -> string * int list *)
+
+  (* Traite une ligne d'instruction de tracé PostScript, en renvoyant le couple de l'instruction, et de ses arguments, relatifs *)
+  
+  formate_ligne' []
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=RécupérationFonte}
+let recupereGlyphesEtSubrs fichier =
+  
+  (* string list list -> (char * (string * int list) list) list * (int * (string * int list) list) list *)
+  
+  (* Regroupe les caractères et les instructions les définissant dans une première liste, puis les sous-routines PostScript éventuelles et les instructions les définissant dans une seconde, à partir d'une liste d'instructions PostScript dont les lignes sont des listes de chaînes *)
+  
+  let rec traite_ligne car n temp = function
+    |[]                             -> [],[]
+    |(t::p::q)::l when t = "dup"    -> traite_ligne ` ` (int_of_string p) [] l
+    |(t::p::q)::l when p = "NP"     -> glyphes,(n,rev temp)::subrs
+      where glyphes,subrs = traite_ligne ` ` 0 [] l
+    |("/space"::p::q)::l            -> traite_ligne ` ` 0 [] l
+    |("/exclam"::p::q)::l           -> traite_ligne `!` 0 [] l
+    |("/quotesingle"::p::q)::l      -> traite_ligne `'` 0 [] l
+    |("/parenleft"::p::q)::l        -> traite_ligne `(` 0 [] l
+    |("/parenright"::p::q)::l       -> traite_ligne `)` 0 [] l
+    |("/comma"::p::q)::l            -> traite_ligne `,` 0 [] l
+    |("/period"::p::q)::l           -> traite_ligne `.` 0 [] l
+    |("/colon"::p::q)::l            -> traite_ligne `:` 0 [] l
+    |("/semicolon"::p::q)::l        -> traite_ligne `;` 0 [] l
+    |("/question"::p::q)::l         -> traite_ligne `?` 0 [] l
+    |("/zero"::p::q)::l             -> traite_ligne `0` 0 [] l
+    |("/one"::p::q)::l              -> traite_ligne `1` 1 [] l
+    |("/two"::p::q)::l              -> traite_ligne `2` 2 [] l
+    |("/three"::p::q)::l            -> traite_ligne `3` 3 [] l
+    |("/four"::p::q)::l             -> traite_ligne `4` 4 [] l
+    |("/five"::p::q)::l             -> traite_ligne `5` 5 [] l
+    |("/six"::p::q)::l              -> traite_ligne `6` 6 [] l
+    |("/seven"::p::q)::l            -> traite_ligne `7` 7 [] l
+    |("/eight"::p::q)::l            -> traite_ligne `8` 8 [] l
+    |("/nine"::p::q)::l             -> traite_ligne `9` 9 [] l
+    |(t::p::q)::l when t.[0] = `/`  -> traite_ligne t.[1] 0 [] l
+    |(t::p::q)::l when p = "ND"     -> (car,rev temp)::glyphes,subrs
+      where glyphes,subrs = traite_ligne ` ` 0 [] l
+    |(t::q)::l    when t = "return" -> traite_ligne car n temp l
+    |t::l                           -> traite_ligne car n (formate_ligne t :: temp) l
+  in
+  traite_ligne ` ` 0 [] fichier
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=RécupérationFonte}
+let traiteSubr subrs (com,l) = match com with
+
+  (* ('a * (string * 'a list) list) list ->  string * 'a list -> (string * 'a list) list *)
+    
+  (* Renvoie la liste comprenant l'instruction passée en argument, en la remplaçant par sa description si c'est une sous-routine *)
+    
+  |"callsubr" -> assoc (hd l) subrs
+  |_          -> [com,l]
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=RécupérationFonte}
+let remplaceSubrs glyphes subrs =
+
+  (* ('a * (string * 'b list) list) list -> ('b * (string * 'b list) list) list -> ('a * (string * 'b list) list) list *)
+
+  (* Remplace les appels à des sous-routines par leurs descriptions exactes dans la description d'un glyphe *)
+  
+  map (fun (c,d) -> c,flat_map (traiteSubr subrs) d) glyphes
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=RécupérationFonte}
+let instructionReconnuep i =
+
+  (* string list *)
+  
+  (* Vrai lorsque l'instruction de tracé est reconnue *)
+
+  mem i ["rmoveto";"vmoveto";"hmoveto";"rlineto";"vlineto";"hlineto";"rrcurveto";"vhcurveto";"hvcurveto";"closepath";"endchar"]
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=RécupérationFonte}
+let commande_of_string = function
+
+  (* string -> commande *)
+
+  (* Convertit une chaîne de caractères en une commande, de type commande *)
+
+  |"rmoveto"   -> Rmoveto
+  |"vmoveto"   -> Vmoveto
+  |"hmoveto"   -> Hmoveto
+  |"rlineto"   -> Rlineto
+  |"vlineto"   -> Vlineto
+  |"hlineto"   -> Hlineto
+  |"rrcurveto" -> Rrcurveto
+  |"vhcurveto" -> Vhcurveto
+  |"hvcurveto" -> Hvcurveto
+  |"closepath" -> Closepath
+  |"endchar"   -> Endchar
+  |_           -> failwith "instruction_de_tracé_non_reconnue"
+;;    
+\end{lstlisting}
+
+\begin{lstlisting}{name=RécupérationFonte}
+let rec convertitDefinition = function
+
+  (* (string * int list) list -> definition *)
+
+  (* Convertit une définition vers le type definition en convertissant les chaînes de caractères vers le type commande et les entiers en flottants *)
+
+  |[] -> []
+  |(inst,args)::q when instructionReconnuep inst ->
+    (commande_of_string inst,map float_of_int args) :: convertitDefinition q
+  |_          ::q                                ->
+    convertitDefinition q
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=RécupérationFonte}
+let convertitGlyphes =
+
+  (* (char * (string * int list) list) list -> fonte *)
+
+  (* Convertit toutes les définitions d'une fonte vers le type definition *)
+  
+  map (fun (c,d) -> c,convertitDefinition d)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=RécupérationFonte}
+let recupereFonte nom =
+
+  (* string -> fonte *)
+
+  (* Renvoie la description de la fonte dont le nom est donné en argument *)
+  
+  let lignes = lit ("../Fontes/" ^ nom ^ "/" ^ nom ^ ".asm") in
+  let lignes_sep = map (split_ligne ` ` `%`) lignes in
+  let glyphes,subrs = recupereGlyphesEtSubrs lignes_sep in
+  let glyphes_final = remplaceSubrs glyphes subrs in
+  let fonte = convertitGlyphes glyphes_final in
+  fonte
+;;
+\end{lstlisting}
+
+\section{Détermination d'une bounding box}%-------------------------------------------------------------------------------------------
+
+\begin{lstlisting}{name=BoundingBox}
+let rec boundingBoxGrossiere (x0,y0) = function
+
+  (* point_fl -> instruction_fl -> boundingBox_fl *)
+
+  (* Renvoie la bounding box des points de contrôle d'une instruction de tracée donnée *)
+
+  |Rlineto,[dx;dy]                     ->
+    (min x0 (x0+.dx),min y0 (y0+.dy)),(max x0 (x0+.dx),max y0 (y0+.dy))
+  |Vlineto,[dy]                        ->
+    boundingBoxGrossiere (x0,y0) (Rlineto,[0.;dy])
+  |Hlineto,[dx]                        ->
+    boundingBoxGrossiere (x0,y0) (Rlineto,[dx;0.])
+  |Rrcurveto,[dx1;dy1;dx2;dy2;dx3;dy3] ->
+    (min_list [x0;x0+.dx1;x0+.dx1+.dx2;x0+.dx1+.dx2+.dx3],
+     min_list [y0;y0+.dy1;y0+.dy1+.dy2;y0+.dy1+.dy2+.dy3]),
+    (max_list [x0;x0+.dx1;x0+.dx1+.dx2;x0+.dx1+.dx2+.dx3],
+     max_list [y0;y0+.dy1;y0+.dy1+.dy2;y0+.dy1+.dy2+.dy3])
+  |_ -> failwith "cas_non_envisagé"
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=BoundingBox}
+let incluseBoundingBoxp ((xmin1,ymin1),(xmax1,ymax1)) ((xmin2,ymin2),(xmax2,ymax2)) =
+
+  (* boundingBox -> boundingBox -> bool *)
+
+  (* Vrai lorsque la première bounding box est incluse dans la seconde *)
+  
+  xmin1 > xmin2 && ymin1 > ymin2 && xmax1 < xmax2 && ymax1 < ymax2
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=BoundingBox}
+let mergeBoundingBoxes ((xmin1,ymin1),(xmax1,ymax1)) ((xmin2,ymin2),(xmax2,ymax2)) =
+
+  (* boundingBox -> boundingBox -> boundingBox *)
+
+  (* Fusionne deux bounding box dans une bounding box plus grande *)
+  
+  (min xmin1 xmin2,min ymin1 ymin2),(max xmax1 xmax2,max ymax1 ymax2)
+;;
+\end{lstlisting}
+\lstset{frame=single}
+\begin{lstlisting}{name=BoundingBox}
+let rec boundingBoxBezier p000 p001 p011 p111 =
+
+  (* point_fl -> point_fl -> point_fl -> point_fl -> boundingBox_fl *)
+
+  (* Renvoie la bounding box d'une cubique de bézier.
+     Les extrema sont recherchés par dichotomie, en utilisant le principe de l'algorithme de De Casteljau *)
+  
+  if arret (p000,p001,p011,p111) 0.5 1.
+  then ((min_list [x0;x1;x2;x3],
+	min_list [y0;y1;y2;y3]),(max_list [x0;x1;x2;x3],
+				 max_list [y0;y1;y2;y3]) where (x0,y0),(x1,y1),(x2,y2),(x3,y3)=p000,p001,p011,p111)
+  else mergeBoundingBoxes (boundingBoxBezier p000 p00t p0tt pttt) (boundingBoxBezier pttt ptt1 pt11 p111)
+    where (p000,p00t,p0tt,pttt),(_,ptt1,pt11,p111) = scinder (p000,p001,p011,p111) 0.5
+;;
+\end{lstlisting}
+\lstset{frame=none}
+\begin{lstlisting}{name=BoundingBox}
+let rec boundingBoxExacte (x0,y0) = function
+
+  (* point_fl -> instruction_fl -> boundingBox_fl *)
+
+  (* Renvoie la bounding box de la courbe dont l'instruction de tracé est donnée en argument *)
+
+  (*|commande,arguments -> ((xmin,ymin),(xmax,ymax))*)
+  |Rrcurveto,[dx1;dy1;dx2;dy2;dx3;dy3] ->
+    boundingBoxBezier
+      (x0,y0)
+      (x0+.dx1,y0+.dy1)
+      (x0+.dx1+.dx2,y0+.dy1+.dy2)
+      (x0+.dx1+.dx2+.dx3,y0+.dy1+.dy2+.dy3)
+  |Vhcurveto,[dy1;dx2;dy2;dx3]         ->
+    boundingBoxExacte (x0,y0) (Rrcurveto,[0.;dy1;dx2;dy2;dx3;0.])
+  |Hvcurveto,[dx1;dx2;dy2;dy3]         ->
+    boundingBoxExacte (x0,y0) (Rrcurveto,[dx1;0.;dx2;dy2;0.;dy3])
+  |instruction                         ->
+    boundingBoxGrossiere (x0,y0) instruction                             
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=BoundingBox}
+let rec boundingBox' orig act box = function
+
+  (* point_fl -> point_fl -> boundingBox_fl -> boundingBox_fl *)
+
+  (* Fonction auxiliaire de boundingBox *)
+
+  |[]                                 ->
+    box
+  |(Rmoveto,[x;y])                ::q ->
+    boundingBox' nouv nouv box q where nouv = somme_R2 act (x,y)
+  |(Rlineto,[x;y])                ::q ->
+    boundingBox' orig (somme_R2 act (x,y)) (mergeBoundingBoxes box (boundingBoxExacte act (Rlineto,[x;y]))) q
+  |(Vlineto,[y]  )                ::q ->
+    boundingBox' orig act box ((Rlineto,[0.;y])::q)
+  |(Hlineto,[x]  )                ::q ->
+    boundingBox' orig act box ((Rlineto,[x;0.])::q)
+  |(Rrcurveto,[x1;y1;x2;y2;x3;y3])::q ->
+    if incluseBoundingBoxp (boundingBoxGrossiere act (Rrcurveto,[x1;y1;x2;y2;x3;y3])) box
+    then (boundingBox' orig (x0+.x1+.x2+.x3,y0+.y1+.y2+.y3) box q)
+    else boundingBox' orig (x0+.x1+.x2+.x3,y0+.y1+.y2+.y3) (mergeBoundingBoxes box (boundingBoxExacte act (Rrcurveto,[x1;y1;x2;y2;x3;y3]))) q
+      where x0,y0 = act
+  |(Vhcurveto,[y1;x2;y2;x3]      )::q ->
+    boundingBox' orig act box ((Rrcurveto,[0.;y1;x2;y2;x3;0.])::q)
+  |(Hvcurveto,[x1;x2;y2;y3]      )::q ->
+    boundingBox' orig act box ((Rrcurveto,[x1;0.;x2;y2;0.;y3])::q)
+  |(Vmoveto,[y])                  ::q ->
+    boundingBox' orig act box ((Rmoveto,[0.;y])::q)
+  |(Hmoveto,[x])                  ::q ->
+    boundingBox' orig act box ((Rmoveto,[x;0.])::q)
+  |(Closepath,_)                  ::q ->
+    boundingBox' orig act (mergeBoundingBoxes box (boundingBoxExacte act (Rlineto,[x;y]))) q
+    where x,y = diff_R2 orig act
+  |(Endchar,_)                    ::q ->
+    boundingBox' orig act (mergeBoundingBoxes box (boundingBoxExacte act (Rlineto,[x;y]))) q
+    where x,y = diff_R2 orig act
+  |_                                  ->
+    failwith "instruction_de_trace_non_reconnue" 
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=BoundingBox}
+let initialiseBoundingBox = function
+
+  (* definition -> boundingBox *)
+
+  (* Renvoie une bounding box nulle comprise dans la bounding box du glyphe *)
+
+  |(Rmoveto,[x;y])::_ -> (x,y),(x,y)
+  |(Hmoveto,[x])::_   -> (x,0.),(x,0.)
+  |(Vmoveto,[y])::_   -> (0.,y),(0.,y)
+  |_                  -> failwith "définition_ne_commence_pas_par_un_déplacement_du_point_courant"
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=BoundingBox}
+let boundingBox definition =
+
+  (* definition -> boundingBox *)
+
+  (* Renvoie la bounding box d'un glyphe *)
+  
+  boundingBox' (0.,0.) (0.,0.) bb0 definition where bb0 = initialiseBoundingBox definition
+;; 
+\end{lstlisting}
+
+\begin{lstlisting}{name=BoundingBox}
+let largeur def =
+
+  (* definition -> int *)
+
+  (* Renvoie la largeur d'un glyphe *)
+
+  xmax -. xmin where (xmin,_),(xmax,_) = boundingBox def
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=BoundingBox}  
+let hauteur def =
+
+  (* definition -> int *)
+
+  (* Renvoie la hauteur d'un glyphe *)
+
+  ymax -. ymin where (_,ymin),(_,ymax) = boundingBox def ;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=BoundingBox}
+let hauteurX fonte =
+
+  (* fonte -> int *)
+
+  (* Renvoie la hauteur d'x pour une fonte *)
+  
+  hauteur (assoc `x` fonte)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=BoundingBox}
+let rec boundingBoxPasAPas' = function (* Pour export vers Ocaml *)
+  |[e]   -> [boundingBox [e]]
+  |t::q -> boundingBox (rev (t::q)) :: (boundingBoxPasAPas' q)
+  |_    -> failwith "bounding_box_incalculable"
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=BoundingBox}
+let boundingBoxPasAPas definition = (* Pour export vers Ocaml *)
+  let bb = boundingBoxPasAPas' (rev definition) in
+  let posMin = fst (hd bb) in
+  map (fun (m,M) -> int_of_float_2 (diff_R2 m posMin),int_of_float_2 (diff_R2 M posMin)) bb
+;;
+\end{lstlisting}
+\pagebreak
+\section{Algorithme de De Casteljau}%---------------------------------------------------------------------------------------------------
+
+\begin{lstlisting}{name=casteljau}
+let rec pointsBezier' t pas (x0,y0) (x1,y1) (x2,y2) (x3,y3) =
+
+  (* float -> float -> point -> point -> point -> point -> point list *)
+  
+  (* Renvoie les points (couples d'entiers) de la courbe paramétrée exacte, pour le pas pas.
+     Les couples sont les points de contrôle, et t une variable auxiliaire, initialisée à 0 et allant jusqu'à 1 *)
+  
+  if t > 1. then [x3,y3] (* Cas d'arrêt : on renvoie le dernier point de contrôle *)
+  else let u = 1. -. t in (* Sinon on utilise les équations paramétrées *)
+       let x = x0 *. pow_fl u 3 +. 3. *. x1 *. t *. pow_fl u 2 +. 3. *. x2 *. pow_fl t 2 *. u +. pow_fl t 3 *.x3
+       and y =y0 *. pow_fl u 3 +. 3. *.y1 *. t *. pow_fl u 2 +. 3. *.y2 *. pow_fl t 2 *. u +. pow_fl t 3 *.y3 in
+       (x,y) :: pointsBezier' (t+.pas) pas (x0,y0) (x1,y1) (x2,y2) (x3,y3)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=casteljau}
+let pointsBezier =
+
+  (* float -> point -> point -> point -> point -> point list *)
+
+  (* Renvoie les points (couples d'entiers) de la courbe paramétrée exacte, pour le pas pas *)
+  
+  pointsBezier' 0.
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=casteljau}
+let arret (p000,p001,p011,p111) t e =
+
+  (* point * point * point * point -> float -> float -> bool *)
+
+  (* Condition d'arrêt pour l'algorithme de De Casteljau 
+     Vrai lorsque tous les points de contrôle sont à une distance environ inférieure à e les uns des autres *)
+  
+  let pttt = bar2 [(p000,pow_fl t 3);(p001,3. *. pow_fl t 2 *. (1. -. t));(p011,3. *. t *. pow_fl (1. -. t) 2);(p111,pow_fl (1. -. t) 3)] in
+  distance1 p000 pttt < e && distance1 p001 pttt < e && distance1 p011 pttt < e && distance1 p111 pttt < e
+;;
+\end{lstlisting}
+\lstset{frame=single}
+\begin{lstlisting}{name=casteljau}
+let scinder (p000,p001,p011,p111) t =
+
+  (* point * point * point * point -> float -> (point * point * point * point) * (point * point * point * point) *)
+
+  (* À partir d'un quadruplet de points de contrôle d'une courbe de Bézier, 
+     renvoie deux tels quadruplets dont les points calculés par l'algorithme de De Casteljau définissent deux sous-courbes *)
+  
+  let u = 1. -. t in
+  let p00t,p0t1,pt11 = bar2 [(p000,t);(p001,u)],bar2 [(p001,t);(p011,u)],bar2 [(p011,t);(p111,u)] in
+  let p0tt,ptt1 = bar2 [(p00t,t);(p0t1,u)],bar2 [(p0t1,t);(pt11,u)] in
+  let pttt = bar2 [(p0tt,t);(ptt1,u)] in
+  (p000,p00t,p0tt,pttt),(pttt,ptt1,pt11,p111)
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=casteljau}
+let rec casteljau' e  = function
+
+  (* float -> (point * point * point * point) list -> (point * point * point * point) list *)
+
+  (* Renvoie la liste de quadruplets des points de contrôle des sous-courbes calculées par l'algorithme de De Casteljau *)
+
+  |[]                      -> []
+  |t::q when arret t 0.5 e -> t :: casteljau' e q
+  |t::q                    -> casteljau' e (t1::t2::q) where t1,t2 = scinder t 0.5
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=casteljau}
+let casteljau x =
+
+  (* point * point * point * point -> (point * point * point * point) list *)
+
+  (* Application partielle de casteljau' pour un pas de 1 et les quatre premiers points de contrôle *)
+
+  casteljau' 1. [x]
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=casteljau}
+let pointsCasteljau p q r s =
+
+  (* point -> point -> point -> point -> point list *)
+
+  (* Sélectionne, parmi les points de contrôle fournis par la fonction casteljau, ceux présents sur la courbe *)
+
+  (fst_4 (hd l))::(map fth_4 l) where l = casteljau (p,q,r,s)
+;;
+\end{lstlisting}
+\lstset{frame=none}
+\section{Tracés de courbes}%------------------------------------------------------------------------------------------------------------
+
+\begin{lstlisting}{name=Courbes}
+let rec traceCourbe' = function
+
+  (* point list -> unit *)
+
+  (* Relie les points de la liste en argument *)
+
+  |[]       -> ()
+  |(x,y)::q -> lineto (int_of_float' x) (int_of_float' y) ; traceCourbe' q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let traceCourbe ((x0,y0)::l) =
+
+  (* point list -> unit *)
+
+  (* Relie les points de la liste en argument en se déplaçant préalablement au premier *)
+  
+  moveto (int_of_float' x0) (int_of_float' y0) ; traceCourbe' ((x0,y0)::l)
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Courbes}
+let rmoveto x0 y0 x y =
+
+  (* int -> int -> int -> int -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  moveto (x0+x) (y0+y)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let hmoveto x0 y0 x =
+
+  (* int -> int -> int -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  rmoveto x0 y0 x 0
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let vmoveto x0 y0 =
+
+  (* int -> int -> int -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  rmoveto x0 y0 0
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rlineto x0 y0 x y =
+
+  (* int -> int -> int -> int -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  lineto (x0+x) (y0+y)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let vlineto x0 y0 =
+
+  (* int -> int -> int -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  rlineto x0 y0 0
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let hlineto x0 y0 x =
+
+  (* int -> int -> int  -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  rlineto x0 y0 x 0
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let  moveto_fl x  y =
+
+  (* float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, pour les flottants *)
+  
+  moveto (int_of_float' x) (int_of_float' y)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rmoveto_fl x0 y0 x y =
+  
+  (* float -> float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, pour les flottants *)
+  
+  moveto_fl (x0+.x) (y0+.y)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let hmoveto_fl x0 y0 x =
+
+  (* float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, pour les flottants *)
+  
+  rmoveto_fl x0 y0 x 0.
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let vmoveto_fl x0 y0 =
+
+  (* float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, pour les flottants *)
+  
+  rmoveto_fl x0 y0 0.
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let  lineto_fl x  y =
+
+  (* float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, pour les flottants *)
+  
+  lineto (int_of_float' x) (int_of_float' y)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rlineto_fl x0 y0 x y =
+
+  (* float -> float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, pour les flottants *)
+  
+  lineto_fl (x0+.x) (y0+.y)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let vlineto_fl x0 y0 =
+
+  (* float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, pour les flottants *)
+  
+  rlineto_fl x0 y0 0.
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let hlineto_fl x0 y0 x =
+
+  (* float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, pour les flottants *)
+  
+  rlineto_fl x0 y0 x 0.
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let curveto x0 y0 x1 y1 x2 y2 x3 y3 =
+
+  (* float -> float -> float -> float -> float -> float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  traceCourbe (pointsCasteljau (x0,y0) (x1,y1) (x2,y2) (x3,y3))
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rcurveto x0 y0 x1 y1 x2 y2 x3 y3 =
+
+  (* float -> float -> float -> float -> float -> float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  curveto x0 y0 (x0+.x1) (y0+.y1) (x0+.x2) (y0+.y2) (x0+.x3) (y0+.y3)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rrcurveto x0 y0 dx1 dy1 dx2 dy2 dx3 dy3 =
+
+  (* float -> float -> float -> float -> float -> float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript *)
+  
+  rcurveto x0 y0 dx1 dy1 (dx1+.dx2) (dy1+.dy2) (dx1+.dx2+.dx3) (dy1+.dy2+.dy3)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let curveto_B x0 y0 x1 y1 x2 y2 x3 y3 =
+
+  (* float -> float -> float -> float -> float -> float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, par le calcul naïf *)
+  
+  traceCourbe (pointsBezier 0.001 (x0,y0) (x1,y1) (x2,y2) (x3,y3))
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rcurveto_B x0 y0 x1 y1 x2 y2 x3 y3 =
+
+  (* float -> float -> float -> float -> float -> float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, par le calcul naïf *)
+  
+  curveto_B x0 y0 (x0+.x1) (y0+.y1) (x0+.x2) (y0+.y2) (x0+.x3) (y0+.y3)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rrcurveto_B x0 y0 dx1 dy1 dx2 dy2 dx3 dy3 =
+
+  (* float -> float -> float -> float -> float -> float -> float -> float -> unit *)
+
+  (* Implémentation de l'analogue PostScript, par le calcul naïf *)
+  
+  rcurveto_B x0 y0 dx1 dy1 (dx1+.dx2) (dy1+.dy2) (dx1+.dx2+.dx3) (dy1+.dy2+.dy3)
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Courbes}
+let rec traceGlyphe' orig act = function
+
+  (* point -> point -> definition -> unit *)
+
+  (* Fontion auxiliaire de traceGlyphe *)
+
+  |[]                                 -> ()
+  |(Rmoveto,[x;y])                ::q -> rmoveto_fl x0 y0 x y ;
+    traceGlyphe' nouv nouv q where nouv = somme_R2 act (x,y) and x0,y0 = act
+  |(Rlineto,[x;y])                ::q -> rlineto_fl x0 y0 x y ;
+    traceGlyphe' orig (somme_R2 act (x,y)) q where x0,y0 = act
+  |(Vlineto,[y]  )                ::q -> vlineto_fl x0 y0 y ;
+    traceGlyphe' orig (somme_R2 act (0.,y)) q where x0,y0 = act
+  |(Hlineto,[x]  )                ::q -> hlineto_fl x0 y0 x ;
+    traceGlyphe' orig (somme_R2 act (x,0.)) q where x0,y0 = act
+  |(Rrcurveto,[x1;y1;x2;y2;x3;y3])::q -> rrcurveto x0 y0 x1 y1 x2 y2 x3 y3 ;
+    traceGlyphe' orig (x0+.x1+.x2+.x3,y0+.y1+.y2+.y3) q where x0,y0 = act
+  |(Vhcurveto,[y1;x2;y2;x3]      )::q -> rrcurveto x0 y0 0. y1 x2 y2 x3 0. ;
+    traceGlyphe' orig (x0+.x2+.x3   ,y0+.y1+.y2   ) q where x0,y0 = act
+  |(Hvcurveto,[x1;x2;y2;y3]      )::q -> rrcurveto x0 y0 x1 0. x2 y2 0. y3 ;
+    traceGlyphe' orig (x0+.x1+.x2   ,y0+.y2+.y3   ) q where x0,y0 = act
+  |(Vmoveto,[y])                  ::q -> vmoveto_fl x0 y0 y ;
+    traceGlyphe' nouv nouv q where nouv = somme_R2 act (0.,y) and x0,y0 = act
+  |(Hmoveto,[x])                  ::q -> hmoveto_fl x0 y0 x ;
+    traceGlyphe' nouv nouv q where nouv = somme_R2 act (x,0.) and x0,y0 = act
+  |(Closepath,_)                  ::q -> lineto_fl x0 y0 ;
+    traceGlyphe' orig act q where x0,y0 = orig
+  |(Endchar,_)                    ::q -> lineto_fl x0 y0 ;
+    traceGlyphe' orig act q where x0,y0 = orig
+  |_                                    -> failwith "instruction_de_trace_non_reconnue" 
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let traceGlyphe x =
+
+  (* point -> definition -> unit *)
+
+  (* Trace un glyphes à un point x donné à partir de sa définition *)
+
+  traceGlyphe' x x
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let homothetie k =
+
+  (* float -> definition -> definition *)
+
+  (* Applique l'homothétie de rapport k à la définition d'un glyphe *)
+  
+  map (fun (i,l) -> i,map (fun x -> x *. k) l)
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Courbes}
+let rotation' angle (x,y) =
+
+  (* float -> point -> point *)
+
+  (* Applique la rotation d'angle angle autour du point (0,0) à (x,y) *)
+
+  cos angle *. x +. sin angle *. y, -. sin angle *.x +. cos angle *. y
+;;
+\end{lstlisting}
+\lstset{frame=single}
+\begin{lstlisting}{name=Courbes}
+let rec rotation a = function
+
+  (* float -> definition -> definition *)
+
+  (* Applique la rotation d'angle angle autour du point (0,0) à la définition d'un glyphe *)
+
+  |[]                                 -> []
+  |(Rmoveto,[x;y])                ::q -> (Rmoveto,[x';y']) :: rotation a q where x',y' = rotation' a  (x,y)
+  |(Rlineto,[x;y])                ::q -> (Rlineto,[x';y']) :: rotation a q where x',y' = rotation' a  (x,y)
+  |(Vlineto,[y]  )                ::q -> (Rlineto,[x';y']) :: rotation a q where x',y' = rotation' a  (0.,y)
+  |(Hlineto,[x]  )                ::q -> (Rlineto,[x';y']) :: rotation a q where x',y' = rotation' a  (x,0.)
+  |(Rrcurveto,[x1;y1;x2;y2;x3;y3])::q -> (Rrcurveto,[x1';y1';x2';y2';x3';y3']) :: rotation a q
+    where x1',y1' = rotation' a  (x1,y1) and x2',y2' = rotation' a  (x2,y2) and x3',y3' = rotation' a  (x3,y3)
+  |(Vhcurveto,[y1;x2;y2;x3]      )::q -> rotation a ((Rrcurveto,[0.;y1;x2;y2;x3;0.])::q)
+  |(Hvcurveto,[x1;x2;y2;y3]      )::q -> rotation a ((Rrcurveto,[x1;0.;x2;y2;0.;y3])::q)
+  |(Vmoveto,[y]  )                ::q -> (Rmoveto,[x';y']) :: rotation a q where x',y' = rotation' a  (0.,y)
+  |(Hmoveto,[x]  )                ::q -> (Rmoveto,[x';y']) :: rotation a q where x',y' = rotation' a  (x,0.)
+  |t                                ::q -> t :: rotation a q  
+;;
+\end{lstlisting}
+\lstset{frame=none}
+\begin{lstlisting}{name=Courbes}
+let traceBoundingBox p ((xmin,ymin),(xmax,ymax)) =
+
+  (* boundingBox -> unit *)
+
+  (* Trace une bounding box *)
+  
+  traceCourbe (map (fun q -> somme_R2 p q) [xmin,ymin;xmin,ymax;xmax,ymax;xmax,ymin;xmin,ymin])
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Courbes}
+let rec arrivee pos = function
+
+  (* point -> instruction -> point *)
+
+  (* Donne la position d'arrivée après l'application d'une instruction, connaissant la position initiale *)
+
+  |(Rlineto,[x;y])                 -> somme_R2 pos (x,y)
+  |(Vlineto,[y]  )                 -> arrivee pos (Rlineto,[0.;y])
+  |(Hlineto,[x]  )                 -> arrivee pos (Rlineto,[x;0.])
+  |(Rrcurveto,[x1;y1;x2;y2;x3;y3]) -> somme_R2 pos (x1+.x2+.x3,y1+.y2+.y3)
+  |(Vhcurveto,[y1;x2;y2;x3]      ) -> arrivee pos (Rrcurveto,[0.;y1;x2;y2;x3;0.])
+  |(Hvcurveto,[x1;x2;y2;y3]      ) -> arrivee pos (Rrcurveto,[x1;0.;x2;y2;0.;y3])
+  |_                               -> failwith "instruction_de_tracé_non_reconnue"
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rec traceBoundingBoxesIndividuelles' orig pos couleurs = function
+
+  (* point -> point -> color list -> definition -> unit *)
+
+  (* Fonction auxiliaire de traceBoundingBoxesIndividuelles *)
+
+  |[]                                 -> ()
+  |(Rmoveto,[x;y])                ::q -> traceBoundingBoxesIndividuelles' nouv nouv couleurs q where nouv = (somme_R2 pos (x,y))
+  |(Hmoveto,[x])                  ::q -> traceBoundingBoxesIndividuelles' orig pos couleurs ((Rmoveto,[x;0.])::q)
+  |(Vmoveto,[y])                  ::q -> traceBoundingBoxesIndividuelles' orig pos couleurs ((Rmoveto,[0.;y])::q)
+  |(Closepath,_)                  ::q -> 
+    set_color (hd couleurs) ;
+    traceBoundingBox pos (boundingBoxExacte (0.,0.) (Rlineto,[x;y])) ;
+    traceBoundingBoxesIndividuelles' orig pos ((tl couleurs) @ [hd couleurs]) q
+      where x,y = diff_R2 orig pos
+  |(Endchar,_)                    ::q ->
+    set_color (hd couleurs) ;
+    traceBoundingBox pos (boundingBoxExacte (0.,0.) (Rlineto,[x;y])) ;
+    traceBoundingBoxesIndividuelles' orig pos ((tl couleurs) @ [hd couleurs]) q
+      where x,y = diff_R2 orig pos
+  |instruction                    ::q ->
+    set_color (hd couleurs) ;
+    traceBoundingBox pos (boundingBoxExacte (0.,0.) instruction) ;
+    traceBoundingBoxesIndividuelles' orig (arrivee pos instruction) ((tl couleurs) @ [hd couleurs]) q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let traceBoundingBoxesIndividuelles p =
+
+  (* point -> definition -> unit *)
+
+  (* Trace les bounding boxes relatives à chacune des parties d'un glyphe *)
+
+  traceBoundingBoxesIndividuelles' p p [red;green;blue;yellow;cyan;magenta]
+;;
+\end{lstlisting}  
+\pagebreak
+\begin{lstlisting}{name=Courbes}
+let rec traceBoundingBoxPasAPas' p couleurs = function
+
+  (* point -> color list -> definition -> unit *)
+
+  (* Fonction auxiliaire de traceBoundingBoxPasAPas *)
+
+  |[]   -> ()
+  |t::q ->
+    traceBoundingBoxPasAPas' p ((tl couleurs) @ [hd couleurs]) q ;
+    set_color (hd couleurs) ;
+    attendre 2. ;
+    traceBoundingBox p (boundingBox (rev (t::q)))
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let traceBoundingBoxPasAPas p glyphe =
+
+  (* point -> definition -> unit *)
+
+  (* Trace les différentes bounding boxes résultant des fusions successives lors du calcul de la bounding box d'un glyphe, à partir du point p *)
+  
+  traceBoundingBoxPasAPas' p [red;green;blue;yellow;cyan;magenta] (rev (snd glyphe))
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let rec ecrireMot' fonte pos k a = function
+
+  (* definition -> point -> float -> float -> char list -> string *)
+
+  (* Fonction auxiliaire de ecrireMot *)
+
+  |[]     -> ""
+  |` `::q ->
+    let l = (largeur (assoc `x` fonte)) *. k in
+    let def = homothetie k (rotation a ([Hmoveto,[l]])) in
+    traceGlyphe pos def ;
+    " " ^ ecrireMot' fonte (somme_R2 pos (cos a *. l,-. sin a *. l)) k a q
+  |car::q ->
+    let l = (largeur (assoc car fonte)) *. k *. 1.1 in
+    let def = homothetie k (rotation a (assoc car fonte)) in
+    traceGlyphe pos def ;
+    string_of_char car ^ ecrireMot' fonte (somme_R2 pos (cos a *. l,-. sin a *. l)) k a q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Courbes}
+let ecrireMot fonte pos k a mot =
+
+  (* definition -> point -> float -> float -> string -> string *)
+
+  (* Écrit, à partir du point pos, le mot mot, avec la fonte fonte, en appliquant l'homothétie de rapport k et la rotation d'angle a *)
+  
+  ecrireMot' fonte pos k a (list_of_string mot)
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Courbes}
+let traceQuadrillage () =
+
+  (* unit -> unit *)
+
+  (* Trace un quadrillage adapté à une résolution 1600x900 *)
+  
+  set_color (rgb 200 200 200) ;
+  for i = 0 to 20 do
+    moveto (72*i) 0 ;
+    rlineto (72*i) 0 0 10000 ;
+    moveto 0 (72*i) ;
+    rlineto 0 (72*i) 10000 0
+  done;
+  set_color black
+;;
+\end{lstlisting}
+
+\section{Calculs d'aire}%---------------------------------------------------------------------------------------------------------------
+
+\begin{lstlisting}{name=Aire}
+let rec eqParam (x0,y0) (cmd,args) =
+
+  (* point -> instruction -> (float -> float) * (float -> float) * point) *)
+  
+  (*Renvoie le couple d'équations paramétrées de la courbe correspondant à l'instruction PostScript, et le point d'arrivée ; (a0,b0) est le point de départ *)
+  
+  match cmd,args with
+  |Rlineto,[x;y]                 ->
+    (fun t -> x0 +. x *. t),(fun t -> y0 +. y *. t),(x0+.x,y0+.y)
+  |Hlineto,[x]                   -> eqParam (x0,y0) (Rlineto,[x;0.])
+  |Vlineto,[y]                   -> eqParam (x0,y0) (Rlineto,[0.;y])
+  |Rrcurveto,[x1;y1;x2;y2;x3;y3] ->
+    let a0,b0 = x0,y0 in
+    let a1,b1 = a0+.x1,b0+.y1 in
+    let a2,b2 = a1+.x2,b1+.y2 in
+    let a3,b3 = a2+.x3,b2+.y3 in
+    (fun t -> a0*.pow_fl (1.-.t) 3+.3.*.a1*.t*.pow_fl (1.-.t) 2+.3.*.a2*.pow_fl t 2*.(1.-.t)+.a3*.pow_fl t 3),
+    (fun t -> b0*.pow_fl (1.-.t) 3+.3.*.b1*.t*.pow_fl (1.-.t) 2+.3.*.b2*.pow_fl t 2*.(1.-.t)+.b3*.pow_fl t 3),
+    (x0+.x1+.x2+.x3,y0+.y1+.y2+.y3)
+  |_                             -> (fun _ -> 0.),(fun _ -> 0.),(x0,y0)
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Aire}
+let rectanglesGauche f a b n =
+
+  (* (float -> float) -> float -> float -> int -> float *)
+
+  (* Intégration numérique par la méthode des rectangles à gauche *)
+  
+  let h = (b -. a) /. float_of_int n in
+  let res = ref 0. in
+  for i = 0 to n-1 do
+    res := !res +. f (a +. float_of_int i *. h);
+  done;
+  h *. !res
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Aire}
+let simpson f a b n =
+
+  (* (float -> float) -> float -> float -> int -> float *)
+
+  (* Intégration numérique par la méthode de Simpson *)
+  
+  let h = (b -. a) /. float_of_int n in
+  let res = ref 0. in
+  for i = 1 to n-1 do
+    res := !res +. f (a +. float_of_int i *. h) +. 2. *. f (a +. (float_of_int i +. 0.5) *. h)
+  done;
+  res := !res +. 2. *. (f a +. f b);
+  h *. !res /. 3.
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Aire}
+let derive f h t =
+
+  (* (float -> float) -> float -> float -> float *)
+
+  (* Dérivée numérique *)
+  
+  (f (t +. h) -. f (t -. h)) /. 2. /. h
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Aire}
+let aireCubique (x0,y0) (x1,y1) (x2,y2) (x3,y3) =
+
+  (* point -> point -> point -> point -> float *)
+
+  (* Renvoie l'aire sous une cubique de Bézier, en utilisant la méthode de Simpson *)
+  
+  let n = 10 in
+  let h = 1. /. float_of_int n in
+  let x t =
+    let u = 1. -. t in
+    pow_fl u 3 *.x0 +. 3. *. t *. pow_fl u 2 *.x1 +. 3. *. pow_fl t 2 *. u *.x2 +. pow_fl t 3 *.x3
+  in
+  let y t =
+    let u = 1. -. t in
+    pow_fl u 3 *.y0 +. 3. *. t *. pow_fl u 2 *.y1 +. 3. *. pow_fl t 2 *. u *.y2 +. pow_fl t 3 *.y3
+  in
+  simpson (fun t -> (x t *. (derive y h t)) -. y t *. (derive x h t)) 0. 1. n /. 2.
+;;
+\end{lstlisting}
+\lstset{frame=single}\pagebreak
+\begin{lstlisting}{name=Aire}
+let rec aireGlyphe' orig pos = function
+
+  (* point -> point -> definition -> float *)
+
+  (* Fonction auxiliaire de aireGlyphe *)
+
+  |[]                                 -> 0.
+  |(Rmoveto,[x;y])                ::q -> aireGlyphe' nouv nouv q where nouv = somme_R2 pos (x,y)
+  |(Rlineto,[x;y])                ::q -> (x0*.y-.y0*.x)/.2. +. aireGlyphe' orig (somme_R2 pos (x,y)) q where x0,y0 = pos
+  |(Vlineto,[y]  )                ::q -> aireGlyphe' orig pos ((Rlineto,[0.;y])::q)
+  |(Hlineto,[x]  )                ::q -> aireGlyphe' orig pos ((Rlineto,[x;0.])::q)
+  |(Rrcurveto,[x1;y1;x2;y2;x3;y3])::q ->
+    let a1,a2 = pos in
+    let b1,b2 = somme_R2 (a1,a2) (x1,y1) in
+    let c1,c2 = somme_R2 (b1,b2) (x2,y2) in
+    let d1,d2 = somme_R2 (c1,c2) (x3,y3) in
+    ((6.*.c1+.3.*.b1+.a1)*.d2
+     +.(-.6.*.c2-.3.*.b2-.a2)*.d1
+     +.(3.*.b1+.3.*.a1)*.c2
+     +.(-.3.*.b2-.3.*.a2)*.c1
+     +.6.*.a1*.b2-.6.*.a2*.b1)
+    /.20.
+    +. aireGlyphe' orig (d1,d2) q
+  |(Vhcurveto,[y1;x2;y2;x3]      )::q -> aireGlyphe' orig pos ((Rrcurveto,[0.;y1;x2;y2;x3;0.])::q)
+  |(Hvcurveto,[x1;x2;y2;y3]      )::q -> aireGlyphe' orig pos ((Rrcurveto,[x1;0.;x2;y2;0.;y3])::q)
+  |(Vmoveto,[y]  )                ::q -> aireGlyphe' orig pos ((Rmoveto,[0.;y])::q)
+  |(Hmoveto,[x]  )                ::q -> aireGlyphe' orig pos ((Rmoveto,[x;0.])::q)
+  |(Closepath,_  )                ::q -> (x0*.y-.y0*.x)/.2. +. aireGlyphe' orig pos q
+    where x0,y0 = orig and x,y = diff_R2 orig pos
+  |_                              ::q -> aireGlyphe' orig pos q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Aire}
+let aireGlyphe =
+
+  (* definition -> float *)
+
+  (* Calcule l'aire d'un glyphe d'après sa définition *)
+  
+  aireGlyphe' (0.,0.) (0.,0.)
+;;
+\end{lstlisting}
+\lstset{frame=none}\pagebreak
+\begin{lstlisting}{name=Aire}
+let airesPonderees fonte =
+
+  (* fonte -> float *)
+
+  (* Calcule l'aire pondérée moyenne d'un glyphe pour une fonte *)
+  
+  let freq = frequences "La Bête Humaine" in
+  let aires = make_vect 72 0. in
+  for i = 0 to vect_length aires - 1 do
+    aires.(i) <- aireGlyphe (assoc (char_of_int' i) fonte)
+  done;
+  let res = make_vect 72 0. in
+  for i = 0 to vect_length aires - 1 do
+    res.(i) <- freq.(i) *. aires.(i)
+  done;
+  (somme_tableau_fl res) /. (pow_fl (hauteurX fonte) 2)
+;;
+\end{lstlisting}
+
+\section{Fréquences d'apparition des caractères}%-------------------------------------------------------------------------------------
+
+\begin{lstlisting}{name=Fréquences}
+  let incremente tab i =
+
+  (* int vect -> int -> unit *)
+
+  (* Incrémente la case i de tab de 1 *)
+  
+  tab.(i) <- tab.(i) + 1
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Fréquences}
+let int_of_char' = function
+
+  (* char -> int *)
+
+  (* Personnalisation de int_of_char *)
+
+  |` `                        -> 0
+  |`!`                        -> 1
+  |`,`                        -> 2
+  |`.`                        -> 3
+  |`?`                        -> 4
+  |t when int_of_char t < 39  -> -1
+  |t when int_of_char t < 42  -> int_of_char t - 34 (* '() *)
+  |t when int_of_char t < 48  -> -1
+  |t when int_of_char t < 58  -> int_of_char t - 38 (* 0-9 *)
+  |t when int_of_char t < 60  -> int_of_char t - 50 (* :; *)
+  |t when int_of_char t < 65  -> -1
+  |t when int_of_char t < 91  -> int_of_char t - 45 (* A-Z *)
+  |t when int_of_char t < 97  -> -1
+  |t when int_of_char t < 123 -> int_of_char t - 51 (* a-z *)
+  |_                          -> -1
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Fréquences}
+let char_of_int' = function
+
+  (* int -> char *)
+
+  (* Personnalisation de char_of_int *)
+
+  |0                        -> ` `
+  |1                        -> `!`
+  |2                        -> `,`
+  |3                        -> `.`
+  |4                        -> `?`
+  |n when n < 8             -> char_of_int (n + 34) (* '() *)
+  |n when n < 10            -> char_of_int (n + 50) (* :; *)
+  |n when n < 20            -> char_of_int (n + 38) (* 0-9 *)
+  |n when n < 46            -> char_of_int (n + 45) (* A-Z *)
+  |n when n < 72            -> char_of_int (n + 51) (* a-z *)
+  |_                        -> failwith "pas_de_caractere_correspondant"
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Fréquences}
+let rec ajoute tab = function
+
+  (* int vect -> char list -> unit *)
+
+  (* Compte, par effet de bord, les lettres d'une ligne *)
+
+  |[]                            -> ()
+  |t::q when int_of_char' t = -1 -> ()
+  |t::q                          ->
+    incremente tab (int_of_char' t) ;
+    ajoute tab q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Fréquences}
+let rec parcourir tab = function
+
+  (* int vect -> string list -> unit *)
+
+  (* Compte, par effet de bord, les lettres d'un fichier *)
+
+  |[]   -> ()
+  |t::q -> ajoute tab (list_of_string t) ; parcourir tab q
+;;
+\end{lstlisting}
+
+\begin{lstlisting}{name=Fréquences}
+let somme_tableau tab =
+
+  (* int vect -> int *)
+
+  (* Somme les composantes d'un vecteur d'entiers *)
+  
+  let somme = ref 0 in
+  for i = 1 to vect_length tab - 1 do
+    somme := !somme + tab.(i)
+  done;
+  !somme
+;;
+\end{lstlisting}
+\pagebreak
+\begin{lstlisting}{name=Fréquences}
+let somme_tableau_fl tab =
+
+  (* float vect -> int *)
+
+  (* Somme les composantes d'un vecteur de flottants *)
+  
+  let somme = ref 0. in
+  for i = 1 to vect_length tab - 1 do
+    somme := !somme +. tab.(i)
+  done;
+  !somme
+;;
+\end{lstlisting}  
+
+\begin{lstlisting}{name=Fréquences}
+let frequences fichier =
+
+  (* string -> float vect *)
+
+  (* Calcule la fréquence d'apparition des caractères étudiés dans fichier *)
+  
+  let tab = make_vect 72 0 in
+  let res = make_vect 72 0. in
+  let lignes = lit ("../Documents/Livres/" ^ fichier ^ ".txt") in
+  parcourir tab lignes ;
+  let somme = float_of_int (somme_tableau tab) in
+  for i = 1 to vect_length tab - 1 do
+    res.(i) <- (float_of_int tab.(i)) /. somme
+  done;
+  res
+;;
+\end{lstlisting}
+
+\end{document}

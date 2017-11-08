@@ -1,0 +1,7782 @@
+Recherches sur la theorie des Quanta
+Louis De Broglie
+
+To cite this version:
+Louis De Broglie. Recherches sur la th´eorie des Quanta. Physique [physics]. Migration universit´e en cours d’affectation, 1924. Fran¸cais. <tel-00006807>
+
+HAL Id: tel-00006807
+https://tel.archives-ouvertes.fr/tel-00006807
+Submitted on 16 Sep 2004
+
+HAL is a multi-disciplinary open access
+archive for the deposit and dissemination of scientific research documents, whether they are published or not. The documents may come from
+teaching and research institutions in France or
+abroad, or from public or private research centers.
+
+L’archive ouverte pluridisciplinaire HAL, est
+destin´ee au d´epˆot et a la diffusion de documents
+scientifiques de niveau recherche, publi´es ou non,
+´emanant des ´etablissements d’enseignement et de
+recherche fran¸cais ou ´etrangers, des laboratoires
+publics ou priv´es.
+
+FONDATION LOUIS
+
+DE
+
+BROGLIE
+
+Creee en 1973 à l’occasion du cinquantenaire de la mecanique ondulatoire, dans le cadre de la Fondation de France, sous la presidence
+d’honneur de Louis de
+
+Broglie.
+
+President d’honneur : Louis NEEL
+
+Vice-President : Michel CAZIN
+
+President : Rene THOM
+Directeur :
+
+Georges LOCHAK
+
+President de l’Association de Gestion : Christian
+
+ANNALES
+Redacteurs
+
+DE LA
+
+en
+
+CORMIER-DELANOUE
+
+FONDATION LOUIS
+
+DE
+
+BROGLIE
+
+chef : DANIEL FARGUE, MICHEL KARATCHENTZEFF
+
+Comite
+L. ACCARDI
+J. ANDRADE E SILVA
+A.O. BARUT
+A. BLAQUIERE
+R. BOUDET
+
+C. CORMIER-DELANOUE
+O. COSTA DE BEAUREGARD
+S. DINER
+R. DUTHEIL
+E. GUNZIG
+R. JANCEL
+V.I. KHOZIAINOV
+S. KICHENASSAMY
+A. KOURBATOV
+
+Directeur de la
+
+scientifique
+J. LAMEAU
+R. LEFEBVRE
+P. LOCHAK
+P. LONCKE
+P.W. MILONNI
+X. OUDET
+T.E. PHIPPS JR.
+A.F. RANADA
+G. DELLA RICCIA
+M. SACHS
+J. SALMON
+M. SURDIN
+J.P. TERLETSKY
+J. VASSALO-PEREIRA
+
+publication : Michel CAZIN
+
+EDITORIAL
+
+ce numero, les Annales de la Fondation Louis de Broglie
+de couverture et de format. C’est l’une des facons de
+marquer .Tannee du centenaire de la naissance de Louis de Broglie
+et une partie de chaque fascicule des Annales de cette annee sera
+consacree à sa memoire.
+
+Avec
+
+changent
+
+Ce premier numero lui rend hommage en proposant une reproduction photographique de l’edition originale de sa these, parue en
+
+1924.1
+
+Cette reimpression a ete faite avec la gracieuse autorisation
+des Editions Masson et des Annales de Physique que nous remercions ici tres vivement.
+
+LA REDACTION
+
+~
+
+La Fondation Louis de Broglie publiera egalement cette annee une
+reimpression de ce texte dans une edition de luxe qui comprendra
+de plus en annexe quelques documents historiques :
+autre
+
+-
+
+les trois notes parues en 1923 aux Comptes Rendus de l’Academie
+des Sciences dans lesquelles Louis de Broglie exposait l’essentiel de
+ses
+
+-
+
+-
+
+-
+
+idees,
+
+le rapport de these de Langevin,
+un extrait de la fameuse lettre d’Einstein à Langevin,
+la note de Louis de Broglie aux Comptes Rendus de l’Academie des
+Sciences, publiee en 1973, à l’occasion du cinquantenaire de la Me-
+
+canique Ondulatoire,
+
+et
+
+qui constitue
+
+son
+
+testament
+
+scientifique.
+
+ANNALES
+============
+
+DE ============
+
+PHYSIQUE
+EXTRAIT
+
+RECHERCHES SUR LA THEORIE
+DES QUANTA
+Par M. Louis de BROGLIE
+
+Annales de
+
+Physique -
+
+10e Serie
+
+-
+
+Tome III
+
+-
+
+Janvier-Fevrier 4925
+
+MASSON & C",
+
+EDITEURS
+
+f20, BOULEVARD ST-GBRMAlN. PARtS (Vt*)
+
+RECHERCHES SUR LA
+DES QUANTA
+Par M. Louis
+
+DE
+
+THEORIE
+
+BROGLIE
+
+SOMMAIRE . - L’histoire des theories optiques montre que la
+pensee scientifique a longtemps hesite entre une conception dynamique et une conception ondulatoire de la lumiere ; ces deux
+representations sont donc sans doute moins en opposition qu’on
+ne l’avait suppose et le developpement de la theorie des quanta
+semble confirmer cette conclusion.
+Guide par l’idee d’une relation generale entre les notions de
+frequence et d’energie, nous admettons dans le present travail1
+l’existence d’un phenomene periodique d’une nature encore à
+preciser qui serait l~ie à tout morceau isole d’energie et qui dependrait de sa masse propre par l’equation de Plank-Einstein. La
+theorie de relativite conduit alors à associer au mouvement uniforme de tout point materiel la propagation d’une certaine onde
+dont la phase se deplace dans l’espace plus vite que la lumiere
+
+(ch. I.)
+ce resultat dans le cas du mouvement non
+amene à admettre une proportionnalite entre le
+vecteur Impulsion d’Univers ’d’un point materiel et un vecteur
+caracteristique de la propagation de l’onde associee dont la composante de temps est la frequence. Le principe de Fermat applique à l’onde devient alors identique au principe de moindre
+action applique au mobile. Les rayons de l’onde sont identiques aux trajectoires possibles du mobile (ch. II.)
+L’enonce precedent applique au mouvement periodique d’un
+electron dans l’atome de Bohr permet de retrouver les conditions
+de stabilite quantiques comme expressions de la resonance de
+l’onde sur la longueur de la trajectoire (ch III). Ce resultat peut
+etre etendu au cas des mouvements circulaires du noyau et de
+l’electron autour de leur centre de gravite commun dans l’atome
+
+Pour
+
+generaliser
+
+uniforme,
+
+on
+
+est
+
+d’hydrogene (ch. IV).
+L’application de ces
+
+idees generales au quantum de lumiere
+concu par Einstein mene à de nombreuses concordances tres
+interessantes. Elle permet d’esperer malgre les difficultes qui
+subsistent, la constitution d’une optique à la fois atomistique et
+ondulatoire etablissant une sorte de correspondance statistique
+
+3
+
+liee au grain d’energie lumineuse et l’onde electromagnetique de Maxwell (ch. V.)
+En particulier, l’etude de la diffusion des rayons X et y par les
+corps amorphes nous sert à montrer combien une conciliation de
+ce genre est aujourd’hui desirable (ch. VI )
+Enfin, l’introduction de la notion d’onde de phase dans la
+mecanique statistique conduit à justifier l’intervention des
+quanta dans la theorie dynamique des gaz et à retrouver les lois
+
+entre l’onde
+
+du rayonnement noir comme traduisant la distribution de l’energie entre les atomes dans un gaz de quanta de lumiere.
+
+INTRODU.CTION
+I.
+
+-
+
+Du XVr
+
+HISTORIQUE
+au
+
+XX~ siecle.
+
+La science moderne est nee à la fin du xvie siecle à la suite
+du renouveau intellectuel dû à la Renaissance. Tandis que
+l’Astronomie de position devenait de jour en jour plus
+precise, les sciences de l’equilibre et du mouvement, la
+statique et la dynamique se constituerent lentement. On
+sait que ce fut Newton qui le premier fit de la Dynamique
+un corps de doctrine homogene et par sa memorable loi de
+la gravitation universelle ouvri-t à la nouvelle science un
+champ enorme d’applications et de verifications. Pendant les
+XVIIIe et xIxe siecles un grand nombre de geometres, d’astronomes
+et de physiciens developperent les principes de
+Newton et la Mecanique parvint à tel degre de beaute et
+d’harmonie rationnelle qu’on en oublia presque son caractere de science physique. On parvint, en particulier, à faire
+decouler toute cette science d’un seul principe, le principe
+de moindre action enonce d’abord par Maupertuis, puis
+d’une autre maniere par Hamilton et dont la forme mathematique est remarquablement elegante et condensee.
+Par son intervention en Acoustique, en Hydrodynamique,
+en
+Optique, en Capillarite, la Mecanique parut un instant
+regner sur tous les domaines. Elle eut un peu plus de peine
+à absorber une nouvelle branche de la science nee au
+
+4
+
+siecle : la Thermodynamique. Si l’un des deux grands
+principes de cette science, celui de la conservation de
+l’energie, se laisse facilement interpreter par les conceptions
+de la Mecanique, il n’est pas de meme du second, celui de
+l’augmentation de l’entropie Les travaux de Clausius et de
+Boltzmann sur l’analogie des grandeurs thermodynamiques
+avec certaines grandeurs intervenant dans les mouvements
+periodiques, travaux qui à l’heure actuelle reviennent tout à
+fait à l’ordre du jour, ne parvinrent pas à retablir completement l’accocd des deux points de vue. Mais l’admirable
+theorie cinetique des gaz de Maxwell et Boltzmann et la
+doctrine plus generale dite Mecanique statistique de. Boltzmann et Gibbs montrerent que la Dynamique, si on la
+complete par des considerations de probabilite, permet l’interpretation des notions fondamentales de la thermodyna-
+
+mique.
+Des le XVIIe siecle, la science de la lumiere, l’optique,
+avait attire l’attention des chercheu-rs. Les phenomenes les
+plus usuels (propagation rectiligne, reflexion, refraction),
+ceux qui forment aujourd hui notre optique geometrique,
+furent naturellement les premiers connus. Plusieurs savants,
+notamment .Descartes et Huyghens travaillerent à en demeler
+les lois et Fermât les resuma par un principe synthetique
+qui porte son nom et qui, enonce dans notre langage mathematique actuel, rappelle par sa forme le principe de moindre
+action. Huyghens avait penche vers une theorie ondulatoire
+de la lumiere, mais Newton sentant dans les grandes lois de
+l’optique geometrique, une analogie profonde avec la dynamique du point materiel dont il etait le createur, developpa
+une theorie corpusculaire de la lumiere dite « theorie de
+l’emission » et parvint meme à rendre compte à l’aide
+d’hypotheses un peu artificielles de phenomenes maintenant
+classes dans l’optique ondulatoire .(anneaux de Newton).
+Le debut du xixe siecle vit une reaction contre les idees de
+Newton en faveur de celles d’Huyghens. Les experiences
+
+5
+
+d’interference dont les premieres sont dues à Young, etaient
+difficiles sinon impossibles à interpreter du point de vue
+corpusculaire. Fresnel developpa alors son admirable theorie
+elastique de la propagation des ondes lumineuses et des tors
+le credit de la conception de Newton alla sans cesse en
+diminuant.
+Un des grands succes de Fresnel fut d’expliquer la propagation rectiligne de la lumiere dont l’interpretation etait si
+intuitive dans la theorie de l’emission. Quand deux theories
+fondees sur des idees qui nous paraissent entierement differentes, rendent compte avec la meme elegance d’une meme
+verite experimentale, on peut toujours se demander si l’opposition des deux points de vue est bien reelle et n’est pas
+due seulement à l’insuffisance de nos efforts de synthese.
+Cette question, on ne se la posa pas à l’epoque de Fresnel et
+la notion de corpuscule de lumiere fut consideree comme
+naïve et abandonnee.
+Le XIXe siecle a vu naitre une branche toute nouvelle de la
+qui a apporte dans notre conception du monde et
+dans notre industrie d’immenses bouleversements : la science
+de l’Electricite. Nous n’avons pas à rappeler ici comment
+elle s’est constituee g râce aux travaux de Volta, Ampere,
+Laplace, Faraday, etc. Ce qui importe seulement, c’est de
+dire que Maxwell sut resumer en des formules d’une superbe
+concision mathematique les resultats de ses devanciers et
+montrer comment l’optique tout entiere pouvait etre consideree comme un rameau de l’electromagnetisme. Les travaux de Hertz et plus encore ceux de M. H.-A.. Lorentz
+perfectionnerent la theorie de Maxwell ; Lorentz y introduisit de plus la notion de la discontinuite de l’electricite
+dejà elaboree par M. J.-J. Thomson et si brillamment confirmee par l’experience. Certes, le developpement de la
+theorie electromagnetique enlevait à l’ether elastique de
+Fresnel sa realite et par là semblait separer l’optique du
+domaine de la Mecanique, mais beaucoup de physiciens à la
+
+physique
+
+6
+
+suite de Maxwell lui-meme esperaient encore à la fin du
+siecle dernier trouver une explication mecanique de l’ether
+electromagnetique et, par suite, non seulement soumettre
+de nouveau l’optique aux explications dynamiques, mais
+encore y soumettre du meme coup tous les phenomenes
+
+electriques
+Le siecle
+
+these
+II.
+
+et
+
+magnetiques.
+
+terminait donc eclaire par l’espoir d’une synprochaine et complete de toute la physique.
+se
+
+Le XXe siecle :: la Relativite et les Quanta.
+
+-
+
+ombres au tableau. Lord
+deux
+nuages noirs apparais1 goo, annoncait que
+saient menacants à l’horizon de la Physique. L’un de ces
+nuages representait les difficultes soulevees par la fameuse
+
+Cependant,
+
+Kelvin,
+
+il restait
+
+quelques
+
+en
+
+experience de Michelson et Morley qui paraissait incompatible avec les idees alors recues. Le second nuage representait l’echec des methodes de la Mecanique statistique dans le
+domaine du rayonnement noir ; le theoreme de l’equipartition de l’energie, consequence rigoureuse de la Mecanique
+statistique, conduit en effet à une repartition bien definie de
+l’energie entre les diverses frequences dans le rayonnement
+d’equilibre thermodynamique ; or, cette loi, la loi de Rayleigh-Jeans, est en contradiction grossiere avec l’experience
+et elle est meme presque absurde car elle prevoit une valeur
+infinie pour la densite totale de l’energie, ce qui evidemment
+n’a aucun sens physique.
+Dans les premieres annees du xxe siecle, les deux nuages
+de lord Kelvin se sont, si je puis dire, condenses l’un en la
+theorie de Relativite, l’autre en’la theorie des Quanta.
+Comment les difficultes soulevees par l’experience de
+Michelson furent d’abord etudiees par Lorentz et Fitz-Gerald,
+comment elles furent ensuite resolues par M. A. Einstein
+sans exemple, c’est ce
+à un effort intellectuel
+grâce
+que
+
+nous
+
+ne
+
+peut-etre
+developperons pas ici, la question
+
+ayant
+
+ete
+
+7
+
+maintes fois exposee dans ces dernieres annees par des voix
+plus autorisees que la notre. Nous supposerons donc connues
+dans cet expose les conclusions essentielles de la theorie de
+Relativite, du moins sous sa forme restreinte, et nous y
+ferons appel chaque fois que besoin en sera.
+
+allons, au contraire, indiquer rapidement le developpement de la theorie des quanta. La notion de quanta fut
+Nous
+
+introduite dans la science en igoo, par M. Max Planck. Ce
+savant etudiait alors theoriquement la question du rayonnement noir et, comme l’equilibre thermodynamique ne doit
+pas dependre de la nature des emetteurs, il avait imagine
+un emetteur tres simple dit « le resonateur de Planck »
+constitue par un electron soumis à une liaison quasi-elastique et possedant ainsi une frequence de vibration independante de son energie. Si on applique aux echanges d’energie
+entre de tels resonateurs et le rayonnement les lois classiques
+de l’electromagnetisme et de la Mecanique statistique_ on
+retrouve la loi de Rayleigh dont nous avons signale plus
+haut l’indeniable inexactitude. Pour eviter cette conclusion
+et trouver des resultats plus conformes aux faits experimentaux, M. Planck admit un etrange postulat : « Les echanges
+d’energie entre les resonateurs (ou la matiere) et le rayonnement n’ont lieu que par quantites linies egales à h fois la
+frequence, h etant une nouvelle constante universelle de la
+physique ». A chaque frequence, correspond donc une sorte
+d’atome d’energie, un quantum d’energie. Les donnees de
+l’observation fournirent à M. Planck les bases necessaires
+pour le calcul de la constante h et la valeur trouvee alors
+n’a pour ainsi dire pas ete modifiee
+(h ==6,545 X
+par les innombrables determinations posterieures faites par
+les methodes les plus diverses. C’est là un des plus beaux
+exemples de la puissance de la Physique theorique.
+Rapidement, les quanta firent tache d’huile et ne tarderent
+pas à impregner toutes les parties de la Physique. Tandis
+que leur introduction ecartait certaines difficultes relatives
+
+8
+
+chaleurs
+
+specifiques des gaz, elle permettait à M. Einsd’abord, puis à MM. Nernst et Lindemann, enfin sous
+une forme plus parfaite à MM. Debye, Born et von Karman
+de faire une theorie satisfaisante des chaleurs specifiques des
+solides et d’expliquer pourquoi la loi de Dulong et Petit
+sanctionnee par la statistique classique comporte d’importantes exceptions et n’est, tout comme la loi de Rayleigh,
+qu’une forme limite valable dans un certain domaine.
+Les quanta penetrerent aussi dans une science ou on ne
+
+aux
+
+tein
+
+attendus : la theorie des gaz. La methode de
+à laisser indeterminee la valeur de la
+conduit
+Boltzmann
+constante additive figurant dans l’expression de l’entropie.
+1l~I. Planck, pour rendre compte du theoreme de Nernst et
+obtenir la prevision exacte des constantes chimiques, admit
+qu’il fallait faire intervenir les quanta et il le fit sous une
+forme assez paradoxale en attribuant à l’element d’extension
+en phase d’une molecule une grandeur finie egale à h3.
+L’etude de l’effet photoelectrique souleva une nouvelle
+enigme. On nomme effet photoelectrique l’expulsion par la
+matiere d’electrons en mouvement sous l’influence d’un
+rayonnement. L’experience montre, fait paradoxal, que
+l’energie des electrons expulses depend de la frequence du
+rayonnement excitateur et non de son intensite. M. Einstein,
+en!go5, a rendu compte de cet
+etrange phenomene en
+admettant que la radiation peut etre absorbee uniquement
+des lors, si l’electron absorbe l’energie hv et
+par quanta
+s’il doit pour sortir de la matiere depenser un travail w son
+energie cinetique finale sera hv w. Cette loi s’est trouvee
+bien verifiee. Avec sa profonde intuition, M. Einstein sentit
+qu’il y avait lieu de revenir en quelque maniere à la conception corpusculaire de la lumiere et emit l’hypothese que
+toute radiation de frequence v est divisee en atomes d’energie
+de valeur hv. Cette hypothese des quanta de lumiere (licht
+quanten) en opposition avec tous les faits de l’Optique ondulatoire fut jugee trop simpliste et repoussee par la plupart
+les eut
+
+guere
+
+-
+
+9
+
+des physiciens. Tandis que MM. Lorentz, Jeans et d’autres
+lui faisaient de redoutables objections. M. Einstein ripostait
+en montrant comment l’etude des
+fluctuations dans le
+rayonnement noir conduisait aussi à la conception d’une
+discontinuite de l’energie radiante. Le congres international
+de physique tenu à Bruxelles en 1911z sous les auspices
+de M. Solvay se consacra entierement à la question des
+quanta et c’est à la suite de ce congres qu’Henri Poincare
+publia peu de temps avant sa mort une serie d’articles sur les
+quanta, montrant la. necessite d’accepter les idees de Planck;
+En 1913, parut la theorie de l’atome de M. Niels Bohr. Il
+admit avec MM. Rutherford et Van Den Broek que l’atome
+est forme d’un noyau positif entoure d’un nuage d’electrons,
+le noyau portant N charges elementaires positives 4, ~~
+u. e. s., et le nombre des electrons etant N de sorte que
+l’ensemble est neutre. N est le nombre atomique egal au
+numero d’ordre de l’element dans la serie periodique de Mendeleïeff. Pour etre en mesure de prevoir les frequences optiques en particulier pour l’hydrogene dont l’atome à un seul
+electron est specialement simple, Bohr fait deux hypotheses :
+1° Parmi l’infinite des trajectoires qu’un electron tournant
+autour du noyau peut decrire, certaines seulement sont
+stables et la condition de stabilite fait intervenir la constante
+de Planck. Nous preciserons au chapitre III la nature de ces,
+conditions; 2° Quand un electron intraatomique passe d’une
+trajectoire stable à une autre, il y a emission ou absorption
+d’un quantum d’energie de frequence v. La frequence emise
+ou absorbee v est donc reliee à la variation 8s de l’energie
+totale de l’atome par la relation[ oz= hv.
+On sait quelle a ete la magnifique fortune de la theorie de
+Bohr depuis dix ans. Elle a tout de suite permis la prevision
+des series spectrales de l’hydrogene et de l’helium ionise :i
+l’etude des spectres des rayons X et la fameuse loi de
+Moseley qui relie le nombre atomique aux reperes spectraux
+du domaine Rontgen ont etendu considerablement le champ
+
+10
+
+de son application. MM. Sommerfeld, Epstein, Schwarzschild,
+Bohr lui-meme et d’autres ont perfectionne la theorie, enonce
+des conditions de quantification plus generales, explique les
+effets Stark et Zeemann, interprete les spectres optiques
+dans leurs details, etc. Mais la signification profonde des
+quanta est restee inconnue. L’etude de l’effet photoelectrique
+des rayons X par M. Maurice" de Broglie, celle de l’effet
+photoelectrique des rayons 1 due à MM. Rutherford et Ellis
+ont de plus en plus accentue le caractere corpusculaire de
+ces radiations, le quantum d’energie hv semblant chaque
+jour davantage constituer un veritable atome de lumiere.
+Mais les objections anciennes contre cette vue subsistaient
+et, meme dans le domaine des rayons X, la theorie des ondulations rem.portait de beaux succes : prevision des phenomenes d’interference de Laue et des phenomenes de diffusion (travaux de Debye, de W.-L. Bragg, etc.). Cependant,
+tout recemment, la diffusion à son tour a ete soumise au
+point de vue corpusculaire par M. H.-A. Compton : ses travaux theoriques et experimentaux ont montre qu’un electron
+diffusant une radiation doit subir une certaine impulsion
+comme dans un choc ; naturellement l’energie du quantum
+de radiation s’en trouve diminuee et, par suite, la radiation
+diffusee presente une frequence variable suivant la direction
+de diffusion et plus faible que la frequence de la radiation
+incidente.
+Bref, le moment semblait venu de tenter un effort dans le
+but d’unifier les points de vue corpusculaire et ondulatoire
+et d’approfondir un peu le sens veritable des quanta. C’est
+ce que nous avons fait recemment et la
+presente these a pour
+principal objet de presenter un expose plus complet des idees
+nouvelles que nous avons proposees, des succes auxquels
+elles nous ont conduit et aussi des tres nombreuses lacunes
+qu’elles contiennent (1).
+
+(1) Citons ici quelques
+relatives aux quanta :1
+
+ouvrages ou
+
+sont
+
+traitees des
+
+questions
+
+11
+
+CHAPITRE PREMIER
+
+L’onde de
+
+I.
+
+-
+
+LA
+
+RELATION
+
+DU
+
+phase.
+
+QUANTUM
+
+ET
+
+LA
+
+RELATIVITE
+
+Une des plus importantes conceptions nouvelles introduites par la Relativite est celle de l’inertie de l’energie.
+D’apres Einstein, l’energie doit etre consideree comme ayant
+de la masse et toute masse represente de l’energie. La
+masse et l’energie sont toujours reliees l’une à l’autre par
+la relation generale :
+
+energie
+c
+
+etant la constante dite
+
+preferons
+
+nous
+
+«
+
+nommer «
+
+=
+
+masse
+
+C2
+
+vitesse de la lumiere )) mais que
+vitesse limite de l’energie » pour
+
+J. PERRIN, Les atomes, Alcan, 1913.
+H. POINCARE, Dernieies pensees, Flammarion, 1913.
+E. BAunR, Recherches sur le rayonnement, These de
+
+doctorat,
+
+1912.
+La theorie du rayonnement et les quanta
+(Ier Congres Solvay,
+IgI I), publiee par P. LANGEVIN et M. DE BROGLIE
+M PLANCK, Theorie der Wärmestrahlung, J. -A. Barth, Leipzig,
+
+1921 (4e edit.).
+L. BRILLOUIN, La theorie des quanta et l’atome Lle Bohr (Conf.
+rapports), 1921.
+F. REICHE, Die quantentheorie, J. Springer, Berlin, 1921.
+A. SOMMERFELD, La constitution de l’atome et, les rates spectrales. Trad. BELLENOT, A. Blanchard, 1923.
+A. LANDE, Vorschritte der
+quantentheorie, F. Steinhopff, Dresde,
+1922.
+Atomes et
+.
+
+1923.
+
+12
+
+electrons
+
+(3e Congres Solvay,), Gauthier-Villars,
+
+des raisons exposees plus loin.
+
+Puisqu’il y a toujours proportionnalite contre la masse et l’energie, on doit considerer
+matiere et energie comme deux termes synonymes designant
+la meme realite physique.
+La theorie atomique d’abord, la theorie electronique
+ensuite nous ont appris à considerer la matiere comme
+essentiellement discontinue et cela nous conduit à admettre
+que toutes les formes de l’energie, contrairement aux idees
+anciennes sur la lumiere, sont sinon entierement concentrees
+en de petites portions de 1 espace, tout au moins condensees
+autour de certains points singuliers.
+Le principe de l’inertie de l’energie attribue à un corps
+dont la masse propre (c’est-à-dire ,mesuree par un observateur qui lui est lie) est mo une energie propre moc2. Si le
+corps est en mouvement uniforme avec une vitesse v = 0c
+par
+
+rapport
+
+à
+
+un
+
+observateur que
+
+simplifier l’observateur fixe,
+
+valeur
+la
+
+Dynamique
+
+.
+
+nous
+
+sa masse
+
+conformement à
+
+un
+
+aura
+
+pour
+pour celui-ci la
+
+resultat bien
+
+Relativiste et, par suite,
+
+Comme
+
+nommerons
+
+son
+
+l’energie cinetique peut etre
+
+connu
+
+de
+
+energie sera
+definie l’aug-
+
+mentation qu’eprouve l’energie d’un corps pour l’observateur fixe quand il passe du repos à la vitesse v = pc, on
+trouve pour sa valeur l’expression suivante ::
+
+naturellement pour les faibles valeurs
+forme classique :
+
+qui
+
+Ecin
+
+de B
+
+conduit à la
+
+= - I rnov2
+2
+
+Ceci rappele, cherchons sous quelle forme nous pouvons
+faire intervenir les quanta dans la dynamique de la Relativite. Il nous semble que l’idee fondamentale de la theorie
+
+13
+
+des quanta soit l’impossibilite d’envisager une quantite isolee d’energie sans y associer une certaine frequence. Cette
+liaison s’exprime par ce que j’appellerai la relation du quantum :
+
+energie == ~ ~ frequence
+It constante de Planck.
+Le developpement progressif de la theorie des quanta a
+mi-s plusieurs fois en vedette l’action mecanique et on a
+cherche bien des fois à donner de la relation du quantum un
+enonce faisant intervenir l’action au lieu de l’energie. Assurement,. la constante h a les dimensions d’une action savoir
+ML2T-i et cela n’est pas dû au hasard puisque la theorie de
+Relativite nous apprend à classer l’action parmi les principaux « invariants » de la Physique. Mais l’action est une
+grandeur d’un caractere tres abstrait et, à la suite de nombreuses meditations sur les quanta de lumiere et l’effet photoelectrique, nous avons ete ramenes à prendre pour base
+l’enonce energetique; quitte ensuite à chercher pourquoi
+l’action joue un si grand role dans nombre de questions.
+La relation du quantum n’aurait sans doute pas beaucoup
+de sens si l’energie pouvait etre distribuee d’une facon continue dans l’espace, mais nous venons de voir qu’il n’en est
+sans doute pas ainsi. On peut donc concevoir que par suite
+d’une grande loi de la Nature, à chaque morceau d’energie
+de masse propre m~, soit lie un phenomene periodique de
+frequence va telle que l’on ait ::
+
+vo etant
+
+mesuree, bien entendu, dans le systeme lie
+
+au.
+
+base de notre sysd’energie.
+hypothese
+teme : elle vaut, comme toutes les hypotheses, ce que valent
+les consequences qu’on en peut deduire.
+Devons-nous supposer le phenomene periodique localise à
+l’interieur du morceau d’energie ? Cela n’est nullemenL
+3
+Ann, de Ph ys., joe serie, t. III (Janvier-Fevrier 1925)
+morceau
+
+14
+
+Cette
+
+est la
+
+necessaire et il resultera du paragraphe III qu’il est sans
+doute repandu dans une portion etendue de l’espace. D’ailleurs que faudrait-il entendre par interieur d’un morceau
+d’energie ? L’electron est pour nous le type du morceau isole
+celui que nous croyons, peut-etre à tort, le mieux
+connaitre ; or d’apres les conceptions recues, l’energie de
+l’electron est repandue dans tout l’espace avec une tres forte
+condensation dans une region de tres petites dimensions
+dont les proprietes nous sont d’ailletrrs fort mal connues. Ce
+qui caracterise l’electron comme atome d’energie, ce n’est
+pas la petite place qu’il occupe dans l’espace, je repete qu’il
+l’occupe tout entier, c’est le fait qu’il est insecable, non suladivisible, qu’il forme une unite (1).
+Ayant admis l’existence d’une frequence liee au morceau
+d’energie, cherchons comment cette frequence se manifeste
+a l’observateur fixe dont il fut question plus haut. La transformation du temps de Lorentz Einstein nous apprend qu’un
+phenomene periodique lie au corps en mouvement apparait
+
+à
+
+ralenti à l’observateur fixe dans le rapport de i
+c’est le fameux ralentissement des horloges. Donc la frequence observee par l’observateur fixe sera
+,Ji1
+
+D’autre part,
+
+d’apres
+
+deux
+
+puisque
+Il y
+
+(1)
+
+a
+
+là
+
+l’energie
+
+comme
+
+observateur est
+
+dante
+
+- ~o ‘, â n
+egale
+
+à
+
+du mobile pour le meme
+,
+
+la
+
+la relation du quantum
+
+frequences v1
+
+et
+
+u
+
+sont
+
+frequence
+
+correspon-
+
+est
+
+essentiellement differentes
+
+le facteur
+- 3~ n’y figure pas de la meme facon.
+une difficulte qui m’a longtemps intrigue ; je suis
+
+sujet des difficultes qui se presentent lors de l’interacplusieurs centres electrises, voir plus bas le chapitre IV.
+
+Au
+
+tioo de
+
+15
+
+parvenu à la lever en demontrant le theoreme suivant que
+j’appellerai le theoreme de l’harmonie des phases :
+« Le
+phenomene periodique lie au mobile et dont la fre-
+
+quence est pour l’observateur fixe egale
+
+parait
+
+à celui-ci constamment
+
+quenoe v
+
+=
+
+direction que le mobile
+
+avec
+
+=
+
+en
+
+phase avec
+
+se
+
+propageant
+
+la vitesse V
+
+-
+
+jt n~°~,2 ~1- ~’
+
+une
+
+onde de fre-
+
+dans la meme
+
+-~- .
+
+))
+
+La demonstration est tres simple. Supposons qu’au temps
+t
+o, il y ait accord de phase entre le phenomene periodi==
+
+que lie
+mobile
+
+ii x =
+vit
+
+mobile et l’onde ci-dessus definie. Au temps t, le
+franchi depuis l’instant origine une distance egale
+pc1 et la phase du phenomene periodique a varie de
+au
+a
+
+La
+
+=
+
+recouvre
+
+le mobile
+
+a
+
+phase
+
+de la
+
+portion d’onde quii
+
+varie de :
+
+Comme nous l’avions annonce, l’accord des phases
+siste.
+Il est possible de donner de ce theoreme une autre
+demonstration identique au fond, mais peut-etre plus.frappante. Si to represente le temps pour un observateur lie au
+mobile (temps propre du mobile), la transformation Lorentz
+donne :
+
+Le phenomene periodique que nous
+sente pour le meme observateur par
+
+16
+
+imaginons,
+une
+
+est
+
+repre-
+
+fonction sinusoi-
+
+dale de volo. Pour l’observateur
+meme fonction sinusoïdale
+
+tion
+
+qui represente
+
+pageant
+
+avec
+
+une
+
+la vitesse
+
+fixe,
+
+represente
+
+par la
+
+fonc-
+
+de
+
+onde de
+~
+
+il est
+
+frequence
+
+’°
+
+se
+
+V
+
+pro-
+
+dans la meme direction que le
+
+mobile.
+Il est maintenant indispensable de reflechir à la nature de
+l’onde dont nous venons de concevoir l’existence. Le fait que
+sa
+
+vitesse V =
+
+soit necessairement superieure
+~~3 etant
+r
+~
+~
+serait infinie
+inferieur
+à
+
+c
+
+ou
+quoi la masse
+montre qu’il ne saurait etre question d’une
+onde transportant de l’energie. Notre theoreme nous apprend
+d’ailleurs qu’elle represente la distribution dans l’espace des
+phases d’un phenomene ; c’est une « onde de phase ».
+Pour bien preciser ce dernier point, nous allons exposer
+une comparaison mecanique un peu grossiere, mais qui
+parle à l’imagination. Supposons un plateau horizontal circulaire de tres grand rayon ; à ce plateau, sont suspendus
+des systemes identiques formes d’un ressort spiral auquel
+est accroche un poids. Le nombre des systemes ainsi suspendus par unite de surface du plateau, leur densite, va en
+diminuant tres rapidement quand on s’eloigne du centre du
+plateau de telle sorte qu’il y a condensation des systemes
+autour de ce centre. Tous les systemes ressorts-poids etant
+identiques ont tous meme periode ; faisons-les osciller avec
+la meme amplitude et la meme phase. La surface passant
+par les centres de gravite de tous les poids sera un plan qui
+
+toujours
+imaginaire), nous
+
+à i,
+
+sans
+
+descendra d’un mouvement alternatif. L’ensemainsi obtenu presente une tres grossiere analogie avec le
+morceau isole d’energie tel que nous le concevons.
+La. description que nous venons de faire convient à un
+observateur lie au plateau. Si un autre observateur voit le
+plateau se deplacer d’un mouvement de translation uniforme
+
+montera et
+
+17
+
+la vitesse v = pc, chaque poids lui paraitra une petite
+horloge subissant le ralentissement d’Einstein ; de plus, le
+plateau et la distribution des systemes oscillants ne seront
+plus isotropes autour du centre en raison de la contraction
+de Lorentz. Mais le fait fondamental pour nous (le 3e paragraphe nous le fera mieux comprendre), c’est le dephasage
+des. mouvements des differents poids. Si, à un moment
+donne de son temps, notre observateur fixe considere le tieu
+geometrique des centres de gravite des divers poids, il
+obtient une surface cylindrique dans le sens horizontal dont
+les sections verticales paralleles à la vitesse du plateau sont
+des sinusoïdes. Elle correspond dans le cas particulier envisage à notre onde de phase ; d’apres le theoreme general,
+
+avec
+
+parallele celle du
+1
+de vibration d’un
+d’abscisse fixe
+
+cette surface est animee d’une vitesse
+
+plateau et la frequence
+qui repose constamment
+
+sur
+
+à
+
+point
+egale à la frequence
+multipliee par
+
+elle est
+
+propre d’oscillation des ressorts
+
+.
+
+On voit nettement sur cet exemple (et c’est notre excuse d’~T
+avoir si longuement insiste) comment l’onde de phase correspond au transport de la phase et aucunement à celui de
+
+l’energie.
+Les resultats
+
+precedents nous semblent etre d’une extreme
+importance parce qu’à l’aide d’une hypothese fortement sug-geree par la notion meme de quantum, ils etablissent un
+lien entre le mouvement d’un mobile et la propagation d’une
+onde et laissent ainsi entrevoir la possibilite d’une synthese
+des theories antagonistes sur la nature des radiations. Dejà,
+nous pouvons noter que la propagation rectiligne de l’onde
+de phase est liee au mouvement rectiligne du mobile ; le
+principe de Fermat applique à l’onde de phase determine la
+forme de ces rayons qui sont des droites tandis que le principe de Maupertuis applique au mobile determine sa trajectoire rectiligne qui est l’un des rayons de l’onde. Au chapitre II, nous tenterons de generaliser cette coïncidence.
+
+18
+
+II.
+
+Il
+
+nous
+
+-
+
+VJTESSE
+
+DE
+
+PHASE ET
+
+VITESSE DE GROUPE
+
+faut maintenant demontrer
+
+une
+
+relation
+
+impor-
+
+tante existant entre la vitesse du mobile et celle de l’onde de
+
+des ondes de frequences tres voisines se propagent
+dans une meme direction Ox avec des vitesses V que nous
+appellerons vitesses de propagation de la phase, ces ondes
+donneront par leur superposition des phenomenes de battement si la vitesse V varie avec la frequence v. Ces phenome nes ont ete etudies notamment par lord Rayleigh dans le
+cas des milieux dispersifs.
+Considerons deux ondes de frequences voisines v et
+
+phase. Si
+
+dV
+
+leur super+ OV et de vitesses V etV=V +
+dv
+position se traduit analytiquement par l’equation suivante
+obtenue en negligeant au second nombre ov devant v :
+v’
+
+donc une onde resultante sinusoïdale dont
+modulee à la frequence ov car le signe du
+cosinus importe peu. C’est là un resultat bien connu. Si l’on
+designe par U la vitesse de propagation du battement, ou
+vitesse du groupe d’ondes, on trouve :
+Nous
+
+avons
+
+l’amplitude
+
+est
+
+Revenons aux ondes de phase. Si l’on attribue au mobile
+une vitesse v = ~c en ne donnant pas à ~ une valeur tout il
+fait determinee, mais en lui imposant seulement d’etre com-
+
+19
+
+prise entre § et § + 0 p; les frequences des ondes correspondantes remplissent un petit intervalle v, v + ov.
+Nous allons etablir le theoreme suivant qui nous sera utile
+ulterieurement. « La vitesse du groupe des ondes de phase
+est egale à la vitesse du mobile ». En efiet, cette vitesse de
+groupe est determinee par la formule donnee ci-dessus dans
+laquelle V et v peuvent etre consideres comme fonction de ~
+puisque l’on a :
+Y
+
+=
+-
+
+c
+
+. _-_.
+v
+
+e
+
+h
+
+v
+
+~~ ~ - 3~_
+
+en peut ecrire :
+d)J
+L~T
+
+-
+
+v
+d ~3
+Or
+
+Donc :
+U
+
+=
+
+~C
+
+=
+
+v.
+
+La vitesse de groupe des ondes de
+
+phase est bien egale à
+appelle une remarque :
+dispersion, si on excepte
+les zones d’absorption, la vitesse de l’energie est egale à la
+vitesse de groupe (i). Ici, bien que places à un point de vue
+
+la vitesse du mobile. Ce resultat
+dans la theorie ondulatoire de la
+
+(1) Voir par exemple LEON BRILLOUIN. La theorie des quanta et
+l’atome de Bohr, chapitre 1.
+
+20
+
+bien different, nous retrouvons un resultat analogue, car la
+vitesse du mobile n’est pas autre chose que la vitesse du
+deplacement de l’energie.
+III.
+
+-
+
+L’ONDE
+
+DE PHASE DANS
+
+L’ESPACE-TEMPS
+
+Minkowski a montre le premier qu’on obtenait une repre-sentation geometrique simple des relations de l’espace et du
+temps introduites par Einstein en considerant une multipli-
+
+Fig.
+
+I.
+
+.
+
+cite euclidienne à 4 dimensions dite Univers ou Espacetemps. Pour cela il prenait 3 axes de coordonnees rectangulaires d’espace et un quatrieme axe normal aux 3 premiers
+sur
+lequel etaient portes les temps multiplies par c
+
+On porte plus volontiers aujourd’hui sur le quatrieme
+la quantite reelle ct, mais alors les plans passant par cet
+
+axe
+axe
+
+et normaux à
+
+l’espace ont une geometrie pseudo euclidiennehyperbolique dont l’invariant fondamental est c2dt2 d~;2
+- - d~2 - d,~2.
+Considerons donc l’espace-temps rapporte aux 4 axes rectangulaires de l’observateur dit « fixe » . Nous prendrons
+pour axe des x la trajectoire rectiligne du mobile et nous
+-
+
+21
+
+sur notre papier le plan otx contenant l’axe
+du temps et la dite trajectoire. Dans ces conditions, la ligne
+d’Univers du mobile est figuree par une droite inclinee de.
+moins de 450 sur l’axe du temps; cette ligne est d’ailleurs
+l’axe du temps pour l’observateur lie au mobile. Nous representons sur notre figure les 2 axes du temps se coupant à
+l’origine, ce qui ne restreint pas la generalite.
+
+representerons
+
+Si la vitesse du mobile pour l’observateur fixe est
+
+pente de Of a pour valeur
+
+.
+
+La droite
+
+ox’,
+
+trace
+
+la
+sur
+
+le
+
+plan tox de l’espace de l’observateur entraine au temps O,.
+symetrique de Ot’ par rapport à la bissectrice OD ; il est
+facile de le demontrer analytiquement au moyen de la trans,.
+
+est
+
+formation de Lorentz, mais cela resulte immediatement du
+fait que la vitesse- limite de l’energie c a la meme valeur
+pour tous les systemes de reference. La pente de Ox’ est
+donc ~. Si l’espace entourant le mobile est le siege d’un
+phenomene periodique, l’etat de l’espace redeviendra le
+meme pour l’observateur entraine chaque fois que se sera
+ecoule un
+
+T 0o =;:= -2110
+
+OA
+temps 1
+c
+h
+==
+
+moc2
+
+du
+
+=
+
+1 AB
+c
+
+egal
+
+à la
+
+periode
+
+propre
+
+phenomene.
+
+paralleles à ox’ sont donc les traces de ces
+« espaces equiphases » de l’observateur entraine sur le
+plan
+Les points.... a’, o, a... representent en projection leurs
+intersections avec l’espace de l’observateur fixe à l’instant 0 ;
+Les droites
+
+intersections de 2 espaces à 3 dimensions sont des suIfaces à 2 dimensions et meme des plans parce que tous les
+espaces ici consideres sont euclidiens. Lorsque le temps
+s’ecoule pour l’observateur fixe, la section de l’espace-temps
+qui, pour lui, est l’espace, est representee par une droite
+parallele à ox se deplacant d’un mouvement uniforme vers
+les t croissants. On voit facilement que les plans equiphases... a’, o, a... se deplacent dans l’espace de l’observateur
+
+ces
+
+22
+
+fixe
+
+avec une
+
+vitesse
+
+~. En effet, si la ligne oxs de la figure
+
+represente l’espace de l’observateur fixe au temps t
+0, se trouvait
+aao c. La phase qui pour t
+=
+
+=
+
+en
+
+I,
+
+on a
+
+a, se
+
+maintenant en at; pour l’observateur fixe, elle s’est
+donc deplacee dans son espace de la longueur
+dàns le
+sens ox pendant l’unite de temps. On
+peut donc dire que sa
+vitesse est :
+trouve
+
+Fig.
+
+2.
+
+L’ensemble des plans equiphases constitue ce que nous avons
+nomme l’onde de phase.
+Reste à examiner la question des frequences. Refaisons
+Tine
+
+petite figure simplifiee.
+
+Les droitesi et
+
+successifs
+~
+
+c
+
+fois la
+
+AC
+
+representent deux espaces equiphases
+de l’observateur lie. AB est, avons-nous dit, egal
+periode propre Tn
+2
+
+==
+
+.
+
+projection de AB sur l’axe Ot est egal à
+
+23
+
+simple application des relations trigonometriques ; toutefois, nous remarquerons qu’en .appliquant
+la trigonometrie à des figures du plan xot, il faut toujours
+avoir present à l’esprit l’anisotropie particuliere à ce plan.
+Le triangle ABC nous donne :
+
+Ceci resulte d’une
+
+_
+
+La
+
+frequence T 1 est celle que
+
+parait avoir pour l’observateur
+son
+
+periode
+
+des ondes
+
+vateur fixe est
+
+Dans le
+
+iixe
+
+phenomene periodique
+qui le suit des yeux dans
+
+C’est :
+
+deplacement.
+
+La
+
+le
+
+donnee
+
+en un
+non
+
+point de l’espace
+
+pour l’obser-
+
+par ) AC, mais par § AD.
+
+petit triangle BCD,
+
+on
+
+trouve la
+
+relation
+
+La nouvelle
+est donc
+
+egale
+
+periode
+
+frequence v
+
+1 AC ( ~
+c
+
+des ondes
+
+1
+
+-
+
+~32)
+
+==
+
+To
+
+s’exprime
+
+~i ~ . - ~9
+par:
+
+Nous retrouvons donc bien tous les resultats obtenus
+
+24
+
+T
+
+à:
+T =
+
+et la
+
+Cal-
+
+ana-
+
+lytiquement dans
+
+le ier paragraphe, mais maintenant nous
+mieux
+comment
+ils se relient à la conception gene-~
+voyons
+rale de l’espace-temps et pourquoi le dephasage des mouve-ments periodiques ayant lieu en des points differents de
+l’espace depend de la facon dont est definie la simultaneite
+par la theorie de Relativite.
+
+CHAPITRE II
+
+Principe
+
+de
+
+Maupertuis
+I.
+
+-
+
+BUT
+
+et
+
+principe
+
+de Fermat.
+
+DE CE CHAPITRE
+
+Nous voulons dans ce chapitre tâcher de generaliser les
+resultats du chapitre premier pour le cas d’un mobile dont le
+mouvement n’est pas rectiligne et uniforme. Le mouvement
+varie suppose l’existence d’un champ de force auquel le
+mobile est soumis. Dans l’etat actuel de nos connaissances il
+semble y avoir seulement deux sortes de champsles champs
+de gravitation et les champs electromagnetiques. La theorie
+de Relativite generalisee interprete le champ de gravitation
+comme dû à une courbure de l’espace-temps. Dans la presente these, nous laisserons systematiquement de cote tout
+ce qui concerne la gravitation, quitte à y revenir dans un
+autre travail. Pour nous donc, en ce moment, un champ de
+force sera un champ electromagnetique et la dynamique du
+mouvement varie sera l’etude du mouvement d’un corps portant une charge electrique dans un champ electromagnetique_
+Nous devons nous attendre à rencontrer dans ce chapitre
+d’assez grandes difficultes parce que la theorie de Relativite,
+guide tres sûr quand il s’agit de mouvements uniformes, est
+encore assez hesitante dans ses conclusions sur le mouvement non uniforme. Lors du recent sejour de M. Einstein à
+Paris, M. Painleve a souleve contre la Relativite d’amusantes
+objections ; M. Langevin a pu les ecarter sans peine parce
+
+25
+
+faisaient toutes intervenir des accelerations alors que
+la transformation de Lorentz-Einstein ne s’applique qu’aux
+mouvements uniformes. Les arguments de l’illustre mathematicien ont cependant prouve une fois de plus que l’application des idees Einsteiniennes devient tres delicate des
+l’instant ou l’on a affaire à des accelerations et, en cela, ils
+sont tres instructifs. La methode qui nous a permis l’etude
+de l’onde de phase au chapitre premjer ne va plus ici nous
+
+qu’elles
+
+etre d’aucun
+
+secours.
+
+accompagne le mouvement d’un
+admet nos conceptions, a des proprietes qui dependent de la nature de ce mobile puisque sa
+frequence, par exemple, est determinee par l’energie totale.
+Il semble donc naturel de supposer que, si un champ de
+force agit sur le mouvement d’un mobile, il agira aussi sur
+la propagation de son onde de phase. Guide par l’idee d’une
+identite profonde du principe de la moindre action et de
+celui de Fermât, j’ai ete conduit des le debut de mes recherches sur ce sujet à admettre que pour une valeur donnee de
+l’energie totale du mobile et par suide de la frequence de
+son onde de phase, les trajectoires dynamiquement possibles
+de l’un coïncidaient avec les rayons possibles de l’autre. Cela
+m’a conduit à un resultat fort satisfaisant qui sera expose au
+chapitre III, savoir l’interpretation des conditions de stabilite intraatomique etablies par Bohr. Malheureusement, il
+fallait des hypotheses assez arbitraires sur la valeur des
+vitesses de propagations V de l’oncle de phase en chaque
+L’onde de phase
+mobile, si toutefois
+
+qui
+on
+
+du champ. Nous allons, au contraire, nous servir ici
+d’une methode qui nous semble beaucoup plus generale et
+plus satisfaisante. Nous etudierons d’une part le principe
+mecanique de la moindre action sous ses formes Hamilto.
+nienne et Maupertuisienne dans la dynamique classique et
+dans celle de la Relativite et d’autre part à un point de vue
+tres general, la propagation des ondes et le principe de
+Fermât. Nous serons alors amene à concevoir une synthese
+
+point
+
+26
+
+ces deux etudes, synthese sur laquelle on peut discuter
+mais dont l’elegance theorique est incontestable. Nous obtiendrons du meme coup la solution du probleme pose.
+
+de
+
+II.
+
+LES
+
+-
+
+DEUX
+
+DANS LA
+
+Dans la
+
+action
+
+PRINCIPES
+
+DE
+
+MOINDRE ACTION
+
+DYNAMIQUE CLASSIQUE
+
+le principe de moindre
+forme Hamiltonienne s’enonce de la facon sui-
+
+dynamique classique,
+
+sous sa
+
+vante :
+«
+
+Les
+
+fait que
+
+equations
+
+de la
+
+l’integralet1
+
+dynamique peuvent se deduire
+prise entre les limites
+
+du
+du
+
+temps pour des valeurs initiales et,finales donnees des para-
+
+metres qi qui
+stationnaire
+
+Lagrange et
+On
+
+a
+
+».
+
+determinent l’etat du
+Par
+
+definition, 1
+
+supposee dependre
+
+systeme,
+
+des
+
+a une valeur
+la fonction de
+
+appelee
+variables ~~
+
+est
+
+et
+
+c~~ =-
+
+_
+
+donc :
+
+On en deduit par une methode connue du calcul des variations les equations dites de Lagrange :
+
+nombre
+
+en
+
+egal
+
+à celui des variables
+
+qi.
+
+Reste à definir la fonction if. La
+
+dynamique classique
+
+pose :
+If
+
+=
+
+Ecin
+
+-
+
+Epot
+
+difference des energies cinetique et potentielle. Nous verrons
+plus loin que la dynamique relativiste emploie une valeu r
+differente de ~.
+Passons maintenant à la forme Maupertuisienne du principe de moindre action. Pour cela, remarquons d’abord que
+
+27
+
+equations de Lagrange sous la forme generale donnee
+plus haut, admettent une integrale premiere dite « energie
+du systeme » et egale à :
+
+les
+
+~ .
+
+=-~-~-~ ~. qi
+zqi
+
+a condition toutefois que la fonction ~
+
+ne
+
+depende pas explitoujours dan~
+
+citement du temps, ce que nous supposerons
+la suite. On a en en’et alors :
+
+quantite nulle d’apres
+
+les
+
+equations de Lagrange.
+
+Donc :
+
+W= Cte.
+
+Appliquons maintenant le principe Hamiltonien à toutes
+les trajectoires « variee* » qui conduisent de l’etat initial
+donne A à l’etat final donne B et qui correspondent à une
+valeur determinee de l’energie W. On peut ecrire puisque
+"V, f1 et t2
+
+ou
+
+bien
+
+sont constants :
+
+encore :
+
+la derniere
+
+integrale etant etendue à toutes les valeurs des
+qi comprises entre celles qui definissent les etats A et 13 de
+sorte que le temps se trouve elimine ; il n’y a donc plus
+lieu dans la nouvelle forme obtenue d’imposer aucune restriction relative aux limites du temps. Par contre, les trajec-
+
+28
+
+toires variees doivent toutes
+valeur W de l’energie.
+Posons suivant la notation
+
+niques :
+
+pi
+
+=
+
+-.
+
+variables qi. Le
+
+à
+
+correspondre
+
+classique
+
+des
+
+equations
+
+Les pi sont les moments
+
+principe Mau.pertuisien
+
+une
+
+meme
+
+cano-
+
+conjugues
+
+des
+
+s’ecrit ::
+
+dynamique classique ou £ Ecin Epot, E~ ,t est
+independant des et Ecin en est une fonction quadratique
+homogene. En vertu du theoreme d’Euler ::
+
+dans la
+
+~--
+
+Pour le
+
+point materiel, Ecin
+
+moindre action
+
+prend
+
+sa
+
+;2
+
+forme la
+
+-
+
+mv2 et le
+
+principe
+
+de
+
+plus anciennement connue
+
+::
+
+dl, element de trajectoire.
+III.
+
+-
+
+LES
+
+DANS
+
+DEUX PRINCIPES DE MOINDRE ACTION
+LA
+
+DYNAMIQUE
+
+DE
+
+L ELECTRON
+
+Nous allons maintenant reprendre la question pour la
+dynamique de l’electron au point de vue relativiste. Il faut
+prendre ici le mot « electron »)) dans le sens general de
+point materiel portant une charge electrique. Nous supposerons que l’electron place en dehors de tout champ possede une masse propre nl0 ; sa charge electrique est designee
+par e.
+Nous allons de nouveau considerer l’espace-temps ; les
+coordonnees d’espace seront appelees x1, x2 et x3, la coor-
+
+29
+
+donnee et
+
+sera
+
+~’~. L’invariant fondamental
+
+«
+
+element de lon-
+
+gueur » est defini par :
+ds
+
+I)ans
+
+ce
+
+==
+
+-
+
+- (d.x2)~ - (d:~3 )~
+.
+
+paragraphe
+
+et dans le
+
+suivant,
+
+nous
+
+emploierons
+
+constamment certaines notations du calcul tensoriel.
+
+Une
+definie
+
+d’Univers a en chaque point une tangente
+en direction par le vecteur « vitesse d’Univers ~> de
+longueur unite dont les composantes contrevariantes sont
+donnees par la relation :
+
+ligne
+
+On verine de suite que l’on a : uiui = i.
+Soit un mobile decrivant la ligne d’Univers ; quand il
+passe au point considere, il possede une vitesse v = pc de
+Les composantes de la vitesse d’Unicomposantes
+.
+
+vers
+
+sont :
+
+Pour definir un champ electromagnetique, nous devons
+introduire un second vecteur d Univers dont les composante
+en fonction du potentiel vecteu~~ ~r et du potenscalaire
+1~’
+.tiel
+par les relations :
+
+s’expriment
+
+Considerons maintenant deux points P et Q de l’espace
+temps correspondant à des valeurs donnees des coordonnees
+d’espace et du temps. Nous pouvons envisager une integrale
+curviligne prise le long d une ligne d’Univers allant de P à Q.;
+Ann, de
+
+30
+
+io~
+
+serie,
+
+t. III
+
+(Janvier-Fevrier if)25)
+
+~
+
+naturellement la fonction à
+Soit :
+
+integrer
+
+doit etre invariante-
+
+Le principe de Hamilton affirme que si la
+d’un mobile passe par P et Q, elle a une
+d’Univers
+ligne
+forme telle que l’integrale ci-dessus definie ait une valeur
+stationnaire.
+Definissons un troisieme vecteur d’Univers par la relation. ^
+
+cette
+
+integrale.
+
+l’enonce de moindre action devient :
+
+Nous donnerons
+teur d’univers J.
+Pour
+
+l’instant,
+
+un
+
+peu
+
+revenons
+
+dynamiques remplacant
+grale d’action ds par cdt
+t~
+
+~~-
+
+ti
+
+un sens
+
+physique
+
+à la forme usuelle des
+
+en
+
+r?
+
+loin
+
+plus
+
+dans la
+
+~2.
+-
+
+premiere
+
+au vec-
+
+equations-
+
+forme de l’inte-
+
+Nous obtenons ainsi :
+
++
+
++
+
+=
+
+o
+
+aux points P et Q de l’espace
+temps.
+S’il existe un champ purement electrostatique, les quansont nulles et la fonction de Lagrange prend la
+tites
+forme souvent utilisee :
+
+11 et t2 correspondant
+
+~
+
+Dans
+la,
+
+tous
+
+les
+
+forme S ~ /*~
+
+tions de
+
+cas,
+
+=
+
+e~~.
+
+-
+
+le principe de Hamilton
+
+~dt -
+
+o,
+
+on
+
+est
+
+toujours
+
+ayant toujours
+aux equa-
+
+conduit
+
+Lagrange :
+
+31
+
+Dans tous les
+
+temps
+
+on
+
+ou les potentiels ne dependent pas du
+conservation de l’energie :
+
+cas
+
+retrouve la
+
+J~
+wi - ,
+
+i
+
+1 = 1 2 3
+
+3qi
+
+En suivant exactement la meme marche que
+
+plus haut,
+
+on
+
+obtient le principe de Maupertuis :
+
+A et B etant les deux points de l’espace qui correspondent
+pour le systeme de reference employe aux points P et Q de
+
+l’espace-temps.
+Les quantites PtP2P3 egales
+fonction
+servir
+
+par
+
+rapport
+
+à definir
+
+un
+
+aux
+
+aux
+
+vitesses
+
+vecteur p que
+
+partielles de la
+correspondantes peuvent
+derivees
+
+nous nommerons
+
+le
+
+« vec-
+
+S’il
+
+n’y a pas de champ magnetique (qu’il y
+champ electrique), les composantes rectangu-
+
+teur moment ».
+
+ait ou non un
+laires de ce vecteur sont :
+
+identique à la quantite de mouvement et l’integrale d’action Maupertuisienne a la forme simple proposee
+par Maupertuis lui-nleme avec cette seule difference que la
+
+Il est donc
+
+masse
+
+varie m.aintenant
+
+avec
+
+la vitesse suivant la loi de
+
+Lorentz.
+
+S’il y a un champ magnetique, on trouve pour les compodu vecteur moment les expressions ::
+
+santes
+
+identite entre le vecteur et la quantite de
+mouvement ; par suite, l’expression de l’integrale d’action
+en devient plus
+compliquee.
+Il
+
+32
+
+n’y
+
+a
+
+plus
+
+Considerons un mobile place dans un champ et dont
+l’energie totale est donnee ; en tout point du champ, que le
+mobile peut atteindre, sa vitesse est donnee ,par l’equation
+de l’energie, mais a priori la direction en peut etre quelconque. L’expression de pxpy et p;, montre que le vecteur
+moment a meme grandeur en un point d’un champ electrostatique quelle que soit la direction envisagee. Il n’en est
+est plus de meme s’il y a un champ magnetique : la grandeur du vecteur p depend alors de l’angle entre la direction
+choisie et le potentiel vecteur comme on le voit en formant
+l’expression px2 + py2 + p,~~. Cette remarque nous sera utile
+plus loin.
+Pour terminer ce paragraphe, nous allons revenir sur le
+sens physique du vecteur d’Univers J dont depend l’integrale Hamiltonienne. Nous l’avons defini par l’expression ::
+
+A l’aide des valeurs ui
+
+Les
+
+et 9i
+
+on
+
+trouve :
+
+composantes contre-variantes
+
+Nous
+
+avons
+
+d’univers
+
+>>
+
+celebre vecteur « Impulsion
+l’energie et la quantite de mouve-
+
+donc affaire
+
+qui synthetise
+
+seront :
+
+au
+
+ment.
+
+De :
+
+on
+
+.
+
+peut tirer de suite si J4
+
+est constant :
+
+B
+
+0’~
+
+(i
+
+=
+
+1, 2,
+
+3).
+
+;1
+
+33
+
+C’est la maniere la plus condensee de passer de l’un des
+enonces d’action stationnaire à l’autre.
+
+IV.
+
+-
+
+PROPAGATION
+
+DES
+
+ONDES;§
+
+PRINCIPE DE
+
+FERMAT
+
+Nous allons etudier la propagation de la phase d’un phenomene sinusoïdal par une methode parallele à celle des
+deux derniers paragraphes. Pour cela, nous nous placerons
+a un point de vue tres general et de nouveau, nous aurons à
+
+envisager l’espace-temps.
+Considerons la fonction
+
+sin 9 dans laquelle la differentielle
+supposee dependre des variables xi d’espace et de
+Il
+existe dans l’espace-temps une infinite de lignes
+temps.
+d’Univers le long desquelles la fonction est constante.
+La theorie des ondulations telle qu’elle resulte notamment
+des travaux d’Huyghens et de Fresnel, nous apprend à
+distinguer parmi ces lignes certaines d’entre elles dont les
+projections sur l’espace d’un observateur sont pour lui les
+rayonsau sens usuel de l’optique.
+Soient comme precedemment P et Q deux points de
+l’espace-temps. S’il passe un rayon d’Univers par ces deux
+points, quelle sera la loi qui en determinera la forme ?
+est
+
+«
+
+Nous considererons
+
+prendrons
+
+comme
+
+l’integrale curviligne
+principe determinant le rayon
+
+et
+
+nous
+
+d’Univers
+
+l’enonce de forme Hamiltonienne :
+
+;] .t,Q drp
+
+==
+
+o.
+
+L’integrale doit, en effet, etre stationnaire, sans quoi, des
+perturbations ayant quitte en concordance de phase un certain point de l’espace et se croisant en un autre point apres
+avoir suivi des chemins legerement differents, y presenteraient des phases differentes.
+
+34
+
+La
+
+phase y
+
+est
+
+un
+
+invariant ;
+
+si donc
+
+nous
+
+posons :
+
+les quantites Oi generalement fonctions des xi seront les
+composantes covariantes d’un vecteur d’Univers, le vecteur
+
+Onde d’Univers. Si 1 est la direction du rayon au sens ordinaire, on est amene d’habitude à envisager pour le de? la
+forme :
+
+~~
+
+est
+
+peut
+
+appelee frequence
+
+et V
+
+vitesse de
+
+propagation.
+
+On
+
+poser alors :
+
+Le vecteur Onde d’Univers
+
+decompose donc en une
+composante
+proportionnelle à la frequence et en
+un vecteur d’espace n porte sur la direction de
+propagation
+et ayant pour longueur
+Nous l’appellerons le vecteur
+~T ,
+~( nombre d’ondes »
+parce qu’il est egal à l’inverse de la
+longueur d’onde. Si la frequence v est constante, nous
+se
+
+de temps
+
+.
+
+sommes
+
+conduit à passer de la forme Hamiltonienne :
+
+à la forme
+
+Maupertuisienne :
+
+ou A et B sont les points de l’espace correspondant à P et
+En remplacant oi, Oz et Og par leurs valeurs, il vient :
+
+Q.
+
+35
+
+Cet enonce Maupertuisien constitue le principe de Fermât.
+De meme qu’au paragraphe precedent il suffisait pour
+trouver la trajectoire qu’un mobile d’energie totale donnee
+passant par deux points donnes de connaitre la repartition
+~lans le champ du vecteur p, de meme ici pour trouver le
+rayon d’une onde de frequence connue passant par deux
+points donnes, il suffit de connaitre la repartition dans
+l’espace du vecteur nombre d’onde qui determine en chaque
+point et pour chaque direction la vitesse de propagation.
+V.
+
+-
+
+EXTENSION
+
+DE
+
+LA RELATION DU
+
+QUANTUM
+
+Nous sommes parvenus au point culminant de ce chapitre.
+Nous avions pose des son debut la question suivante :
+« Quand un mobile se deplace dans un champ de force d’un
+mouvement varie, comment se propage son onde de phase ? »
+Au lieu de chercher par tâtonnements, comme je l’avais fait
+d’abord, à determiner la vitesse de propagation en chaque
+point et pour chaque direction, je vais faire une extension
+de la relation du quantum un peu hypothetique peut-etre
+mais dont l’accord profond avec l’esprit de la theorie de
+Relativite est indiscutable.
+Nous avons ete constamment amenes à poser hv= w,
+w etant l’energie totale du mobile et v la frequence de son
+onde de phase. D’autre part, les paragraphes precedents
+nous ont appris à definir deux vecteurs d’Univers J et O
+qui jouent des roles parfaitement symetriques dans l’etude
+du mouvement d’un mobile et dans celle de la propagation
+d’une onde.
+En faisant intervenir ces vecteurs, la relation hv - tv
+s’ecrit :
+
+O~,
+
+==
+
+jt J4-
+
+Le fait que deux vecteurs aient
+
+36
+
+une
+
+composante egale
+
+ne
+
+prouve pas qu’il en soit de meme pour les autres. Cependant, par une generalisation tout indiquee nous poserons:
+Oi -
+
+h Ji
+
+La variation dq relative à une
+l’onde de phase a pour valeur :
+
+Le
+
+(~
+
+portion
+
+principe de Fermat devient
+
+_
+
+r, 2,
+
+3, 4) .
+
+infiniment
+
+petite
+
+de-
+
+donc :
+
+Nous arrivons donc à l’enonce suivant :
+« Le principe de Fermat applique à l’onde de phase est
+identique au principe de Maupertuis applique au mobile ;
+les trajectoires dynamiquement possibles du mobile sont
+identiques aux rayons possibles de l’onde. »
+Nous pensons que cette idee d’une relation profonde entreles deux grands principes de l’Optique Geometrique et de la.
+Dynamique pourrait etre un guide precieux pour realiser la
+synthese des ondes et des quanta.
+L’hypothese de la proportionnalite des vecteurs J et 0 est
+une sorte d’extension de la relation de quantum dont
+l’enonce actuel est manifestement insuffisant puisqu’il fait
+intervenir l’energie sans parler de son inseparable compagne
+la quantite de mouvement. Le nouvel enonce est beaucoup
+plus satisfaisant parce qu’il s’exprime par l’egalite de deux
+vecteurs d’Univers.
+
+VI.
+
+Les
+
+-
+
+CAS PARTICULIERSJ
+
+DISCUSSIONS
+
+conceptions generales du paragraphe precedent doivent.
+cas particuliers en vue d’ea
+
+maintenant etre appliquees à des
+preciser le sens.
+
+37
+
+a) Considerons d’abord le mouvement rectiligne et uniforme d’un mobile libre. Les hypotheses faites au debut du
+chapitre premier nous ont permis, grâce au principe de
+Relativite restreinte, l’etude complete de ce cas. Voyons si
+nous pouvons retrouver la valeur prevue pour la vitesse de
+propagation de l’onde de phase :
+
+Ici
+
+devons poser :
+
+nous
+
+d’ou V =
+
+3 . Nous
+
+donne
+
+interpretation de ce
+resultat au point de vue de l’espace-temps.
+h~ Considerons un electron dans un champ electrostatique
+(atome de Bohr). Nous devons supposer l’onde de phase
+ayant une frequence v egale au quotient par A de l’energie
+totale du
+
+avons
+
+mobile, soit :
+W
+
+=
+
+J2
+Le
+
+champ magnetique
+
+d’ou
+
+38
+
+une
+
+etant
+
+-~- e~
+
+nul,
+
+==
+
+on aura
+
+.
+
+simplement :
+
+Ce resultat
+
+appelle plusieurs remarques. Au point de vue
+signifie que l’onde de phase de frequence
+propage dans le champ electrostatique avec une
+vitesse variable d’un point à l’autre suivant la valeur dupotentiel. La vitesse V depend en effet de § directement par
+le terme (generalement petit devant l’unite)
+et indirectement par fi qui se calcule en chaque point en fonction
+
+physique,
+
+il
+
+se
+
+de Wet
+
+~.
+
+Fig.3.
+v
+
+De plus, on remarquera que V est fonction de la masse et
+de la charge du mobile. Ce point peut paraitre etrange, mais
+il l’est en realite moins qu’il ne semble. Considerons un
+electron dont le centre C se deplace avec la vitesse v ; dans
+la conception classique, en un point P dont les coordonnees
+dans un systeme lie à l’electron sont connues, se trouve une
+certaine energie electromagnetique faisant en quelque sorte
+partie de l’electron. Supposons qu’apres avoir traverse une
+region R ou regne un champ electromagnetique plus ou
+moins complexe, l’electron se trouve anime de la meme
+vitesse v mais autrement dirigee.
+Le point P du systeme lie à l’electron est venu en P’ et
+l’on peut dire que l’energie primitivement en P s’est transportee en P’. Le deplacement de cette energie, meme si l’on
+connait les champs regnants dans R, ne peut etre calcule
+que si la masse et la charge de l’electron sont donnees. Cette
+conclusion indiscutable pourrait un instant paraitre bizarre
+parce que nous avons l’habitude inveteree de considerer la
+
+39
+
+et la charge (ainsi que la quantite de mouvement et
+l’energie) comme des grandeurs liees au centre de l’electron.
+De meme pour l’onde de phase qui, selon nous, doit etre
+consideree comme une partie constitutive de l’electron, la
+propagation dans un champ doit dependre de la charge et
+masse
+
+de la masse.
+Souvenons-nous maintenant des resultats obtenus au chapitre precedent dans le cas du mouvement uniforme. Nous
+avions alors ete amenes à considerer l’onde de phase comme
+due aux intersections par l’espace actuel de l’observateur
+fixe des espaces passes, presents et futurs de l’observateur
+entraine. Nous pourrions etre tentes ici encore de retrouver
+la valeur donnee ci-dessus de V en etudiant les « phases »
+successives du mobile et en precisant le deplacement pour
+l’observateur fixe des sections par son espace des etats equiphases. Par malheur, on se heurte ici à de tres grosses
+difficultes. La Relativite ne nous apprend pas actuellement comment un observateur entraine par un mouvement
+non uniforme decoupe à chaque instant son espace dans
+l’espace-temps ; il ne semble pas qu’il ; ait beaucoup de
+raison pour que cette section soit plane comme dans le mouvement uniforme. Mais si cette difficulte etait resolue, nous
+serions encore dans l’embarras. En effet, un mobile en mouvement uniforme doit etre decrit de la meme facon par
+l’observateur qui lui est lie, quelle que soit la vitesse du mouvement uniforme, par rapport à des axes de reference ; cela
+resulte du principe que des axes galileens possedant les uns
+par rapport aux autres des mouvements de translation uniforme sont equivalents. Si donc notre mobile en mouvement
+uniforme est entoure, pour un observateur lie, d’un phenomene periodique ayant partout meme phase, il doit en etre
+de meme pour toutes les vitesses du mouvement uniforme
+et c’est ce qui justifie notre methode du chapitre premier.
+Mais si le mouvement n’est pas uniforme, la description du
+mobile faite par l’observateur lie peut
+plus la meme
+
+40
+
+plus du tout comment il va definir le
+et s’il lui attribuera meme’ phase en
+periodique
+phenomene
+tout point de l’espace.
+Peut-etre pourrait-on renverser le probleme, admettre les
+resultats obtenus dans ce chapitre par des considerations
+
+et
+
+nous
+
+ne savons
+
+differentes et chercher à en deduire comment la theorie
+de Relativite doit envisager ces questions de mouvement
+varie pour parvenir aux memes conclusions. Nous ne pou-vons aborder ce difficile probleme.
+c) Prenons le cas general de l’electron dans un champ
+
+toutes
+
+electromagnetique.
+
+De
+
+plus,
+
+On
+
+nous avons
+
+~x
+
+==
+
+a~, a~ et a~ etant les
+
+a encore :
+
+montre
+
+plus
+
+~ ~ i m°~x ~~ -
+
++
+
+haut
+
+eax,
+
+qu’il
+
+fallait poser :.
+
+etc.,
+
+composantes du potentiel
+
+vecteur.
+
+Donc :
+
+On trouve ainsi :
+
+G etant la
+
+de mouvement et al la projection du
+la
+direction l,
+potentiel
+Le milieu en chaque point n’est plus isotrope. La vitesse V
+varie avec la direction que l’on considere et la vitesse du
+
+quantite
+
+vecteur
+
+sur
+
+mobile v n’a pas la meme direction que la normale
+de
+
+phase
+
+definie par le vecteur
+
+p
+
+==
+
+hn. Le rayon
+
+ne
+
+à l’onde
+
+coïncide
+
+41
+
+plus avec la normale à l’onde,
+l’optique des milieux anisotropes.
+
+conclusion
+
+classique
+
+de
+
+On peut se demander ce que devient le theoreme sur
+l’egalite de la vitesse v ~c du mobile et de la vitesse de
+groupe des ondes de phase.
+Remarquons d’abord que la vitesse Y de la phase suivant
+le rayon est definie par la relation :
+=
+
+n’est
+
+pas egal
+
+â
+
+p parce
+
+qu’ici
+
+dl et p n’ont pas la
+
+meme direction.
+
+Nous pouvons, sans nuire à la generalite, prendre pour
+des x la direction du mouvement du mobile au point
+
+axe
+
+- ~
+
+considere et appeler p~ la projection du vecteur p
+direction. On a alors l’equation de definition :
+
+La
+
+premiere
+
+des
+
+equations canoniques
+
+fournit
+
+sur
+
+cette
+
+l’egalite :
+
+’LT etant la vitesse de groupe suivant le rayon.
+Le resultat du chapitre premier, § 2, est donc tout a fait
+general et decoule en somme directement des equations du
+premier groupe de Hamilton.
+
+42
+
+CHAPITRE III
+
+Les conditions
+des
+1.
+
+-
+
+LES
+
+quantiques de stabilite
+trajectoires.
+
+CONDITIONS DE
+
+STABILITE
+
+DE
+
+BOHR-SOMMERFELD
+
+Dans sa theorie de l’atome, M. Bohr a le premier emis
+l’idee que, parmi les trajectoires fermees qu’un electron peut
+decrire autour d’un centre positif, certaines seules sont stables, les autres etant irrealisables dans la nature ou tout au
+moins si instables qu’il n’y a pas lieu d’en tenir compte. Se
+limitant aux trajectoires circulaires mettant en jeu un seul
+degre de liberte, M. Bohr enonca la condition suivante :
+« Seules, sont stables les trajectoires circulaires
+pour les-le
+moment
+la
+de
+de
+un mulmouvement
+est
+quelles
+quantite
+
+tiple
+"
+
+entier de
+
+~
+
+,
+
+2n
+
+h etant la constante de Planck
+
+».
+
+Ceci
+
+s’ecrit :
+
+ou encore :
+
+h etant l’azimut choisi
+
+PO le moment
+
+coordonnee q de
+
+Lagrange-
+
+correspondant.
+
+Sommerfeld
+cas
+
+comme
+
+ou interviennent
+
+Wilson, pour etendre cet enonce aux
+plusieurs degres de liberte, ont montre
+
+et
+
+est generalement possible de choisir des coordonnees qi, telles que les conditions de quantification des orbites soient :
+
+qu’il
+
+43
+
+le
+
+signe
+
+indiquant
+
+une
+
+integrale etendue à tout le domaine
+
+de variation de la coordonnee.
+En
+M. Einstein a donne à la condition de quantification une,forme invariante pour rapport aux changements do
+coordonnees (1). Nous l’enoncerons pour le cas des trajectoires fermees elle est alors la suivante :
+’
+
+l’integrale etant etendue à toute la longueur de la trajectoire.
+On reconnait l’integrale d’action Maupertuisienne dont le
+role devient ainsi capital dans la theorie des quanta. Cette
+integrale ne depend d’ailleurs pas du choix des coordonnees
+d’espace d’apres une propriete connue qui exprime en somme
+le caractere covariant des composantes pi du vecteur moment.
+Elle est definie par la methode classique de Jacobi commeune integrale
+complete de l’equation aux derives partielles :
+i
+
+_-_.
+
+r,2 ...
+
+f.
+
+integrale complete qui contienty constantes arbitraires dont
+rune est l’energie W. S’il y a un seul degre de liberte, la
+relation d’Einstein fixe l’energie W ; s’il y en a plus d’un
+(et dans le cas usuel le plus important, celui du mouvement de l’electron dans le champ intraatomique, il y en a
+a priori 3), on obtient seulement une relation entre ~~,
+et le nombre entier n ;; c’est ce qui arrive pour les ellipses
+Kepleriennes si on neglige la variation de la masse avec la
+vitesse. Mais si le mouvement est quasi-periodique, ce qui
+du reste a toujours lieu en raison de la sus-dite variation, il
+est possible de trouver des coordonnees qui oscillent entre
+(1) Zum quanlensatz von Sommerfeld und
+deutschen. Phys. Ges" I g I ~, p. 82).
+
+44
+
+Epstein
+
+pes valeurs limites
+
+(librations) et il existe une infinite de
+pseudo-periodes egales approximativement à des multiples
+entiers des periodes de libration. A la fin de chacune de ces
+pseudo-periodes, le mobile est revenu dans un etat aussi
+voisin que l’on veut de l’etat initial. L’equation d’Einstein
+appliquee à chacune de ces pseudo-periodes conduit à une
+infinite de conditions qui sont compatibles seulement si les
+conditions multiples de Sommerfeld sont verifiees ; celles-ci
+etant en nombre egal à celui des degres de liberte, toutes les
+constantes se trouvent fixees et il ne reste plus aucune indetermination.
+Pour le calcul des integrales de Sommerfeld, on s’est servi
+avec succes de l’equation de Jacobi et du theoreme des residus ainsi que de la conception des variables angulaires Ces
+questions ont fait l’objet de nombreux travaux depuis quelques annees et sont resumes dans le beau livre de M. Sommerfeld Atombau und Spectrallinien {edition francaise,
+traduction Bellenot, Blanchard editeur, 1923). Nous n’y
+insisterons pas ici et nous nous bornerons à remarquer
+qu’en fin de compte, le probleme de la quantification se
+ramene entierement en principe à la condition d’Einstein
+pour les orbites fermees. Si l’on parvient à interpreter cette
+condition, on aura du meme coup eclaire toute la question
+des traiectoires stables.
+II.
+
+-
+
+INTERPRETATION
+
+DE
+
+LA
+
+CONDITION
+
+D’EINSTEIN
+
+La notion d’onde de
+
+phase va nous permettre de fournir
+la
+condition
+de
+d’Einstein. Il resulte des
+explication
+considerations du chapitre II que la trajectoire du mobile est
+un des rayons de son onde de phase, celle-ci doit courir le
+long de la trajectoire avec une frequence constante (puisque
+l’energie totale est constante) et une vitesse variable dont
+nous avons appris à calculer la valeur. La propagation est
+donc analogue à celle d’une onde liquide dans un canal
+une
+
+45
+
+lui-meme et de profondeur variable. Il est physievident
+quement
+qve, pour avoir un regime stable, la longueur du canal doit etre en resonance avec l’onde ; autrement dit, les portions d’onde quii se suivent à une distance
+egale à un multiple entier de la longueur l du canal et qui
+se trouvent par suite au meme point de celui-ci, doivent etre
+en phase. La condition de resonance est 1 == na si la lon-
+
+ferme
+
+sur
+
+gueur d’onde est constante et
+
+(j)
+
+dl
+
+=
+
+n
+
+(entier)
+
+dans le
+
+general.
+L’integrale qui
+
+cas
+
+intervient ici est celle du principe de Fermontre qu’on devait la considerer
+comme egale à l’integrale d’action Maupertuislenne divisee
+par h. La condition de resonance est donc identique à la
+condition de stabilite exigee par la theorie des quanta.
+
+mat ;
+
+or,
+
+nous
+
+avons
+
+Ce beau resultat dont la demonstration est si immediate
+on a admis les idees du precedent chapitre est la meilleure justification que nous puissions donner de notre
+maniere d’attaquer le probleme des quanta.
+
+quand
+
+Dans le
+
+l’atome de
+
+puisque
+
+cas
+
+particulier
+
+Bohr,
+
+l’on
+
+a v
+
+on
+
+des
+
+trajectoires
+
+obtient
+
+=
+
+=
+
+est la
+
+vitesse
+
+circulaires dans
+
+21tRmov
+
+=
+
+nh ou,
+
+angulaire,
+
+C’est bien là la forme simple primitivement envisagee par
+Bohr.
+Nous voyons donc bien pourquoi certaines orbites sont
+stables, mais nous ignorons encore comment a lieu le passage d’une orbite stable à une autre. Le regime trouble qui
+accompagne ce passage ne pourra etre etudie qu’à l’aide
+d’une theorie electromagnetique convenablement modifiee et
+nous ne la possedons pas encore.
+Ann. de
+
+46
+
+Ph ys.,
+
+ioe
+
+serie,
+
+t. III
+
+(Janvier-Fevrier 1925)
+
+5
+
+III.
+
+CONDITIONS
+
+-
+
+DE
+
+SOMMERFELD
+
+POUR LES MOUVEMENTS
+
+QUASI-PERIODIQUES
+Je
+
+me
+
+propose de demontrer que, si la condition de stabi-
+
+lite pour
+
+une
+
+orbite fermee
+
+est
+
+~, Pidqi
+
+=
+
+nh, les condi-
+
+tions de stabilite pour des mouvements
+sont
+
+necessairement
+
+Les conditions
+
+pidyi
+
+quasi-periodiques
+= nih (ni entier, i I, 2, 3).
+
+de Sommerfeld seront ainsi ramenees elles aussi à la resonance de l’onde de phase.
+Nous devons d’abord remarquer que l’electron ayant des
+dimensions finies, si, comme nous l’admettons, les conditions de stabilite dependent des reactions exercees sur lui
+par sa propre onde de phase, il doit y avoir accord de phase
+entre toutes les portions de l’onde passant à une distance du
+centre de l’electron inferieure à une valeur determinee petite
+mais finie de l’ordre par exemple de son rayon ( I o-13 cnl.).
+Ne pas admettre cette proposition reviendrait à dire : l’electron est un point geometrique sans dimensions et le rayon
+de son onde de phase est une ligne d’epaisseur nulle. Cela
+n’est pas physiquement admissible.
+Rappelons maintenant une propriete co.nnue des trajectoires quasi-periodiques. Si NI est la position du centre du
+mobile à un instant donne sur la trajectoire et si l’on trace
+de l~I comme centre une sphere de rayon R arbitrairement
+choisi, petit mais fini, il est possible de trouver une infinite
+d’intervalles de temps tels qu’à la fin de chacun d’eux le
+mobile soit revenu dans la sphere de rayon R. De plus, chacun de ces intervalles de temps ou « periodes approchees ))
+T
+pourra satisfaire aux relations :
+
+multiples
+
+ou
+T2 et T3 sont les periodes de variation (libration) des
+coordonnees qi q2 et q3. Les quantites Ei peuvent toujours
+etre rendues plus petites qu’une certaine quantite fixee
+
+47
+
+petite mais finie. Plus ïj sera choisie petite, plus
+longue la plus courte des periodes r.
+Supposons que le rayon R soit choisi egal à la distance
+maxima d’action de l’onde de phase sur l’electron, distance
+definie plus haut. AlorS, on pourra appliquer à chaque
+periode approchee T la condition d’accord de phase sous la
+
+d’avance rf
+sera
+
+forme ::
+
+( /" ~ 1 pidqi
+qui peut aussi
+
+-
+
+nh
+
+s’ecrire :
+
+Mais une condition de resonance n’est jamais rigoureusesatisfaite. Si le mathematicien exige pour la resonance
+qu’une difference de phase soit egale exactement à n X 2~,
+le physicien doit se contenter d’ecrire qu’elle est egale
+à n..2~r -+- a., a etant inferieure à une quantite ~ petite mais
+finie qui mesure, si je puis dire, la marge à l’interieur de
+laquelle la resonance doit etre consideree comme realisee
+
+ment
+
+physiquement.
+Les quantites
+
+pi et qi restent finies au cours du mouvement et l’on peut trouver six quantites Pi et (~i telles que
+l’on ait toujours
+
+y - ~, 2, 3)
+Choisissons la
+
+limite r~ telle que
+
+Yj 2
+1
+
+~ ‘I~;
+
+nous
+
+21:
+
+qu’en ecrivant la condition de resonance pour n’importe laquelle des periodes approchees, il sera permis de
+negliger les termes en ’2r.i et d’ecrire :
+
+voyons
+
+48
+
+Dans le
+
+les
+n-2, n3, sont des entiers
+un entier
+second
+est
+connus ;
+membre, n
+quelconque.
+Nous avons une infinite de semblables equations avec des
+valeurs differentes de ni , n~ et n3. Pour y satisfaire, il faut et
+suffit que chacune des integrales
+
+premier membre,
+
+au
+
+soit egale à un multiple entier de h.
+Ce sont bien les conditions de Sommerfeld.
+La demonstration precedente parait rigoureuse. Cependant, il y a lieu d’examiner une objection. Les conditions de
+stabilite ne peuvent en effet entrer en jeu qu’au bout d’un
+temps de l’ordre du plus court des intervalles de temps r
+lequel est dejà tres grand ; s’il fallait attendre par exemple
+des millions d’annees pour qu’elles interviennent, autant
+dire qu’elles ne se manifesteraient jamais. Cette objection
+n’est pas fondee car les periodes r sont tres grandes par rappart aux Periodes de libration Ti, mais peuvent etre tres petites par rapport à notre echelle usuelle de mesure du temps ;
+dans l’atome, les periodes Ti sont, en effet, de l’ordre de
+à i o-2° seconde.
+On peut se rendre compte de l’ordre de grandeur des
+periodes approchees dans, le cas de la trajectoire L2 de Sommerfeld pour l’hydrogene. La rotation du perihelie pendant
+une periode de libration du rayon vecteur est de l’ordre de
+La plus courte des -periodes approchees serait donc
+de l’ordre 105 fois la periode de la variable radiale
+seconde. Il semble donc
+seconde), soit de l’ordre de
+bien quelesconditionsde stabilite entreront enjeu en un temps
+inaccessible à notre experience et, par suite, que les trajectoires « sans resonance» nous paraitront bien inexistantes.
+Le principe de la demonstration developpee ci-dessus a ete
+emprunte à M. Leon Brillouin qui a ecrit dans sa these.
+(p. 351) : « Pour que l’integrale de Maupertuis prise sur
+
+49
+
+periodes approchees ~ soit un multiple entier de li,
+ilfaut que chacune des integrales relatives à chaque variable
+et prise sur la periode correspondante soit egale à un nombre entier de quanta ; c’est-bien de cette facon que Sommerfeld ecrit ses conditions de quanta )).
+
+toutes les
+
+CHAPITRE IV
+
+Quantification des
+
+mouvements simultanes
+
+de deux centres
+I.
+
+-
+
+Dans les
+
+electriques.
+
+DIFFICULTES SOULEVEES
+
+chapitres precedents,
+
+PAR
+
+un « morceau
+
+centres electrises sont
+
+isole
+n’est
+
+en
+
+PROBLEME
+
+nous avons
+
+isole
+d’un corpuscule
+
+envisage
+claire quand il s’agit
+electron) eloigne de tout
+
+CE
+
+constamment
+
+Cette
+
+expression est
+electrique (proton ou
+
+autre corps electrise.
+
+interaction,
+
+le
+
+Mais si
+
+des
+
+concept de morceau
+
+clair. Il y a là une difficulte qui
+propre à la theorie contenue dans le
+n’est pas elucidee dans l’etat actuel de
+
+d’energie devient moins
+en aucune
+
+facon
+
+present travail et qui
+la dynamique de la Relativite.
+Pour bien comprendre cette difficulte, considerons un
+proton (noyau d’hydrogene) de masse propre Mo et un electron
+
+de
+
+masse
+
+propre
+
+Si
+
+ces
+
+deux entites sont tres eloi-
+
+gnees l’une de l’autre de telle sorte que leur i nteraction soit
+negligeable, le principe de l’inertie de l’energie s’applique
+sans difficultes : le proton possede l’energie interne 1Yloc2 et
+l’electron
+L’energie totale est donc (11-Z~ + mo)c2. Mais
+si les deux centres sont assez voisins pour qu’il y ait lieu de
+tenir compte de leur energie potentielle mutuelle - P(~ o),
+comment s’exprimera l’idee d’inertie de l’energie ? L’energie
+totale etant evidemment (1B’10 + mo)c2 - P, peut-on admettre
+que le proton a toujours une masse propre -Mo et l’electron
+
+50
+
+Doit-on au contraire partager l’energie
+propre
+potentielle entre les deux constituants du systeme, attribuer
+
+une masse
+
+à l’electron
+masse
+
+de
+
+a
+
+une
+
+propre
+
+masse
+
+Mo - (
+
+et comment cette
+
+-
+
+propre n2o
+
+«~
+
+P ~ c En
+
+-ce
+
+cas,
+
+et
+
+au
+
+proton
+
+une
+
+quelle est la valeur
+
+quantite depend-t-elle
+
+Dans les theories de l’atome de Bohr et
+
+de
+
+Mo
+
+et de
+
+mo ?
+
+Sommerfeld,
+
+on
+
+admet que l’electron a toujours la masse propre mo quelle que
+soit sa position dans le champ electrostatique du noyau.
+
+L’energie potentielle etant toujours beaucoup plus petite que
+l’energie interne moc2, cette hypothese est à peu pres exacte,
+mais rien ne dit qu’elle soit rigoureuse. On peut facilement
+calculer l’ordre de grandeur de la correction maxima (corï) qu’il faudrait apporter à la valeur de la
+respondant à
+constante de Rydberg pour les differents termes de la serie
+de Balmer si l’on adoptait l’hypothese inverse. On trouve
+Cette correction serait donc beaucoup plus petite
+que la difference entre les constantes de Rydberg pour l’hydifference dont 31. Bohr a
+drogene et pour l’helium
+remarquablement rendu compte par la consideration de l’entrainement du noyau. Cependant, etant donnee l’extreme
+precision des mesures spectroscopiques, il est peut-etre
+permis de penser que la variation de la constante de Rydberg
+n.. -
+
+~~ =
+
+2 000 i
+
+due à la variation de la masse propre de l’elect.ron en fonction de son energie potentielle pourrait etre mise en evidence
+si elle existe.
+II.
+
+.
+
+-
+
+L’ENTRAINEMENT
+
+DU NOYAU
+
+DANS
+
+L’ATOME D’HYDROGENE
+
+Une question etroitement liee à la precedente est celle de
+la methode à employer pour appliquer les conditions de
+quanta à un ensemble de centres electriques en mouvement
+relatif. Le cas le plus simple est celui du mouvement de
+l’electron dans l’atome d’hydrogene quand on tient compte
+
+51
+
+deplacements simultanes du noyau. M. Bohr a pu traiter
+probleme en s’appuyant sur le theoreme suivant de Mecanique Rationnelle : « Si l’on rapporte le mouvement de
+
+des
+ce
+
+axes de directions fixes lies au noyau, ce moule meme que si ces axes etaientt galileens et si
+
+l’electron à des
+vement est
+
+l’electron
+
+possedait
+
+une masse
+
+~~o=
+
+m "2"~ ° o -~-
+
+».
+"
+
+o
+
+d’axes lie au noyau, le champ electrostatique agissant sur l’electron peut etre considere comme
+constant en tout point de l’espace et l’on est ainsi ramene au
+probleme sans mouvement du noyau grâce à la substituDans le
+
+systeme
+
+Fi g. 4.
+tion de la masse fictive u.o à la masse reelle
+Au chaII
+du
+nous
+avons
+un
+etabli
+pitre
+present travail,
+parallelisme general entre les grandeurs fondamentales de la
+Dynamique et celles de la theorie des Ondes; le theoreme
+enonce plus haut determine donc quelles valeurs il faut attribuer à la frequence de l’onde de phase electronique et à sa
+vitesse dans le systeme lie au noyau, systeme qui n’est pas
+galileen. Grâce à cet artifice, les conditions quantiques de
+stabilite peuvent etre considerees dans ce cas aussi comme
+pouvant s’interpreter par la resonance de l’onde de phase.
+Nous allons preciser en nous attachant au cas ou noyau et
+electron decrivent des orbites circulaires autour de leur
+centre de gravite commun. Le plan de ces orbites sera pris
+comme plan des coordonnees d’indices [ et 2 dans les deux
+systemes. Les coordonnees d’espace dans le systeme galileen
+
+52
+
+gravite seront ecix2 et x3, celles du systeme
+noyau seront yiy2 et y3. Enfin on aura x~ r~* ct.
+Appelons oj la vitesse de rotation de la droite NE autour
+du point G.
+
+lie
+
+centre de
+
+au
+
+liees
+
+au
+
+-
+
+=
+
+Posons par definition:
+’ ~
+
+Les formules
+
+.
+°
+
+permettant de passer d’un des systemes d’axes
+
+à l’autre sont les suivantes :
+
+yi
+
+=
+
+Xi -~- R
+
+On
+
+en
+
+cos
+
+o~t
+
+~2 - x2 +
+
+x~.
+
+R sin ~~t
+
+y3 ~
+
+Impulsion
+
+d’univers sont defi-
+
+x3
+
+J~
+
+-
+
+deduit :
+
+Les composantes du vecteur
+nies par les relations :
+
+On trouve facilement :
+
+La resonance de l’onde de
+
+idees
+
+generales du chapitre
+
+)1
+
++
+
+phase s’exprime d’apres
+
+les
+
+Il par la relation :
+
+1
+
+= n
+
+(fi entier)
+
+etendue à la trajectoire circulaire de rayon
+decrite par l’electron autour du noyau.
+
+l’integrale etant
+R +
+
+r
+
+53
+
+Comme l’on
+
+a :
+
+il vient:
+
+designant
+
+en
+
+par
+
+v
+
+la vitesse de l’electron par rapport aux
+longueur de sa trajectoire,
+
+axes y et par dl l’element de
+
+>
+
+--~-
+
+v =
+
+j.~
+
+_ ~l
+
+Finalement la conaition de resonance devient :
+
+,,"
+ou,
+
+en
+
+devant
+
+~ m.°~23~ w(R + r) ~ ~ ~~~R U , a ~: (R + 1)
+i
+
+,
+
+supposant
+l’unite,’
+
+avec
+
+la
+
+-
+
+==
+
+nic
+
+mecanique classique negligeable
++ r)~
+
+=
+
+nh
+.
+
+C’est bien ta formule de Bohr qui se deduit du theoreme
+enonce plus haut et qui peut donc ici encore etre regardee
+comme une condition de resonance de Inonde electronique
+ecrite dans le systeme lie au noyau de l’atome.
+lit.
+
+-
+
+LES
+
+DEUX ONDES DE PHASE DU NOYAU ET DE
+
+L’ELECTRON
+
+qui precede, l’introduction d’axes lies au noyau
+permis en quelque sorte d’eliminer le mouvement de
+celui-ci et de considerer le deplacement de l’electron dans un
+champ electrostatique constant ; nous avons ete ainsi ramenes
+au probleme traite dans le chapitre II.
+Mais, si nous passons à d’autres axes lies par exemple au
+centre de gravite, le noyau et l’electron decriront tous deux
+Dans
+
+nous a
+
+54
+
+ce
+
+des
+
+fermees et les idees qui nous ont guide ,jusnecessairement nous amener à concevoir
+l’existence de deux ondes de phase : celle de l’elect.ron et
+celle du noyau ; il nous faut examiner comment doivent
+s’exprimer les conditions de resonance de ces deux ondes et
+pourquoi elles sont compatibles.
+Considerons d’abord l’onde de phase de l’electron. Dans le
+systeme lie au noyau, la condition de resonance pour cette
+onde est ::
+
+trajectoires
+qu’ici doivent
+
+l’integrale etant prise
+
+à
+
+constant le
+
+long du cercle de
+relative
+du mobile et
+trajectoire
+rayon de son onde. Si nous passons aux axes lies au point G,
+la trajectoire relative devient un cercle de centre G et de
+rayon r ; le rayon de l’onde de phase passant par E est à
+chaque instant le cercle de centre N et de rayon R + r, mais
+ce cercle est mobile car son centre tourne d’un mouvement
+uniforme autour de l’origine des coordonnees. La condition de resonance de l’onde electronique à un instant donne
+ne se trouve pas modifiee ; elle s’ecrit
+toujours :
+terr2ps
+
+centre N et de rayon R +
+
+2 r:
+
+r
+
++ r)~
+
+~.
+
+nh.
+
+Passons à l’onde du noyau. Dans tout ce qui precede, noyau
+electron jouent un role parfaitement symetrique et l’OTi
+doit obtenir la condition de resonance en intervertissant
+et
+R et r. On retombe donc sur la meme formule.
+En resume on voit que la condition de Bohr peut s’interpreter comme l’expression de la resonance de chacune des
+ondes en presence. Les conditions de stabilite pour les mouvements du noyau et de l’electron consideres isolement sont
+et
+
+compatibles
+
+parce qu’eUes sont identiques.
+Il est instructif de tracer dans le systeme d’axes lie
+
+au
+
+55
+
+centre de
+
+gravite les rayons à l’instant t des deux ondes de
+phase (trait plein) et les trajectoires decrites au cours du
+temps par les deux mobiles (trait pointille). On parvient
+alors tres bien à se representer comment chaque mobile
+decrit sa trajectoire avec une vitesse
+qui il tout instant est
+tangente au rayon de l’onde de phase.
+
+Fig.
+
+5.
+
+Insistons sur un dernier point. Les
+rayons de l’onde à
+l’instant t sont les enveloppes de la vitesse de
+propagation,
+mais ces rayons ne sont pas les
+trajectoires de l’energie, ils
+leur sont seulement tangents en
+chaque point. Ceci rappelle
+des conclusions connues de l’hydrodynamique ou les
+lignes
+de courant, enveloppes des vitesses, ne sont les
+trajectoires
+des particules fluides que si leur forme est invariable, autrement dit si le mouvement est permanent.
+
+56
+
+CHAPITRE V
+
+Les
+
+I.
+
+Quanta de lumiere (1).
+-
+
+L’ATOME
+
+DE
+
+LUMIERE
+
+l’avons dit dans l’introduction, le developpephysique des radiations se fait depuis plusieurs
+annees dans le sens d’un retour au moins partiel à la theorie
+corpusculaire de la lumiere. Une tentative faite par nous
+pour obtenir une theorie atomique du rayonnement noir
+publiee par le Journal de Physique en novembre 1922 sous
+le titre « Quanta de lumiere et rayonnement noir )) et dont
+les principaux resultats seront donnes au chapitre VII, nous
+avait confirme dans l’idee de l’existence reelle de l’atome de
+lumiere. Les idees exposees au chapitre premier et dont la
+deduction des conditions de stabilite dans l’atome de Bohr
+au
+chapitre III semblent apporter une si interessante confirmation, paraissent nous faire faire un petit pas vers la synthese des conceptions de Newton et de Fresnel.
+Sans nous dissimuler les difficultes soulevees par une semblable hardiesse, nous allons essayer de preciser comment
+on peut actuellement se representer l’atome de lumiere.
+Nous le concevons de la facon suivante : pour un observateur quilui est lie, il apparait comme une petite region de
+l’espace autour de laquelle l’energie est tres fortement condensee et forme un ensemble indivisible. Cette agglomeration d’energie ayant pour valeur totale (mesuree par
+Comme
+
+nous
+
+ment de la
+
+(1) Voir A. EINSTEIN,
+Zeitsch.,o, i 85 ( I gog) .
+
+Ajin. d
+
+Ph ys.,
+
+~~,
+
+132
+
+(IgOJ);; Phys.
+
+57
+
+l’observateur lie), il faut, d’apres le principe de l’inertie de
+l’energie, lui attribuer une masse propre :
+
+Cette definition est entierement analogue à celle qu’on peut
+donner de l’electron. Il subsiste cependant une difference
+essentielle de structure entre l’electron et l’atome de lumiere.
+Tandis que l’electron doit etre jusqu’à present considere
+comme doue d’une symetrie spherique, l’atome de lumiere
+doit posseder un axe de symetrie correspondant à la polarisation. Nous nous representerons donc le quantum de
+lumiere comme possedant la meme symetrie qu’un doublet
+de la theorie electromagnetique. Cette representation est
+toute provisoire et on ne pourra, s’il y a lieu, preciser avec
+quelque chance d’exactitude la constitution de l’unite lumineuse qu’apres avoir fait subir à l’electromagnetisme de
+profondes modifications et cette 0153uvre n’est pas accomplie.
+Conformement à nos idees generales, nous supposerons
+qu’il existe dans la constitution meme du quantum de
+lumiere un phenomene periodique dont la frequence propre ’10 est donnee par la relation :
+
+L’onde de
+
+phase correspondant
+
+tum avec la
+
+vitesse
+
+~c
+
+aura
+
+au
+
+pour
+
+mouvement
+
+de
+
+ce
+
+quan-
+
+frequence :
+
+i
+
+’ " A ~/,[
+
+.
+
+- fi’
+
+il est tout indique de supposer que cette onde est identique à celle des theories ondulatoires ou plus exactement
+que la repartition concue à la facon classique des ondes dans
+l’espace est une sorte de moyenne dans le temps de la
+re.partition reelle des ondes de phase accompagnant les
+atomes de lumiere.
+et
+
+58
+
+C’est
+
+fait
+
+que l’energie lumineuse se
+vitesse indiscernahle de la valeur limite c.
+La vitesse c etant une vitesse que l’energie de peut jamais
+atteindre en raison meme de la loi de variation de la masse
+avec la vitesse, nous sommes tout naturellement amenes à
+supposer que les radiations sont formees d’atomes de.
+lumiere se mouvant avec des vitesses tres voisines de c, mais
+legerement inferieures
+Si un corps a une masse propre extraordinairement petite,
+pour lui communiquer une energie cinetique appreciable,
+il faudra lui donner une vitesse tres voisine de c ; cela
+resulte de l’expression de l’energie cinetique ::
+
+deplace
+
+un
+
+experimental
+
+avec une
+
+De plus, à des vitesses comprises dans un tres petit intervalle
+c, correspondent des energies ayant toutes les
+valeurs de o à + m. Nous concevons donc qu’en suppoextraordinairement petit (nous preciserons plus
+sant
+loin), les atomes de lumiere possedant une energie appreciable auront tous une vitesse tres voisine de c et, malgre la
+presque egalite de leurs vitesses, auront des energies tres
+differentes.
+Puisque nous faisons correspondre l’onde de phase à
+l’onde lumineuse classique, la frequence v de la radiation
+sera definie par la relation :
+1
+,
+
+y
+
+_
+
+~
+
+moc2
+.
+
+Remarquons, fait dont on doit se souvenir chaque fois qu’il
+s’agit d’atomes de lumiere, l’extreme petitesse de ,noc2
+l’energie cinetique peut donc ici s’ecrire
+
+devant
+;
+simplement :
+
+-
+
+’
+
+p2
+
+59
+
+L’onde lumineuse de frequence v correspondrait donc
+d’un atome de lumiere avec la vitesse v
+reliee à v par la relation :
+-
+
+deplacement
+
+Excepte pour
+a fortiori son
+
+=
+
+des vibrations extremement
+carre seront tres
+
+petits et
+
+lentes,
+
+au
+
+~3c
+
+et
+
+l’on pourra poser
+
+Nous pouvons essayer de fixer une limite superieure de la
+valeur de mo. En effet, des experiences de T. S. F. ont
+montre que des radiations de quelques kilometres de longueur d’onde se propagent encore sensiblement avec la
+
+vitesse
+
+c.
+
+Admettons que des ondes pour
+
+lesquelles
+
+secondes aient une vitesse differente de c de moins d’un
+sera :
+tieme. La limite superieure de
+
+cen-
+
+soit approximativement
+gTammes. Il est meme probable que mo devrait etre choisi encore plus petit; peut-etre,
+peut-on esperer qu’un jour en mesurant la vitesse dans le
+vide d’ondes de tres basse frequence, on trouvera des nombres
+assez sensiblement inferieurs à c.
+Il ne faut pas oublier que la vitesse de propagation dont
+il vient d’etre question n’est pas celle de l’onde de phase
+toujours superieure à c, mais celle du deplacement, de
+l’energie seule decelable experimentalement (1 ).
+
+(1)
+dans
+
+60
+
+Au
+ce
+
+sujet des objections que soulevent
+paragraphe, voir l’appendice.
+
+les idees contenues
+
+II.
+
+-
+
+LE
+
+MOUVEMENT DE
+
+L’ATOME
+
+DE
+
+I,es atomes de lumiere pour lesquels ~ =
+seraient donc accompagnes d’ondes de
+
+vitesse
+
+aussi sensiblement egale
+~ seraitcoïncidence
+etablirait
+
+LUMIERE
+1
+
+sensiblement,
+
+phase
+
+à c;
+
+dont la
+
+c’est, pensons-
+
+cette
+entre l’atome de
+qui
+lumiere et son onde de phase un lieu particulierement etroit
+traduit par le double aspect corpusculaire et ondulatoire des
+radiations. L’identite des principes de Fermat et de moindre
+action expliquerait pourquoi la propagation rectiligne de la
+lumiere est compatible à la fois avec les deux points de vue.
+La trajectoire du corpuscule lumineux serait un des
+rayons de son onde de phase Il y a des raisons de croire,
+nous le verrons plus loin, que plusieurs corpuscules pou rraient avoir une meme onde de phase ; leurs trajectoires
+seraient alors divers rayons de cette onde. L’idee ancienne
+que le rayon est la trajectoire de l’energie se trouverait ainsi
+confirmee et precisee.
+Cependant, la propagation rectiligne n’est pas un fait
+absolument general; une onde lumineuse tombant sur le
+bord d’un ecran se difiracte et penetre dans l’ombre geometrique, les rayons qui passent à des distances de l’ecran
+petites par rapport à la longueur d’onde sont devies et ne
+suivent plus la loi de Fermât. Au point de vue ondulatoire,
+la deviation des rayons s’explique par le desequilibre introduit entre les actions des diverses zones tres voisines de
+l’onde par suite de la presence de l’ecran. Place au point de
+vue oppose, Newton supposait une force exercee
+par le bord
+de l’ecran sur le corpuscule. Il semble que nous puissions
+arriver à une vue synthetique : le rayon de l’onde s’incurverait comme le prevoit la theorie des ondulations et le mobile
+pour qui le principe de l’inertie ne serait plus valable, subirait la meme deviation que le rayon dont son mouvement
+est solidaire ; peut-etre pourrait-on dire que la paroi exerce
+nous,
+
+61
+
+force sur lui si on prend la courbure de la
+criterium de l’existence d’une force.
+
+une
+
+trajectoire
+
+comme
+
+qui precede nous avons ete guides par l’idee que
+corpuscule et son onde de phase ne sont pas des realites
+physiques differentes. Si on reflechit on verra qu’il semble
+en resulter la conclusion suivante :
+Notre dynamique
+est
+restee
+en retard sur
+sa
+forme
+Einsteinienne)
+(y compris
+stade
+elle
+en
+est
+encore
+au
+de
+l’Optique Geomel’Optique :
+trique ». S’il nous parait aujourd’hui assez probable que
+toute onde comporte des concentrations d’energie, par contre
+la dynamique du point materiel dissimule sans doute une
+propagation d’ondes et le vrai sens du principe de moindre
+action est d’exprimer une concordance de phase.
+Il serait tres interessant de chercher l’interpretation de la
+diffraction dans l’espace-temps, mais ici on rencontre les
+difficultes signalees au chapitre II au sujet du mouvement
+varie et nous n’avons pu preciser la question d’une facon
+Dans
+
+ce
+
+le
+
+«
+
+satisfaisante.
+
+III.
+
+-
+
+QUELQUES
+
+CONCORDANCES ENTRE LES
+DE
+
+LA
+
+THEORIES
+
+ADVERSES
+
+RADIATION
+
+Nous allons montrer sur quelques exemples avec quelle
+Facilite la theorie corpusculaire des radiations rend compte
+d’un certain nombre de resultats connus des theories ondulatoires.
+
+Effet
+
+par mouvement de la source :
+Considerons une source de lumiere en mouvement avec la
+vitesse v === fic dans la direction d’un observateur cense
+immobile. Cette source est supposee emettre des atomes de
+lumiere, la frequence des ondes de phase est v et la vitesse
+
+a)
+
+62
+
+Doppler
+
+= 2 r~~ J 9
+
+C ~I -- ~)
+
+ou s
+
+Ann. de
+
+Ph ys.,
+
+10~
+
+serie,
+
+Pour l’observateur
+
+t. III
+
+fixe,
+
+(Janvier-Fevrier i g25)
+
+ces
+
+gran6
+
+deurs ont pour valeurs v’ et
+tion des vitesses donne :
+
+c(i- ~’).
+
+Le theoreme d’addi-
+
+ou
+
+’I
+
+ou encore en
+
+~~‘
+"
+’
+
+negligeant
+
+ae’ :
+
+,r~ - I~t’
+
+E - vr2 - 1 + p
+’
+
+si B
+
+est
+
+petit, on
+
+retrouve
+
+les formules de l’ancienne optique
+
+:
+
+Il est egalement facile de trouver le rapport des intensites
+emises pour les deux observateurs. Pendant l’unite de temps,
+l’observateur entraine voit la source emettre n atomes de
+lumiere par unite de surface. La densite d’energie du faisceau
+en
+
+evaluee par cet observateur est donc
+
+est 1
+
+=
+
+sont emis
+
+volume
+
+gie du
+
+’thJ , et
+
+l’intensite
+
+nhv. Pour l’observateur immobile, les n atomes
+
+en un
+
+c (1
+
+-
+
+temps egal
+
+6)
+
+v,
+
+I-I
+
+à
+
+=
+
+~,2
+
+y~ 1
+c
+
+_ ~I
+
+et ils
+
+@2
+
+I ‘ ’~ ~
+
+remplissent un
+
+La densite d’ener-
+
+faisceau lui semble dont etre :
+
+et l’intensite :
+
+63
+
+D’ou
+
+formules sont demontrees du point de vue
+ondulatoire dans le livre de Laue, Die Relativitatstheorie,
+tome Ier, 3e ed., p. II9.
+b) Reflexion sur un miroir mobile :
+Considerons la reflexion de corpuscules de lumiere tombant normalement sur un miroir plan parfaitement reflechissant qui se deplace avec la vitesse ac dans la direction
+perpendiculaire à sa surface.
+Soit pour l’observateur fixe, v’1 la frequence des ondes de
+phase accompagnant les corpuscules incidents et c(i e’1)
+leur vitesse. Les memes grandeurs pour l’observateur lie
+Toutes
+
+ces
+
+-
+
+seront v1
+Si
+
+et
+
+nous
+
+c ( r - ~iO.
+
+correspondantes
+La composition
+
+seront
+
+des vitesses donne :
+
+Pour l’observateur
+sans
+
+,
+
+vi
+
+En
+
+lie, il
+
+y
+
+a
+
+reflexion
+
+sur un
+
+miroir fixe
+
+frequence puisque l’energie
+
+se
+
+D’ou :
+__
+
+=
+
+LZ,
+
+_
+
+-
+
+~~,
+
+negligeant ~’~~~2,
+
+Si a est petit,
+
+64
+
+de
+
+changement
+
+serve.
+
+corpuscules reflechis, les valeurs
+appelees v2, c(ti - ~~~, v’2 et c(-~’2).
+
+considerons les
+
+on
+
+1-~i-~~ _
+I
+
++
+
+~~1,)
+
+-
+
+ï
+I
+
+-~ - ~
+", I~2‘
+
+-
+
+il vient :
+
+retombe
+
+sur
+
+la formule
+
+classique :
+
+,
+
+con-
+
+Il serait facile de traiter le probleme en supposant une
+incidence oblique.
+Designons par n le nombre des corpuscules reflechis par le
+miroir pendant un temps donne. L’energie totale des n corpuscules apres reflexion E’2 est à leur energie totale avant
+reflexion E’1 dans le rapport :
+
+La theorie electromagnetique donne aussi cette relation,
+mais ici elle est tout à fait evidente.
+Si les n corpuscules occupaient avant reflexion un
+volume V~, ils occuperont apres reflexion un volume
+
+V2
+
+=
+
+I -1-
+
+comme
+
+le montre
+
+un
+
+raisonnement
+
+geome"
+
+l’’
+
+tres simple. Les intensites l’i et
+reflexion sont donc dans le rapport :
+
+trique
+
+I’2
+
+avant et
+
+apres
+
+la
+
+Tous ces resultats sont demontres du point de vue ondulatoire par Laue, page 124.
+c) Pression de radiation du rayonnement noir :
+Soit une enceinte remplie de rayonnement noir à la tem-
+
+perature T. Quelle est la pression supportee par les parois de
+l’enceinte? Pour nous le rayonnement noir sera un gaz
+d’atomes de lumiere et nous y supposerons la repartition
+des vitesses isotrope. Soit u l’energie totale (ou, ce qui ici
+revient .au meme, l’energie cinetique totale) des atomes contenus dans l’unite de volume. Soit ds un element de surface
+de la paroi, du un element de volume, r leur distance, e l’angle
+de la droite qui les joint avec la normale à l’element de surface.
+L’angle solide sous lequel l’element ds est vu du point 0,
+centre de du, est :
+,
+
+ds
+
+cos
+
+6
+
+=
+
+65
+
+Considerons seulement ceux des atomes du volume du
+en no m dont l’energ ie est co m prise entre w et w -~bre
+le nombre de ceux d’entre eux dont la vitesse
+est dirigee vers ~.9 est en raison de l’isotropie :
+
+En prenant un systeme de coordonnees spheriques
+normale â cls comme axe polaire, on trouve :
+du
+
+=1
+
+plus, l’energie cinetique
+et sa quantite de
+etant
+
+I "~ c -
+
+==
+
+c
+
+tres
+
+la
+
+/’s sin
+
+d’un
+
+De
+
+avec u
+
+avec
+
+mouvement G
+
+approximativement,
+
+de
+
+atome
+
+lumiere
+
+= ~
+
+on a :
+
+~ ^ G.
+c
+
+l’angle 8 d’un atome d’energie W
+communique à ds une impulsion 2G cos 6 2 cos 0. Les
+atomes du volume dv ayant cette energie lui communiqueront donc par reflexion une impulsion egale à :
+Donc, la reflexion
+
+sous
+
+-
+
+Integrons
+
+- +_ ~
+
+par rapport à W de
+==
+
+u,
+
+par rapport
+
+o
+
+à
+
+aux
+
+~o
+
+en
+
+remarquant que
+
+angles ~! et 0 respective-
+
+~/ o
+
+ment de
+
+o
+
+à
+
+211
+
+et
+
+de
+
+o
+
+à ~ , enfin par rapport
+
+Nous obtenons ainsi l’impulsion totale subie en
+par l’element ds et, en divisant par ds, la
+
+radiation :
+
+66
+
+à
+
+r
+
+de o à
+
+c .
+
+seconde
+pression de
+une
+
+La
+
+pression
+
+de radiation est
+
+contenue dans l’unite de
+
+egale
+
+volume,
+
+au
+
+resultat
+
+tiers de l’energie
+des theories
+
+connu
+
+classiques.
+L’aisance
+
+avec laquelle nous venons de retrouver dans ce
+certains
+resultats egalement fournis par les conparagraphe
+ceptions ondulatoires du rayonnement nous revele l’existence entre les deux points de vue en apparence opposes
+d’une harmonie secrete dont la notion d’onde de phase nous
+fait pressentir la nature.
+
+IV.
+
+-
+
+L’OPTIQUE
+
+ONDULATOIRE ET LES
+
+QUANTA
+
+DE
+
+LUMIERE
+
+(~)
+
+La pierre d’achoppement de la theorie des quanta de
+lumiere est l’explication des phenomenes qui constituent
+l’optique ondulatoire. La raison essentielle en est que cette
+explication necessite l’intervention de la phase de phenomenes periodiques°il peut donc sembler que nous ayons fait
+faire un tres grand pas à la question en parvenant à concevoir un lien etroit entre le mouvement d’un corpuscule de
+lumiere et la propagation d’une certaine onde. Il est tres
+probable, en effet, que, si la theorie des quanta de lumiere
+parvient un jour à expliquer les phenomenes de l’optique
+ondulatoire, c’est par des conceptions de ce genre qu’elle y
+parviendra. Malheureusement, il est encore impossible
+d’arriver à des resultats satisfaisants dans cet ordre d’idees
+et l’avenir seul pourra nous dire si l’audacieuse conception
+d’Einstein judicieusement assouplie et completee pourra
+loger dans ses cadres les nombreux phenomenes dont l’etude
+d’une merveilleuse precision avait amene les physiciens du
+XIXC siecle à considerer comme definitivement etablie
+l’hypothese ondulatoire.
+Bornons-nous à tourner autour de ce difficile probleme
+
+(1)
+Phil.
+
+’loir à
+
+ce
+
+sujet BATEMAN (H.).
+
+46 (ig23), g~~ ou
+
+on
+
+On
+
+the theory of light quanta,
+un historique et une
+
+trouvera
+
+bibliographie.
+
+67
+
+sans chercher à l’attaquer de front, Pour progresser dans la
+voie suivie jusqu’ici, il faudrait etablir, nous l’avons dit,
+une certaine liaison de nature sans doute statistique entre
+l’onde concue à la facon classique et la superposition des
+ondes de phase ; ceci conduirait certainement à attribuer à
+l’onde de phase ainsi par consequent qu’au phenomene periodique defini au chapitre premier une nature electromagne-
+
+tiqu e.
+On peut considerer comme prouve avec une quasi-certitude que l’emission et l’absorption du rayonnement ont lieu
+de facon discontinue. L’electromagnetisme ou plus precisement la theorie des electrons nous donne donc du mecanisme
+de ces phenomenes une vue inexacte. Cependant, M. Bohr,
+par son principe de correspondance, nous a appris que si
+l’on considere les previsions de cette theorie pour la radiation emise par un ensemble d’electrons, elles possedent sans
+doute une sorte d’exactitude globale. Peut-etre toute la theorie electromagnetique aurait-elle seulement une valeur stati-stique ; les lois de Maxwell apparaitraient alors comme une
+approximation à caractere continu d’une realite discontinue,
+un peu de la meme maniere (mais un peu seulement) que
+les lois de l’hydrodynamique donnent une approximation
+continue des mouvements tres complexes et tres rapidement
+variables des molecules fluides. Cette idee de correspondance
+qui parait encore assez imprecise et assez elastique, devra
+servir de guide aux chercheurs hardis qui voudront constituer une nouvelle theorie electromagnetique plus en accord
+que l’actuelle avec les phenomenes de quanta.
+Nous allons reproduire dans le paragraphe suivant des
+considerations que nous avons emises sur les interferences ;
+à parler franchement elles doivent etre considerees comme
+de vagues suggestions plutot que comme de veritables explications.
+
+68
+
+V.
+
+-
+
+LES INTERFERENCES
+
+ET LA
+
+COHERENCE
+
+demanderons d’abord comment on constate la
+la
+lumiere en un point de l’espace. On peut y
+de
+presence
+un
+corps sur lequel la radiation puisse exercer un
+placer
+effet photoelectrique, chimique, calorifique, etc. ; il est d’ailleurs possible qu’en derniere analyse tous les effets de ce
+genre soient photoelectriques. On peut aussi observer la diffusion des ondes produite par la matiere au point considere
+de l’espace. Nous pouvons donc dire que là ou la radiation
+ne peut reagir sur la matiere, elle est indecelable experimentalement. La theorie electromagnetique admet que les
+actions photographiques (experiences de Wiener) et la diffusion sont liees à l’intensite du champ electrique resultant ;
+là ou le
+electrique est nul, s’il y a de l’energie magnetiq ue, elle est indecelable.
+Les idees developpees ici conduisent à assimiler les ondes
+de phase aux ondes electromagnetiques, tout au moins quant
+à la repartition des phases dans l’espace, la question des
+intensites devantt etre reservee. Cette idee jointe à celle de
+correspondance nous conduit à penser que la probabilite des.
+reactions entre atomes de matiere et atomes de lumiere est
+en chaque point liee à la resultante (ou plutot à la valeur
+moyenne de celle-ci) d’un des vecteurs caracterisant l’onde
+de phase ; là ou cette resultan te est nulle la lumiere est inde celable ; il y a interference. On concoit donc qu’un atome de
+lumiere traversant une region ou les ondes de phase interferent pourra etre absorbe par la matiere en certains points et
+en d’autres ne le pourra pas. Il y a là le principe encore tres
+qualitatif d’une explication des interferences compatible avec
+la discontinuite de l’energie radiante. NI. Norman Campbell
+dans son livre Modern electrical theory ( 1 g ~ 3) paraitavoir
+entrevu une solution du meme genre quand il a ecrit :
+«
+La theorie corpusculaire seule peut expliquer comment
+renergie de la radiation est transferee d’un endroit à un
+Nous
+
+nous
+
+champ
+
+69
+
+autre tandis que la theorie ondulatoire seule
+
+peut expliquer
+pourquoi le transfert le long d’une trajectoire depend de
+celui qui a lieu sur une autre. Il semble presque que l’energie elle-meme soit transportee par des corpuscules tandis
+que le pouvoir de l’absorber et de la rendre perceptible à
+l’experience est transportee par des ondes spheriques ».
+Pour que des interferences puissent se produire regulierement, il semble necessaire d’etablir une sorte de dependance
+les emissions des divers atomes d’une meme source.
+Nous avons propose d’exprimer cette dependance par le postulat suivant. « L’onde de phase liee au mouvement d’un
+atome de lumiere peut en passant sur des atomes materiels
+excites, declancher l’emission d’autres atomes de lumiere
+dont la phase sera en accord avec celle de l’onde » . Une onde
+pourrait ainsi transporter de nombreux petits centres de
+condensation d’energie qui glisseraient d’ailleurs legerement à sa surface en restant toujours en phase avec elle. Si
+le nombre des atomes transportes etait extremement grand,
+la structure de l’onde se rapprocherait des conceptions classiques comme d’une sorte de limite
+entre
+
+VI.
+
+-
+
+LA
+
+LOI
+
+DE
+
+FREOUENCE
+
+DE
+
+BOHR. CONCLUSIONS
+
+A quelque point de vue qu’on se place, le detail des transformations internes subies par l’atome lorsqu’il absorbe ou
+
+lorsqu’il emet,
+
+ne
+
+peut
+
+encore
+
+etre aucunement
+
+imagine.
+
+Admettons toujours l’hypothese granulaire : nous ne savons
+pas si le quantum absorbe par l’atome se fond en quelque
+sorte avec lui ou s’il subsiste à son interieur à l’etat d’unite
+isolee, pas davantage nous ne savons si l’emission est l’expulsion d’un quantum preexistant dans l’atome ou la creation
+d’une unite nouvelle aux depens de l’energie interne de
+celui;ci. Quoiqu’il en soit, il parait certain que l’emission
+ne porte que sur un seul quantum ; des lors, l’energie totale
+du corpuscule egale à h fois la frequence de l’onde de phase
+qui l’accompagne devrait, pour sauvegarder la conservation
+
+70
+
+la diminution du contenu energetique total de J’atome et ceci nous donne la loi des frequences
+de Bohr :
+de
+
+l’energie,
+
+etre
+
+egale à
+%ï~
+
+=
+
+Wi - W2.
+
+On voit donc que nos conceptions, apres nous avoir conduit à une explication simple des conditions de stabilite,
+permettent aussi d’obtenir la loi des frequences à condition
+toutefois d’admettre que l’emission porte toujours sur un
+seul corpuscule.
+Remarquons que l’image de l’emission fournie par la theorie des quanta de lumiere semble confirmee par les conclusions de MM. Einstein et Leon Brillouin (i) qui ont montre la
+necessite d’introduire dans l’analyse des reactions entre le
+rayonnement noir et une particule libre l’idee d’une emission strictementdirigee.
+Que devons-nous conclure de tout ce chapitre ’1 Assurement tel phenomene comme la dispersion qui paraissait
+incompatible avec la notion de quanta de lumiere sous sa
+forme simpliste, nous parait maintenant moins impossible à
+concilier avec elle grâce a l’introduction d’une phase. La
+theorie recente de la diffusion des rayons X et y donnee par
+M. A.-H. Compton que nous exposerons plus loin, semble
+s’appuyer sur de serieuses preuves experimentales et rendre
+tangible l’existence des corpuscules lumineux dans un
+domaine ou les schemas ondulatoires regnaient en maitres,
+Il est neanmoins incontestable que la conception des grains
+d’energie lumineuse ne parvient encore aucunement à resoudre les problemes de l’optique ondulatoire et qu’elle se
+heurte là a de tres serieuses difficultes ; il serait, nous semble-t-il, premature de se prononcer sur la question de savoir
+si elle parviendra ou non à les surmonter.
+
+(i) A. EINSTEIN, Ph ys. Zeitschr. 18,
+~
+
+Journ. CL.
+
+serie
+
+VIs
+
+2,
+
+121,
+
+I (~ I 7~ L. BRILLOUIN,
+_
+
+IC~2~ 1921.
+
+71
+
+CHAPITRE VI
+
+La diffusion des rayons X et y.
+I.
+
+Dans
+
+ce
+
+rayons X
+
+-
+
+THEORIE
+
+chapitre,
+
+DE
+
+nous
+
+M. J. J. THOMSON
+
+Cil
+
+voulons etudier la diffusion des
+
+exemple particulierement
+suggestif position respective actuelle de la theorie electromagnetique et de celle des quanta de lumiere :
+Commencons par definir le phenomene meme de la difiuet y
+
+et montrer
+
+sur
+
+cet
+
+la
+
+sion : lorsqu’on envoie un faisceau de rayons sur un morceau
+de matiere, une partie de l’energie en est, en general, eparpillee dans toutes les directions. On dit qu’il y a diffusion et
+affaiblissement par diffusion du faisceau pendant la traversee
+de la substance.
+La theorie electronique interprete tres :simplement ce phenomene. Elle suppose (ce qui d’ailleurs semble en opposition
+directe avec le modele atomique de Bohr) que les electrons
+contenus dans un atome sont soumis à des forces quasi-elastiques et possedent une periode de vibration bien determinee. Des lors, le passage d’une onde electromagnetique
+sur ces electrons leur imprimera un mouvement oscillatoire
+dont l’amplitude dependra en general à la fois de la frequence de l’onde incidente et de la frequence propre des
+resonateurs electroniques. Conformement à la theorie de
+l’onde d’acceleration, le mouvement de l’electron sera sans
+cesse amorti par l’emission d’une onde à symetrie cylindrique. Il s’etablira un regime d’equilibre dans lequel le
+resonateur puisera dans le rayonnement incident l’energie
+necessaire pour compenser cet amortissement. Le resultat
+
+(1) Passage de l’electricite à travers les. gaz. Traduction
+caise FRIC et FÀURE. Gauthier-Villars, 1912, p. 321.
+
+72
+
+fran-
+
+donc bien un eparpillement d’une fraction de
+incidente dans toutes les directions de l’espace.
+Pour calculer la grandeur du phenomene de diffusion, il
+faut d’abord determiner le mouvement de l’electron vibrant.
+Pour cela on doit exprimer l’equilibre entre la resultante de
+la force d’inertie et de la force quasi-elastique d’une part et
+la force electrique exercee par le rayonnement incident sur
+l’electron d’autre part. Dans le domaine visible, l’examen
+des valeurs numeriques montre qu’on peut negliger le terme
+d’inertie devant le terme quasi-elastique et l’on est ainsi
+conduit à attribuer à l’amplitude du mouvement vibratoire
+une valeur proportionnelle à l’amplitude de la lumiere excitatrice, mais independante de sa frequence. La theorie du
+rayonnement du dipole apprend alors que la radiation secondaire globale est en raison inverse de la 4 e puissance
+de la longueur d’onde ; les radiations sont donc d’autant plus
+diffusees qu’elles sont de frequence plus elevees. C’est sur
+cette conclusion que lord Rayleigh a appuye sa belle theorie
+de la couleur bleue du ciel (f).
+Dans le domaine des tres hautes frequences (Rayons X
+et y)) c’est au contraire le terme quasi-elastique quii est
+negligeable devant celui d’inertie. Tout se passe comme si
+l’electron etait libre et l’am plitude de son mouvement vibratoire est proportionnelle non seulement à l’amplitude incidente, mais aussi à la 2e puissance de la longueur d’onde.
+Il en resulte que l’intensite diffusee globale est cette fois
+independante de la longueur d’onde. Ce fut M. J. J. Thomson qui attira le premier l’attention sur ce fait et constitua
+la premiere theorie de la diffusion des Rayons X. Les deux
+principales conclusions en furent les suivantes :
+10 Si l’on designe par 9 l’angle du prolongement de la
+
+final
+
+sera
+
+l’energie
+
+(1) LORD RAYLEIGH a deduit cette theorie de la conception elâstique de la lumiere, mais celle.ci est sur ce point entierement en
+accord avec la conception electromagnetique.
+
+73
+
+direction d’incidence
+
+la direction de diffusion,
+
+avec
+
+diffusee varie en fonction de fi
+
+l’energie
+
+.
+
+2
+
+diffusee par un electron
+est à l’intensite incidente tlans Je rapport :
+2°
+
+L’energie totale
+
+lx
+8 r:
+T ~ 3
+
+en une
+
+seconde
+
+~
+
+_
+
+et m~ etant les constantes de l’.electron, c la vitesse de la
+lumiere.
+Un atome contient certainement plusieurs electrons ;
+aujourd’hui, on a de bonnes raisons de croire leur nombre p
+egal au nombre atomique de l’element. M. Thomson supposa « incoherentes » les ondes emises par les p electrons
+d~un meme atome et, par suite, considera l’energie diffusee
+par un atome comme egale à p fois celle que diffuserait un
+seul electron. Au point de vue experimental, la diffusion se
+traduit par un affaiblissement graduel de l’intensite du faisceau et cet affaiblissement obeit à une loi exponentielle
+
+e
+
+Ix
+s
+
+est le
+
+-
+
+coefficient d’affaiblissement par diffusion
+
+brievement coefficient de diffusion. Le
+
+quotient
+
+ou
+
+plus
+
+S de
+
+ce
+
+nombre par la densite du corps diffusant est le coefficient
+massique de diffusion. Si l’on appelle coefficient atomique
+de diffusion a le rapport entre l’energie diffusee dans un seul
+atome et l’intensite de la radiation incidente, on voit facilement qu’il est relie ~ s par l’equation :
+
+la masse de
+poids atomique du diffusant,
+les
+valeurs
+Substituant
+numeriques
+d’hydrogene.
+
+A est ici le
+
+l’atome
+
+dans le facteur
+
+74
+
+s’~ 3
+
+,
+
+on
+
+trouve :
+
+Or,
+
+l’experience
+
+montre que le
+
+a
+
+rapport 1 est tres
+
+voisin
+
+1
+
+de 0,2 de telle sorte que l’on devrait avoir :
+
+0,54 io"~ _ o.54
+
+A _
+
+°
+
+l7 ^ 0,2. 1,46.
+Ce chiffre est voisin de 2, ce qui est tout à fait d’accord
+notre conception actuelle de la relation entre le nombre
+des electrons intra-atomiques et le poids atomique. La theorie
+de M. Thomson a donc conduit à d’interessantes coïncidences et les travaux de divers experimentateurs, notamment
+ceux de M. Barkla ont demontre, il y a longtemps dejà,
+avec
+
+qu’elle
+
+se
+
+verifiait dans
+
+II.
+
+-
+
+une
+
+large mesure (1).
+
+THEORIE
+
+DE
+
+M. DEBYE
+
+(2)
+
+Des difficultes subsistaient. En particulier, M. W. H. Bragg
+avait trouve dans certains cas une diffusion bien plus forte
+que celle dont rend compte la theorie precedente ett il en
+avait conclu qu’il y avait proportionnalite de l’energie diffusee non au nombre des electrons atomiques, mais au carre
+de ce nombre. M. Debye a presente une theorie plus complete
+et
+compatible à la fois avec les resultats de MNI.
+Barkia.
+M. Debye considere les electrons intra-atomiques comme
+distribues regulierement dans un volume dont les dimensions sont de l’ordre de 1o-8 cm. ; pour faciliter les calculs,
+il les suppose meme tous repartis sur un meme cercle. Si la
+longueur d’onde est grande par rapport aux distances
+moyennes des electrons, les mouvements de ceux-ci doivent
+
+(1) On trouvera enumeres les anciens travaux sur la diffusion
+Rayons X dans le livre de MM. R. LEDOUx-LBBARD et A. DAUVILLIER, La physique des Rayons X. Gauthier-Villars, rg2~, pp. 1 37
+des
+et
+
+s.
+
+(2)
+
+~ nn. d.
+
+4fi, 1915, p. 8og.
+
+75
+
+phase et, dans l’onde totale, les amplitudes
+chacun
+d’eux s’ajouteront. L’energie diffusee
+rayonnees par
+sera alors proportionnel à ~2 et non plus à p de sorte que le
+coefficient a s’ecrira ::
+
+etre presque
+
+en
+
+repartition dans l’espace, elle sera identique à
+qu’avait prevu M. Thomson.
+Pour des ondes de longueurs d’onde progressivement
+decroissantes, la repartition dans l’espace deviendra dissymetrique, l’energie diffusee dans le sens d’ou vient la radiation etant bien plus faible que dans le sens oppose. En voici
+la raison : on ne peut plus regarder les vibrations des divers
+electrons comme en phase quand la longueur d’onde devient
+comparable aux distances mutuelles. Les amplitudes rayonnees dans les diverses directions ne s’ajouteront plus parce
+qu’elles sont dephasees et l’energie diffusee sera moindre.
+Cependant, dans un cone de petite ouverture entourant le
+prolongement de la direction d’incidence, il y aura toujours
+accord de phase et les amplitudes s’ajouteront ; donc pour les
+directions contenues dans ce cone la diffusion sera beaucoup
+plus grande que pour les autres. M. Debye a d’ailleurs prevu
+un curieux phenomene : lorsqu’on s’ecarte progressivement
+Quant
+
+à la
+
+celle
+
+de l’axe du cone ci-dessus defini, l’intensite diffusee ne
+decroit pas tout de suite regulierement, mais subit d’abord
+des variations periodiques ; on devrait donc sur un ecran
+place perpendiculairement au faisceau transmis observer des
+anneaux clairs et obscurs centres sur la direction du faisceau. Bien que M. Debye ait cru d’abord reconnaitre ce phenomene dans certains resultats experimentaux de M. Friedri ch, il ne semble pas avoir ete constate clairement jusqu’ici.
+Pour les courtes longueurs d’onde, les phenomenes doivent se simplifier. Le cone de forte diffusion se retrecit
+de plus en plus, la repartition redevient symetrique et doitt
+
+76
+
+maintenant satisfaire aux formules de Thomson car les phases
+des divers electrons deviennent tout à fait incoherentes, ce
+sont donc les energies et non plus les amplitudes qui s’ajouten t.
+
+0
+
+interet de la theorie de M. Debye est d’avoir
+forte diffusion des rayons X mous et d’avoir
+montre comment doit s’effectuer, quand la frequence s’eleve,
+le passage de ce phenomene à celui de Thomson. Mais il est
+essentiel de noter que suivant les idees de Debye, plus la
+frequence est elevee, plus la symetrie du rayonnement difLe
+
+grand
+explique la
+
+fuse et la valeur o,2 du
+
+coefficient!... doivent
+
+se
+
+trouver
+
+bien
+
+paragraphe
+
+suivant
+
+qu’il
+
+o
+
+realisees. Or, nous allons voir
+n’en est aucunement ainsi.
+III.
+
+-
+
+THEORIE RECENTE
+
+DE
+
+au
+
+MM. P. DEBYE
+
+ET
+
+A. H.
+
+COMPTON(1)
+
+dans le domaine des rayons X durs et des
+rayons y ont revele des faits tres differents de ceux que les
+theories precedentes peuvent prevoir. D’abord, plus la frequence s’eleve, plus la dissymetrie du rayonnement diffuse
+s’accuse ; d’autre part, l’energie diffusee totale diminue, la
+Les
+
+experiences
+
+valeur du coefficient
+ment des que la
+
+A
+
+massique SP tend
+
+longueur
+
+à s’abaisser
+
+rapide-
+
+d’onde tombe au-dessous de o,3
+
+devient tres faible pour les rayons y. Ainsi, là ou
+0,2
+la theorie de Thomson devrait s’appliquer de mieux en
+mieux, elle s’applique de moins en moins.
+Deux autres phenomenes ont ete mis en lumiere par de
+recentes recherches experimentales au premier rang desquelles on doit placer celles de M. A. H. Compton. Celles-ci
+ont en effet montre que la diffusion parait s’accompagner
+d’un abaissement de la frequence variable d’ailleurs avec la
+ou
+
+et
+
+Zeitschr., 2I~, Ig23, 16I-I6O ; A. H. COMPTON,
+(1) P. DEBYE,
+Phys. Rev., ~I, Ig23, Zc~~; 2 1 , Ig23, 483; Phil. Mag., 46, ~g23,8g~.
+
+77
+
+direction d’observation et d’autre part, qu’elle semble provoquer la mise en mouvement d’electrons. Presque simultanement et independamment l’un de l’autre, MM. P. Debye et
+A. H. Compton sont parvenus à donner de ces ecarts par
+rapport aux lois classiques une interpretation fondee sur la
+notion de quantum de lumiere.
+En voici le principe : si un quantum de lumiere[est devie
+de sa marche rectiligne en passant au voisinage d’un elec-
+
+Fig.
+
+6.
+
+devons supposer que durant le temps ou les deux
+centres d’energie sont suffisammeiit voisins, ils exercent l’un
+sur l’autre, une certaine action. Lorsque cette action prendra
+fin, l’electron d’abord au repos aura emprunte au corpuscule
+lumineux une certaine energie ; d’apres la relation du quantum, la frequence diffusee sera donc moindre que la frequence incidente. La conservation de la quantite de mouvement acheve de determiner le probleme. Supposons que
+le quantum diffuse se deplace dans une direction faisant
+l’angle e avec le prolongement de la direction d’incidence.
+Les frequences avant et apres la diffusion etant vo et vo et la
+
+tron,
+
+nous
+
+masse
+
+propre de l’electron etant mû,
+
+on aura :
+
+Cette seconde relation se lit de suite sur la figure ci-jointe.
+La vitesse v = ~c est celle q u’acquiert l’electron par ce processus.
+
+Ann. de
+
+78
+
+Phys.,
+
+ioe
+
+serie,
+
+t. III
+
+(Janvier-Fevrier 1925)
+
+7
+
+Designons
+par ce q.ue
+Il vient :
+
+par
+
+oc
+
+le
+
+egal au quotient de v°
+frequence propre de l’electron.
+
+rapport
+
+nous nommons
+
+la
+
+ou
+
+On peut aussi à l’aide de ces formules etudier la vitesse de
+et la direction de l’electron « reculant ». On
+trouve qu’aux directions de diffusion variant de o â ~, correspondent pour l’electron des angles de recul variant de
+
+projection
+
+la vitesse variant simultanement de
+
+o
+
+à
+
+un
+
+certain
+
+2
+
+maximum.
+M. Compton faisant appel à des hypotheses inspirees par
+le principe de correspondance, a cru pouvoir calculer la
+valeur de l’energie diffusee au total et expliquer ainsi la
+
+rapide diminution du coefficient!... M. Debye applique l’idee
+de correspondance sous une forme un peu differente, mais
+parvient aussi à interpreter ce meme phenomene.
+Dans un article de la Ph ysical Review, de mai y23, et
+dans un plus recent article du Philosophical Magasine
+(novembre 1923), M. A.-H. Compton a montre que les nouvelles idees ci-dessus exposees rendaient compte de beaucoup de faits experimentaux et qu’en particulier pour les
+rayons durs et les corps legers, la variation de longueur
+d’onde prevue etait quantitativement verifiee. Pour les corps
+plus lourds et les radiations plus molles, il semble y avoir
+coexistence d’une raie diffusee sans changement de frequence
+et d’une autre raie diffusee suivant la loi de Compton-Debye.
+Pour les basses frequences la premiere devient preponderante et meme semble souvent seule exister. Des experiences
+
+79
+
+de M. Ross
+
+et de la lumiere
+la diffusion de la raie
+confirment
+cette
+maniere
+de voir. La
+paraffine
+raie Kx donne une forte raie diffusee suivant la loi de
+Compton et une faible raie à frequence non modifiee, cette
+derniere parait seule exister pour la lumiere verte.
+L’existence d_’une raie non deplacee parait devoir expliquer
+pourquoi la reflexion cristalline (phenomene de Laue) ne
+s’accompagne pas d’une variation de longueur d’onde.
+MM. Jauncey et Wolfers ont, en effet, montre recemment
+que, si les raies diffusees par les cristaux usuellement
+employes comme reflecteurs, subissaient d’une facon appreciable l’effet Compton-Debye, les mesures de precision des
+longueurs d’onde Rontgen aurait dejà mis le phenomene en
+evidence. Il faut donc supposer que dans ce cas, la diffusion
+a lieu sans
+degradation du quantum.
+Au premier abord, on est tente d’expliquer l’existence des
+deux sortes de diffusion de la facon suivante : l’effet Compton
+se produirait chaque fois que l’electron diffuseur serait libre
+ou tout au moins que sa liaison avec un atome correspondrait à une energie faible devant celle du quantum incident ;
+dans le cas contraire, il y aurait diffusion sans changement
+de longueur d’onde parce qu’alors l’atome tout entier prendrait part au processus sans acquerir de vitesse appreciable
+en raison de sa grosse masse. M. Compton trouve des difficultes à admettre cette idee et prefere expliquer la raie non
+modifiee par l’intervention de plusieurs electrons dans la
+deviation d’un meme quantum ; ce serait alors. la valeur
+elevee de la somme de leurs masses qui empecheraient le
+passage d’une energie notable de la radiation à la matiere.
+Quoi qu’il en soit, on concoit bien pourquoi les elements
+lourds et les rayons durs se comportent autrement que les
+elements legers et les rayons mous.
+Quant à la maniere de rendre compatibles la conception de
+la diffusion comme etant la deviation d’une particule lumineuse et la conservation de la phase necessaire à l’explicasur
+
+verte par la
+
+80
+
+tion des figures de Laue, elle souleve les difficultes considerables et aucunement encore. resolues que nous avons
+signalees au chapitre precedent au sujet de l’Optique ondulatoire.
+Lorsqu’on a affaire à des rayons X durs et à des elements
+legers comme cela a lieu en pratique dans la Radiotherapie,
+les phenomenes doivent etre completement modifies par
+l’effet Compton et c’est bien ce qui semble se produire. Nous
+allons en donner un exemple. On sait qu’en plus de l’affaiblissement par diffusion, un faisceau de rayons X traversant
+la matiere eprouve un affaiblissement par absorption, phenomene qui est accompagne par une emission de photoelectrons. Une loi empirique due à MM. Bragg et Pierce nous
+apprend que cette absorption varie comme le cube de la
+longueur d’onde et subit de brusques discontinuites pour
+toutes les frequences caracteristiques des niveaux intraatomiques de la substance consideree ; de plus, pour une
+meme longueur d’onde et divers elements, le coefficient atomique d’absorption varie comme la quatrieme puissance du
+nombre atomique.
+Cette loi est bien verifiee dans le domaine moyen des frequences Rontgen et il semble bien probable qu’elle doive
+s’appliquer aux rayons durs. Comme, suivant les idees recues
+avant la theorie de Compton-Debye, la diffusion etait seulement un eparpillement du rayonnement, seule l’energie
+absorbee suivant la loi de Bragg pouvait produire une ionisation dans un gaz, les electrons photoelectriques animes de
+grandes vitesses ionisant par chocs les atomes rencontres.
+La loi de Bragg-Pierce permettrait donc de calculer le rapport des ionisations produites par une meme radiation dure
+dans deux ampoules contenant l’une un gaz lourd (pa r
+exemple CH3I) et l’autre un gaz leger (par exemple de l’air).
+Meme en tenant compte des nombreuses corrections accessoires, ce rapport etait trouve experimentalement beaucoup
+plus petit qu’on ne le prevoyait ainsi. M.. Dauvillier avait
+
+81
+
+constate ce phenomene pour les rayons X et son interpretation nous a longtemps intrigue.
+La nouvelle theorie de la diffusion parait bien expliquer
+cette anomalie. Si, en effet, au moins dans le cas des rayons
+durs, une partie de l’energie des quanta de lumiere est transportee à l’electron diliusant, il y aura non seulement eparpillement de la radiation, mais aussi « absorption par
+diffusion »). L’ionisation du gaz sera due à la fois aux electrons expulses de l’atome par le mecanisme de l’absorption
+proprement -dite et aux electrons mis en mouvement de recul
+par la diffusion. Dans un gaz lourd (CH~I), l’absorption de
+Bragg est intense et celle de Compton est en regard presque
+negligeable. Pour un gaz leger (air), il n’en va plus du tout
+de meme ; la premiere absorption à cause de sa variation
+en N4 est tres faible et la seconde qui est independante de N
+devient la plus importante. Le rapport des absorptions totales
+et par suite des ionisations dans les deux gaz, doit donc
+etre beaucoup plus petit qu’on ne le prevoyait auparavant.
+Il est meme possible de rendre compte ainsi d’une facon
+quantitative du rapport des ionisations. On voit donc sur
+cet exemple le tres gros interet pratique des idees nouvelles
+de MM. Compton et Debye. Le recul des electrons diffuseurs
+semble du reste donner la clef de beaucoup d’autres phenomenes
+
+inexpliques.
+
+I V.
+
+-
+
+DIFFUSION
+
+PAR LES
+
+ELECTRONS
+
+EN
+
+MOUVEMENT
+
+On peut generaliser la theorie de Compton-Debye en
+considerant la diffusion d’un quantum de radiation par un
+electron en mouvement. Prenons pour axe des x la direction
+de propagation primitive d’un quantum de frequence initiale Vi’ les axes des y et des z etant choisis arbitrairement à
+angle droit l’un de l’autre dans un plan normal à ox et
+passant par le point ou se produit la diffusion. La direction
+de la vitesse piC de l’electron avant le choc etant definie par
+
+82
+
+les cosinus directeurs
+
+qu’elle fait
+
+avec
+
+ox, de
+
+aiblcl,
+
+appellerons 8i l’angle
+
+nous
+
+sorte que 6~ =
+
+cos
+
+apres
+
+quantum de radiation diffusee de frequence
+dans
+
+une
+
+le
+
+choc, le
+
+se
+
+propage
+direction de cosinus directeurs
+faisant
+avec la direction de la vitesse initiale de l’elec-
+
+l’angle
+tron (cos
+6).
+
+vQ
+
+et l’angle 8 avec l’axe ox
+-Ea1p -iEnfin l’electron possedera une vitesse nnale ~32e
+dont les cosinus directeurs seront
+La conservation de, l’energie et de la quantite de mouvement pendant le choc permettent d’ecrire les equations :
+==
+
+2
+
+hv1 --~+
+~
+
+C
+
+=
+
+yiI ~ ~12
+
+j~; _.... i 12
+a1
+
+_
+
+Av2 -~hv2
+
+~
+
+2
+
+~,~I mo~W - ~12
+
+Ci
+
+P ,
+
+~
+
+q~
+
+~
+
+a2,
+~2~
+
+V /I .- ~92
+
+(~~2
+
+b~
+.
+
+"
+
+c
+
+- Q~~
+
+~1 -~
+
+grâce à la relation a2z -~- b22 -f- c~~ = i ;;
+relation
+ainsi obtenue et celle qui exprime
+puis,
+de
+la conservation
+l’energie, eliminons pg. Posons avec
+Eliminons
+
+entre la
+
+Compton
+
+a,
+
+==
+
+Il vient :
+
+Si la vitesse initiale de l’electron est nulle
+trouvons la formule de Compton :
+
+ou
+
+negligeable,
+
+nous
+
+Dans le
+
+cas
+
+general,
+
+l’eilet
+
+Compton represente
+
+par le
+
+83
+
+subsiste mais amoindri ; de plus, il s’y ajoute un
+Doppler. Si l’effet Compton est negligeable, on trouve :
+
+terme
+
+eliet
+
+en a
+
+Comme, dans
+
+ce
+
+la diffusion du
+
+cas,
+
+quantum
+
+ne
+
+trouble
+
+pas le mouvement de l’electron, on peut s’attendre à trouver
+un resultat identique à celui de la theorie electromagnetique.
+C’est effectivement ce qui a lieu. Calculons la frequence
+diffusee d’apres la theorie electromagnetique (en tenant
+compte de la Relativite). La radiation incidente possede pour
+l’electron la frequence :
+
+tout en gardant la vitesse de translation pic,
+vibrer à la frequence v’, l’observateur qui recoit la
+radiation diffusee dans une direction faisant l’angle j avec
+la vitesse
+de la source, lu.i attribue la frequence :
+
+Si
+
+se
+
+l’electron,
+
+met à
+
+,
+
+,r
+"~2 ~ "
+~
+
+1
+
+et
+
+l’on
+
+a
+
+-
+
+pi
+
+COS
+
+D
+
+cos
+
+F~~
+
+cos
+
+cp
+
+bien :
+i
+
+-
+
+_
+
+v~,
+
+=
+
+vI
+i
+
+-
+
+(~~
+i (~i
+
+Compton reste en general assez faible, au contraire,
+l’effet Doppler peut atteindre pour des electrons acceleres
+par des chutes de potentiel de quelques centaines de kilovolts
+de tres fortes valeurs (augmentation d’un tiers de la frequence pour aoo kilovolts).
+Nous avons ici affaire à une elevation du quantum parce
+que le corps diffusant etant anime d’une grande vitesse, peut
+ceder de l’energie à l’atome de radiation. Les conditions
+
+84
+
+d’application de la regle de Stokes ne sont pas realisees. Il
+n’est pas impossible que certaines des conclusions ci-dessus
+enoncees puissent etre soumises à une verification experimentale au moins en ce qui concerne les rayons X.
+CHAPITRE VII
+
+La
+I.
+
+-
+
+mecanique statistique
+
+RAPPEL
+
+DE
+
+QUELQUES RESULTATS
+
+et les
+
+DE LA
+
+quanta.
+
+THERMODYNAMIQUE
+
+STATISTIQUE
+
+L’interpretation des lois de la thermodynamique à l’aide
+de considerations statistiques est un des plus beaux succes
+de la pensee scientifique, mais elle ne va pas sans quelques
+difficultes et quelques objections. Il n’entre pas dans le
+cadre du present travail de faire une critique de ces methodes ; nous nous contenterons ici, apres avoir rappele sous
+leur forme aujourd’hui la plus employee, certains resultats
+fondamentaux, d’examiner comment nos idees nouvelles
+pourraientetre introduites dans la theorie des gaz et dans
+celle du rayonnement noir.
+Roitzmann a montre, le premier, que l’entropie d’un gaz
+dans un etat determine est, à une constante additive pres, le
+produit du logarithme de la probabilite de cet etat par la
+constante k dite « constante de Boltzmann» qui depend du
+choix de l’echelle des temperatures ; il etait arrive d’abord a
+cette conclusion en analysant les chocs entre atomes dans
+t’hypothese d’une agitation entierement desordonnee de
+ceux ci. Aujourd’hui, à la suite des travaux de MM. Planck
+et Einstein, on considere plutot la relation : S - k log P
+comme la definition meme de l’entropie S d’un systeme.
+Dans cette definition, P n’est pas la probabilite mathemati-
+
+85
+
+egale au quotient du nombre des configurations microscopiques donnant la meme configuration totale macroscopique au nombre total des configurations possibles, c’est la
+probabilite « thermodynamique )) egale simplement au nume-
+
+que
+
+fraction. Ce choix du sens de P revient à
+fixer d’une certaine facon (en somme arbitraire) la constante
+de l’entropie. Ce postulat admis, nous allons rappeler une
+demonstration bien connue de l’expression analytique des
+grandeurs thermodynamiques, demonstration qui a l’avantage d’etre valable aussi bien quand la suite des etats possibles est discontinue que dans le cas inverse.
+Considerons pour cela ,J6 objets que l’on peut distribuer
+arbitrairement entre m « etats » ou « cellules » consideres
+à priori comme egalement probables. Une certaine configuration du systeme sera realisee en placant ns objets dans la
+cellule i, n2 dans la cellule 2, etc.La probabilite thermodynamique de cette configuration sera :
+
+rateur de cette
+
+Si ~~ et tous les ni sont de grands nombres, la formule de
+Stirling donne pour l’entropie du systeme :
+
+Supposons qu’à chaque cellule, corresponde
+nee d’une certaine fonction s que
+
+une
+
+valeur donl’ener-
+
+nous nommerons «
+
+d’un objet place dans cette cellule » . Envisageons une
+modification de la repartition des objets entre cellules soumises à la condition de laisser invariable la somme des energies. L’entropie S variera de :
+
+gie
+
+avec
+
+86
+
+les conditions
+
+adjointes :
+"
+
+= o
+
+1
+
+et
+
+=
+
+1
+
+o.
+
+maxima est determinee par la relation : âS = o.
+La methode des coefficients indetermines nous apprend que,
+pour realiser cette condition il faut satisfaire à l’equation :
+
+L’entropie
+
+m r
+
+i
+
+1 [log
+ou of)
+
+et B
+
+sont
+
+ni
+
+ani
+
+-f - ~ +
+
+des constantes, et cela
+
+= o
+
+soient les
+
+quelque
+
+ont.
+On en conclut que la distribution la plus probable, la
+seule realisee dans la pratique, est regie par la loi :
+ni
+
+-
+
+«e ~00FFl
+
+~a ~ - ~’J
+-
+
+C’est la distribution dite « canonique )). L’entropie thermodynamique du systeme correspondant à cette distribution
+la plus probable, est donnee’ par :
+S=
+ou
+
+>n §
+
+% -
+
+iog.«
+
+]
+
+-
+
+puisque
+m
+
+i
+
+et
+ln
+
+==
+
+1
+
+S =
+
+Pour
+
+log
+
+~~’
+c
+
+determiner ~
+
+fl-
+
+energie totale
+
+’
+
+nous
+
+E
+
+log 2,e
+1
+
+emploierons
+
++
+
+kfiE
+
+la relation thermo-
+
+dynamique :
+
+87
+
+et, parce que
+
+L’energie
+
+libre
+
+se
+
+calcule par la relation :
+
+La valeur moyenne de
+
+objets
+
+l’energie
+
+libre
+
+rapportee
+
+à l’un des
+
+est donc :
+
+Appliquons ces considerations generales à un gaz forme de
+identiques de masse mo. Le theoreme de Liouville
+(valable egalement dans la dynamique de la relativite) nous
+apprend que l’element d’extension en phase d’une molecule
+egale à dxdydzdpdqdr (ou xJ et z sont les coordonnees,
+h, q, r les moments correspondants) est un invariant des
+equations du mouvement dont la valeur est independante du
+molecules
+
+choix des coordonnees. On a ete par suite amene à admettre
+que le nombre des etats d’egale probabilite representes par
+un element de cette extension en phase etait proportionnel à
+la grandeur de celui-ci. Ceci conduit immediatement à la
+loi de repartition de Maxwell donnant le nombre d’atomes
+dont le point representatif tombe dans l’element dxdydz
+
+dpdqdr:
+etant
+
+l’energie cinetique de ces atomes.
+Supposons les vitesses assez faibles pour legitimer
+w
+
+88
+
+l’em-
+
+ploi
+
+de la
+
+dynamique classique,
+
+nous
+
+trouvons
+
+alors ::
+
+==
+V2molJJ est la quantite de mouvement. Finale
+nombre
+des atomes contenus dans l’element de
+lement,
+volume dont l’energie est comprise entre w et w + div est.
+donnee par la formule classique ::
+
+ou G
+
+=
+
+ro
+
+dn
+
+-
+
+Cte e
+
+B
+
+dwdxdydz
+
+libre et l’entropie. Pour cela, nous
+de la theorie generale non une
+prendrons
+molecule isolee, mais un gaz tout entier forme de N molecules identiques de masse rno dont l’etat est par suite defini
+par 6N parametres. L’energie libre du gaz dans le sens thermodynamique sera definie à la facon de Gibbs, comme la
+valeur moyenne de l’energie libre des Db gaz, soit :
+
+Reste à calculer
+
+l’energie
+objet
+
+comme
+
+M. Planck
+
+a
+
+precise
+
+comment cette
+
+somme
+
+devait etre
+
+effectuee, elle peut s’exprimer par une integrale etendue à
+toute l’extension en phase à 6N dimensions, integrale qui
+elle-meme est equivalente au produit de N integrales sextuples etendues à l’extension en phase de chaque molecule ;
+mais il faut avoir soin de diviser le resultat par N ! en raison de l’identite des molecules.
+L’energie libre etant ainsi
+calculee, on en deduit l’entropie et l’energie par les relations
+
+thermodynamiques classiques.
+
+Pour etiectuer les calculs, il faut preciser quelle est la
+dont le produit par l’element d’extension en phase
+
+constante
+
+89
+
+donne le nombre des etats egalement probables representes
+par des points de cet element. Ce facteur a les dimensions
+de l’inverse du cube d’une action. M. Planck le determine
+par l’hypothese suivante quelque peu deconcertante. « L’extension en phase d’une molecule est divisee en cellules d’egale
+probabilite dont la valeur est finie et egale à h3 0. On peut
+dire soit qu’à l’interieur de chaque cellule, il y a un seul
+point dont la probabilite ne soit pas nulle, soit que tous les
+points d’une meme cellule correspondent à des etats impossibles à distinguer physiquement.
+L’hypothese de Planck conduit à ecrire pour l’energie
+libre ::
+
+On trouve
+
+en
+
+effectuant
+
+l’integration :
+
+et, par suite,
+
+Warmestrahlung )) (4e ed.), Planck
+constante chimique
+deduit la
+intervenant dans l’equilibre d’un gaz avec sa phase condensee. Les mesures de cette constante chimique ont apporte un
+fort appui à la methode de Planck.
+Jusqu’ici nous n’avons fait’intervenir ni la Relativite, ni
+A la fin de
+
+son
+
+montre comment
+
+90
+
+livre
+
+«
+
+on
+
+en
+
+«
+
+~~
+
+nos idees sur la liaison de la dynamique avec la theorie des
+ondes. Nous allons chercher comment sont modifiees les
+formules precedentes par l’introduction de ces deux
+notions.
+
+II.
+
+-
+
+CONCEPTION
+
+NOUVELLE DE
+
+D’UN
+
+L’EQUILIBRE
+
+STATISTIQUE
+
+GAZ
+
+Si le mouvement des atomes gazeux est accompagne d’une
+d’ondes le recipient contenant le gaz va etre
+sillonne en tous sens par ces ondes. Nous sommes naturel-
+
+propagation
+
+lement amenes à considerer comme dans la conception du
+rayonnement noir developpee par M. Jeans, les ondes de
+phase formant des systemes stationnaires (c’est-à-dire resonant sur les dimensions de l’enceinte) comme etant les seules stables ; elles seules interviendraient dans l’etude de
+l’equilibre thermodynamique C’est quelque chose d’analogue à ce que nous avons rencontre au sujet de l’atome de
+Bohr; là aussi, les trajectoires stables etaient definies par
+une condition de resonance et les autres devaient etre considerees comme normalement irrealisables dans l’atome.
+On pourrait se demander comment il peut exister dans un
+gaz des systemes stationnaires d’ondes de phase
+mouvement des atomes est constamment trouble par
+
+le
+leurs
+
+puisque
+
+chocs mutuels. On peut d’abord repondre que grâce à
+l’incoordination du mouvement moleculaire, le nombre des
+atomes detournes de leur direction primitive pendant le
+temps dt par l’effet des chocs est exactement compense par
+le nombre de ceux dont le mouvement est ramene par ledit
+effet dans la meme direction ; tout se passe en somme comme
+si les atomes decrivaient une trajectoire rectiligne d’une
+paroi à l’autre puisque leur identite de structure dispense de
+tenir compte de leur individualite. De plus, pendant la duree
+du libre parcours, l’onde de phase peut parcourir plusieurs
+fois la longueur d’un recipient meme de grande dimension ;
+
+91
+
+si, par exemple la vitesse moyenne des
+105 cm./sec. et le parcours moyen
+moyenne des ondes de
+
+phase
+
+atomes d’un gaz est
+cm., la vitesse
+
+sera-== g IOi5 cm./sec.
+
+et
+
+pendant le temps
+
+seconde necessaire en moyenne au
+libre parcours, elle progressera de
+cm. ou g kilometres. Il semble donc possible d’imaginer l’existence d’ondes
+de phase stationnaires dans une masse gazeuse en equilibre.
+Pour mieux comprendre la nature des modifications que
+nous allons avoir à apporter à la mecanique statistique,
+nous considererons d’abord le cas simple ou des molecules
+se meuvent le long d’une droite AB de longueur l en se
+reflechissant en A et B. La distribution initiale des positions
+et des vitesses est supposee reglee par le hasard. La probabilite pour qu’une molecule se trouve sur un element dx de
+AB est donc
+
+conception classique, on doit de
+plus prendre la probabilite d’une vitesse comprise entre v et
+v + du proportionnelle à dudonc si on constitue une extension en phase en prenant comme variables x et v, tous les
+elements egaux dxdu seront egalement probables. Il en est
+tout autrement quand on introduit les conditions de stabilite
+envisagees plus haut. Si les vi.tesses sont assez faibles pour
+permettre de negliger les termes de Relativite, la longueur
+d’onde liee
+est v,
+
+et
+
+au
+
+Dans la
+
+mouvement d’une molecule dont la vitesse
+
+sera :
+
+la condition de resonance s’ecrira :
+
+Posons
+
+92
+
+.
+
+==
+
+1 .lvient :i
+
+pourra donc prendre que des valeurs egales
+entiers
+aux multiples
+de vo.
+La variation §/~ du nombre entier 7z correspondant à une
+variation uv de la vitesse donne le nombre des etats d’une
+molecule compatibles avec l’existence d’ondes de phase stationnaires. On voit de suite que
+La vitesse
+
+Tout
+
+se
+
+ne
+
+passera donc
+
+l’extension
+
+en
+
+de
+chaque element
+phase, correspondaient 7 j ° S.xsv etats possicomme
+
+si,
+
+à
+
+qui est l’expression classique de l’element d’extenphase divisee par h. L’examen des valeurs numerimontre
+qu’à une valeur de ov meme extremement petite
+q ues
+pour l’echelle de nos mesures experimentales, correspond un
+grand intervalle on ;; tout rectangle meme tres petit de l’extension en phase correspond à un nombre enorme de valeurs
+« possiblesde v. On pourra donc en general dans les calculs traiter la quantite
+uxuv comme une differentielle.
+
+bles,
+sion
+
+ce
+
+en
+
+en principe, la distribution des points representatifs
+n’est plus du tout celle qu’imagine la Mecanique statistique ;
+elle est discontinue et suppose que, par l’action d’un mecanisme encore impossible à preciser, les mouvements d’atomes qui seraient lies à des systemes non stationnaires d’ondes
+de phase, sont automatiq uement elimines.
+Passons maintenant au cas plus reel du g’az à trois dimensions La repartition des ondes de phase dans l’enceinte sera
+tout à fait analogue à celle que donnait l’ancienne theorie du
+rayonnement noir pour les ondes thermiques. On pourra,
+tout comme l’a fait M. Jeans dans ce cas, calculer le nombre
+des ondes stationnaires contenues dans l’unite de volume
+et dont les frequences sont comprises entre ~ et v + ov.
+On trouve pour ce nombre en distinguant la vitesse de
+
+Mais,
+
+93
+
+groupe U de la vitesse de
+
+phase V, l’expression
+
+suivante :
+
+egal ài pour les ondes longitudinales et à 2 pour les
+ondes transversales. L’expression precedente ne doit d’ailleurs pas nous faire illusion : toutes les valeurs de y ne sont
+pas presentes dans le systeme d’ondes et, s’il est permis de
+considerer dans les calculs, l’expression ci-dessus comme
+une differentielle, c’est qu’en general, dans un tres petit
+intervalle de frequence, il y aura un nombre enorme de
+valeurs admissibles pour v.
+Le moment est venu de faire usage du theoreme demontre
+au
+chapitre premier, paragraphe II. A un atome de vitesse
+U - ~c, correspond une onde ayant pour vitesse de phase
+
+y etant
+
+V ..- ~ ,
+~r I
+
+h
+
+pour vitesse de groupe U ==
+
+~ ~~t~GZ
+
+.
+
+Si zv
+
+c et
+
+frequence
+
+pour
+
+designe l’energie cinetique,
+
+on
+
+trouve
+
+par les formules de la Relativite :
+
+D’ou :
+
+Si on applique à l’ensemble des atomes la loi de distribution canonique demontree plus haut, on obtient pour le
+nombre de ceux qui sont contenus dans l’element de volume
+dxdydz et dont l’energie cinetique est comprise entre w et
+:
+
+_w
+
+(i)
+
+I --~-.
+
+,
+
+Pour des atomes materiels, les ondes de
+de
+
+94
+
+io°
+
+serie,
+
+t. III
+
+phase
+
+doivent par
+
+(Janvier-Fevrier zg25)
+
+8
+
+raison de
+
+analagues à des ondes longitudiDe plus, pour ces atomes hormis
+nombre
+en
+quelques-uns
+negligeable aux temperatures
+usuelles), l’energie propre moc2 est infiniment plus grande
+que l’energie cinetique. Nous pouvons donc confondrei +
+
+nales ;
+
+symetrie
+
+etre
+
+posons donc ,f ~
+
+i.
+
+ce
+
+avec
+
+l’unite et trouvons pour le nombre ci-dessus defini :
+
+Il est visible que notre methode nous conduit à prendre
+pour mesurer le nombre des etats possibles de la molecule
+correspondant à un element de son extension en phase non la
+grandeur meme de cet element mais cette grandeur divisee
+par h3. Nous justifions donc l’hypothese de M. Planck et,
+par suite, les resultats obtenus par ce savant et exposes plus
+haut. On remarquera que ce sont les valeurs trouvees pour
+les vitesses V et U de l’onde de phase qui ont permis d’arriver à ce resultat à partir de la formule de Jeans (1 ).
+III.
+
+-
+
+LE
+
+GAZ
+
+D’ATOMES
+
+DE
+
+LUMIERE
+
+Si la lumiere est divisee en atomes, le rayonnement noir
+peut etre considere comme un gaz de tels atomes en equilibre
+avec la matiere un peu comme une vapeur saturee est en
+equilibre avec sa phase condensee. -Nous avons dejà n~ontre
+au chapitre III que cette idee conduit à une prevision exacte
+de la pression de radiation.
+Cherchons à appliquer à un tel gaz de lumiere la formule
+
+(J) Sur le sujet de ce paragraphe, voir : O. SACKUR, Ann. d
+14,
+36.958 (ïgn) et 4o, 67 (I(~I3~; H. TETRODE, Phys. Zeitschr.,
+212
+38, 434 ~I(~I2)~~ w. H. KEESOM,
+; .finn.
+O.
+Phys. Zeitschr. I 4, 62g ( I g I 3) ;’
+Zeitschr., ~ 5, 6g5
+E. BRQDY,
+
+Phys., I ~, 79
+
+95
+
+du paragraphe precedent. Ici il faut poser y == a en
+raison de la symetrie de l’unite lumineuse sur laquelle nous
+avons insiste au chapitre IV. De plus, ce est tres grand par
+rapport à l’unite, si l’on excepte quelques atomes en nombre
+negligeable aux temperatures usuelles, ce qui permet de
+confondre a + i et ce + 2 avec a . On obtiendrait donc pour
+le nombre des atomes par element de volume, d’energie
++ du):
+comprise entre hv et
+
+generalei
+
+pour la densite
+quences :
+
+et
+
+d’energie correspondant
+
+aux
+
+memes fre-
+
+Il serait d’ailleurs facile de montrer que la constante est
+à -i en suivant un raisonnement contenu dans mon
+article « Quanta de lumiere et rayonnement noir » paru dans
+le Journal de Physique en novembre~22.
+Malheureusement, la loi. ainsi obtenue est la loi de Wien
+qui est seulement le premier terme de la serie qui constitue
+la loi experimentalement exacte de Planck. Ceci ne doit pas
+nous surprendre car, en supposant les mouvements des atomes de lumiere completement independants, nous devons
+necessairement parvenir à une loi dont le facteur exponentiel
+est identique à celui de la loi de Maxwell.
+Nous savons par ailleurs qu’une distribution continue de
+l’energie radiante dans l’espace conduirait à la loi de Rayleigh comme le montre le raisonnement de Jeans. Or, la loi
+de Planck admet les expressions proposees par MM. Wien et
+lord Rayleigh comme formes limites valables respectivement
+pour les tres grandes et les tres petites valeurs du quo-
+
+egale
+
+l~~
+
+96
+
+Pour retrouver le resultat de Planck, il faudra donc
+
+faire ici
+
+nouvelle hypothese qui sans nous eloigner de la
+conception des quanta de lumiere, nous permette d’expliquer comment les formules classiques peuvent etre valables
+dans un certain domaine. Nous enoncons cette hypothese de
+la facon suivante :
+« Si deux ou
+plusieurs atomes ont des ondes de phase qui
+se superposent exactement dont on peut dire par suite qu’ils
+sont transportes par la meme onde, .leurs mouvements ne
+pourront plus etre consideres comme entierement independants et ces atomes ne pourront plus etre traites comme des
+unites distinctes dans les calculs de probabilite ». Le mouvement de ces atomes « en onde » presenterait donc une sorte
+de coherence par suite d’interactions impossibles à preciser,
+mais probablement apparentes au mecanisme qui rendrait
+instable le mouvement des atomes dont l’onde de phase ne
+serait pas stationnaire.
+Cette hypothese de coherence nous oblige à reprendre
+entierement la demonstration de la loi de Maxwell. Comme
+une
+
+pouvons plus prendre chaque atome comme « objet »
+de la theorie generale, ce sont les ondes de phase stationnaires elementaires qui doivent jouer ce role. Qu’appelonsnous onde stationnaire elementaire ? Une onde stationnaire peut etre regardee comme due à la superposition
+de deux ondes de formules
+
+nous ne
+
+ou Cfo peut
+
+prendre toutes les valeurs de o à i. En donnant
+des valeurs permises et à Po une valeur arbitraire
+entre o et i, on definit une onde stationnaire elementaire.
+Considerons une valeur determinee de c~o et toutes les valeurs
+permises de ’1 comprises dans un petit intervalle dv. Chaque
+onde elementaire peut transporter o, 1 , 2... atomes et.,
+puisque la loi de distribution canonique doit etre applicable
+à v
+
+une
+
+97
+
+aux
+
+ondes
+
+mes
+
+correspondant ::
+
+considerees, nous
+
+trouvons pour le nombre d’ato-
+
+En donnant à 90 d’autres valeurs, on obtiendra d’autres
+etats stables et en superposant plusieurs de ces etats stables
+de telle sorte qu’une meme onde stationnaire corresponde à
+
+ondes elementaires, on obtiendra encore un etat
+stable. Nous en concluons que le nombre des atomes dont
+l’energie totale correspond à des frequences comprises entre
+
+plusieurs
+
+v et v + dv est
+
+par unite de volume. A peut etre fonction de la
+
+tempe-
+
+rature.
+
+Pour
+
+un
+
+gaz
+
+au
+
+qu’on peut negliger
+
+sens
+
+ordinaire du mot, rno
+
+est
+
+si
+
+grand
+
+tous les termes de la serie devant le pre-
+
+mier. On retrouve bien la formule (i) du paragraphe
+cedent.
+Pour le gaz de lumiere, on trouvera maintenant :
+
+et, par suite, pour la densite
+
+pre-
+
+d’energie :
+
+C’est bien la forme de Planck. Mais il faut montrer que
+
+98
+
+dans
+
+Tout d’abord, A est ici certainement une
+fonction de la temperature. En
+totale du rayonnement par unite de volume est :
+
+ce cas
+
+A -
+
+constante et
+
+l’energie
+
+et
+
+1.
+
+non
+
+une
+
+l’entropie totale
+
+car u
+
+la condition
+1
+
+et P
+
+--,~’~T)
+
+du
+-
+
+.
+
+-
+
+est donnee par :
+
+-~
+
+u
+
+-
+
+6/S etant une differentielle exacte,
+
+d’integrabilite s’ecrit :
+
+4
+
+I
+
+du
+
+4
+
+u
+
+ou
+
+4 zz -
+
+du
+
+M-~~’
+
+C’est la loi classique de Stel’an qui nous oblige à poser
+Le raisonnement precedent nous fournit les valeurs
+de l’entropie et de l’energie libre :
+
+A
+
+Reste à determiner la constante A. Si nous reussissons à
+demontrer quelle est l’unite, nous aurons retrouve toutes
+les formules de la theorie de Planck.
+Comme nous l’avons dit plus haut, si l’on neglige les
+termes ou p > l, la chose est aisee ; la distribution des atomes obeissant à la loi canonique simple
+
+99
+
+peut effectuer le calcul de l’energie libre par la methode
+de Planck comme pour un gaz ordinaire et, en identifiant le
+resultat avec l’expression ci-dessus, on trouve A = 1.
+Dans le cas general, il faut employer une methode plus
+detournee. Considerons le pe terme de la serie de Planck :
+on
+
+On peut l’ecrire aussi :
+
+qui permet de
+
+ce
+
+dire :
+
+etre considere comme le
+d’une
+infinite
+de
+chacun
+caracterise par une
+melange
+gaz
+valeur entiere /3 et jouissant de la propriete suivante : le
+nombre des etats possibles d’une unite gazeuse situee dans un
+element de volume dxdrd2 et ayant une energie comprise
+«
+
+Le
+
+rayonnement noir peut
+
+entre
+
+lors,
+
+et
+on
+
++
+
+Donc :
+
+100
+
+est
+
+egal
+
+à
+
+c g’ l.~
+
+peut calculer l’energ.ie libre par
+
+premier paragraphe.
+
+ou
+
+d~~)
+
+On obtient :
+
+Des
+la methode du
+
+et, par identification
+
+avec
+
+l’expression
+
+anterieurement trou-
+
+vee :
+
+~ _
+
+I
+
+A ~
+
+I
+
+.
+
+voulions demontrer.
+de
+coherence
+adoptee ci-dessus nous a donc
+L’hypothese
+conduit à bon port en nous evitant de venir echouer sur la
+loi de Rayleigh ou sur celle de Wien. L’etude des fluctuations du rayonnement noir va nous fournir une nouvelle
+preuve de son importance.
+C’est là
+
+ce
+
+que
+
+nous
+
+IV.
+
+-
+
+LES
+
+FLUCTUATIONS
+
+D’ENERGIE
+
+DANS LE RAYONNEMENT NOIR
+
+(~)
+
+Si des
+
+grains d’energie de valeur q sont distribues en tres
+nombre dans un certain espace et si leurs positions
+varient sans cesse suivant les lois du hasard, un element
+
+grand
+
+de volume contiendra normalement
+
+energie
+
+E=
+
+nq.
+
+de n
+
+n
+
+Nlais la valeur reelle de
+
+grains,
+n
+
+soit
+
+s’ecartera
+
+une
+cons-
+
+n)2 n d’apres un theoreme
+connu de la theorie des probabilites et,
+par suite, la fluctuation quadratique moyenne de l’energie sera :
+tamment
+
+et l’on
+
+a"
+
+=
+
+aura
+
+(n -
+
+(n
+
+n~~ jZ - nq2 == Eq.
+
+-
+
+==
+
+D’autre part, on sait que les fluctuations d’energie dans
+volume V de rayonnement noir sont regies par la loi de
+
+un
+
+thermodynamique statistique :
+
+(1) La theorie du Rayonnement noir et les quanta, Reunion
+Les theories statistiques en
+rapport de M. EINSTEIN, p.
+thermodynarnique, Conferences de M. H.-A. LORENTZ au College
+de France, Teubner, 1916, pp. 70 et 1 14.
+
+101
+
+pour autant qu’elles se rapportent à l’intervalle des frequences v, v + dv. Si l’on admet la loi de Rayleigh :
+
+t,3
+E -
+
+L
+
+.
+
+V
+
+ce resultat, comme on devait s’y attendre, coïncide avec
+celui que fournit le calcul des interferences conduit suivant
+les regles de la theorie electromagnetique.
+Si, au contraire, on adopte la loi de Wien qui correspond
+à l’hypothese d’une radiation formee d’atomes entierement
+
+et
+
+independants,
+
+on
+
+trouve :
+h,~
+
+s2
+
+==
+
+A.TW
+
+d / 8 3ja .~3e’^ l£T dv -
+
+deduit aussi de E2 = Ehv.
+Enfin, dans le cas reel de la loi de Planck, on parvient,
+ainsi qu’Einstein l’a le premier remarque, à l’expression :
+formule
+
+qui
+
+se
+
+apparait donc comme la somme de ce qu’il serait : 10 si le
+rayonnement etait forme de quanta hv independants ; 2~ si le
+rayonnement etait purement ondulatoire.
+D’autre part, la conception des groupements d’atomes
+
+E2
+
+« en
+
+ondesnous conduit à ecrire la loi de Planck :
+
+et, en appliquant à chaque sorte de groupements la formule E2 nqg, on obtient :
+
+Naturellement cette
+
+102
+
+expression
+
+est
+
+au
+
+fond
+
+identique
+
+à
+
+celle d’Einstein ; seule ; la maniere d’ecrire differe. Mais
+l’interet en est de nous amener à l’enonce suivant : « On
+peut egalement evaluer correctement les fluctuations du
+rayonnement noir en ne faisant aucunement appel à la
+theorie des interferences, mais en introduisant la coherence
+des atomes lies à une meme onde de phase ».
+Il semble donc presque certain que tout essai de conciliation entre la discontinuite de l’energie radiante et les interferences devrait faire intervenir l’hypothese de coherence du
+dernier paragraphe.
+
+APPENDICE AU CHAPITRE Y
+Sur les
+Nous
+comme
+
+quanta de lumiere.
+
+propose de considerer les atomes de lumiere
+petits centres d’energie caracterises par une masse
+
+avons
+
+de
+
+propre tres faible mû et animes de vitesse generalement tres
+voisines de c, de telle facon qu’il existe entre la frequence v,
+la masse propre /?~ et la vitesse ~c la relation :
+7-
+
+B11I ~ f 9
+dont
+
+on
+
+deduit ::
+
+Cette maniere de voir
+
+remarquables
+
+nous a
+
+l’effet
+
+concernant
+
+conduit à des concordances
+Doppler et la pression de
+
+radiation:
+
+Malheureusement, elle
+
+souleve
+
+des
+
+grosse difficulte : pour
+faibles, la vitesse Qc de
+
+une
+
+frequences v de plus en plus
+l’energie rayonnante deviendrait de plus
+s’annulerait pour hu
+naire (?). Ceci est d’autant
+
+en
+
+plus petite,
+
+deviendrait ensuite imagidifficile à admettre que, dans
+
+et
+
+plus
+
+103
+
+le-domaine des tres basses
+
+frequences,
+
+on
+
+devrait s’attendre
+qui assi-
+
+à retrouver les conclusions des anciennes theories
+gnent à l’energie radiante la vitesse c.
+
+-
+
+Cette objection est tres interessante parce qu’elle attire
+l’attention sur le passage de la forme purement corpusculaire
+de la lumiere se manifestant dans le domaine des hautes
+frequences à la forme purement ondulatoire des tres basses
+frequences. Nous avons montre au chapitre VII que la conception purement corpusculaire conduit à la loi de Wien
+tandis que, comme il est bien connu, la conception purement
+ondulatoire conduit à la loi de Rayleigh. Le passage de
+l’une à l’autre de ces lois doit, me semble-t-il, etre lie d’une
+facon etroite aux reponses, qui pourront etre faites à l’objection enoncee ci-dessus.
+Je vais, plutot à. titre d’exemple que dans l’espoir de
+fournir une solution satisfaisante, developper une idee
+suggeree par les reflexions qui precedent.
+Dans le chapitre VII, j’ai montre qu’il etait possible d’interpreter le passage de la loi de Wien à la loi de Rayleigh
+en concevant l’existence d’ensembles d’atomes d’e lumiere
+lies à la propagation d’une lnen1e onde de phase. J’ai insiste
+sur la ressemblance que prendra une telle onde porteuse de
+nombreux quanta avec l’onde classique lorsque le nombre
+des quanta croitra indefiniment. Cependant cette ressemblance serait limitee dans la conception exposee dans le texte
+par le fait que chaque grain d’energie conserverait la masse
+propre tres petite, mais finie mo tandis que la theorie electromagnetique attribue à la lumiere une masse propre nulle. La
+frequence de l’onde à multiples centres d’energie est determinee par la relation :
+
+ou ~.o est la masse propre de chacun des centres : ceci semble
+necessaire pour rendre compte de l’emission et de l’absorp-
+
+104
+
+Mais nous pourrions
+par quantites finies
+la
+masse
+des
+centres
+peut-etre supposer que
+d’energie lies à
+une meme onde digere de la masse propre mo d’un centre
+isole et depend du nombre d’autres centres avec lesquels ils
+se trouvent en interaction. On aurait alors :
+
+tion de
+
+l’energie
+
+=
+
+f(p)
+
+avec
+
+, f’( i) -
+
+mo
+
+designant par p le nombre des centres portes par l’onde.
+La necessite de retomber sur les formules de l’electromagnetisme pour les tres basses frequences, conduirait à
+
+en
+
+supposer que f( p) est une fonction decroissante de p tendant
+0 quand p tend vers l’infini. La vitesse de l’ensemble
+des p centres formant une onde serait alors :
+
+vers
+
+Pour les tres hautes frequences, p serait presque toujours
+egal à i, les grains d’energie seraient isoles, on aurait la
+
+rayonnement noir
+
+loi de Wien pour le
+
+et
+
+la formule du
+
+,
+
+texte p
+
+=
+
+~/iI
+
+- "2°22~ pour la vitesse de l’energie radiante.
+
+Pour les tres faibles
+
+frequences, p serait toujours tres
+seraient
+reunis en groupes tres nombreux
+grand,
+grains
+sur une meme onde. Le ravonnement noir obeirait à la loi
+de Rayleigh et la vitesse tendrait vers c quand v tendrait
+les
+
+*/
+
+vers o.
+
+L’hypothese precedente detruit un peu la simplicite de la
+conception du « quantum de lumiere », mais cette simplicite
+ne
+
+peut certainement pas
+
+etre entierement conservee si l’on
+
+pouvoir raccorder la theorie electromagnetique avec la
+discontinuite revelee par les phenomenes photoelectriques.
+Ce raccord serait obtenu, me semble-t-il, par l’introduction
+de la fonction fi p) car, pour une energie donnee, une onde
+devra comprendre un nombre p de grains de plus en plus
+
+veut
+
+105
+
+diminueront ; quand la frequence
+plus faible, le nombre des grains doit
+tendant
+leur masse propre
+indefiniment,
+augmenter
+
+grand quand y
+devient de plus
+
+et hy
+
+en
+
+0 et leur vitesse vers c, de sorte que l’onde les transportant deviendrait de plus en plus analogue à l’onde elec-
+
+vers
+
+tromagnetique.
+Il faut
+neuse
+
+avouer
+
+reste
+
+encore
+
+que la structure reelle de
+tres
+
+lumi-
+
+mysterieuse.
+
+RESUME
+
+Dans
+
+l’-energie
+
+ET CONCLUSIONS
+
+rapide historique du developpement de la Physique depuis le XVIIe siecle et en particulier de la Dynamique
+et de l’Optique, nous avons montre comment le probleme
+des quanta etait en quelque sorte contenu en germe dans le
+parallelisme des conceptions corpusculaires et ondulatoires
+du rayonnement ; puis, nous avons rappele avec quelle intensite chaque jour croissante, la notion de quanta s’etait
+imposee à l’attention des savants du xxe siecle.
+Dans le chapitre premier, nous avons admis comme postulat fondamental l’existence d’un phenomene periodique
+lie à chaque morceau isole d’energie et dependant de sa
+propre par la relation de Planck-Einstein. La theorie
+de Relativite nous a alors montre la necessite d’associer au
+mouvement uniforme de tout mobile la propagation à
+vitesse constante d’une certaine « onde de phase » et nous
+avons pu interpreter cette propagationpar la consideration
+de l’espace-temps deMinkowski.
+Reprenant, au chapitre II, la meme question dans le cas
+plus general d’un corps charge electriquement se deplacant
+d’un mouvement varie dans un champ electromagnetique,
+nous avons montre que, selon nos idees, le principe de
+moindre action sous sa forme Maupertuisienne et le principe
+masse
+
+-
+
+106
+
+un
+
+de concordance de phase du à Fermat pourraient bien etre
+deux aspects d’une seule loi ; ceci nous a conduit à concevoir
+une extension de la relation du quantum donnant la vitesse
+de l’onde de phase dans le champ electromagnetique. Certes,
+cette idee que le mouvement d’un point materiel dissimule
+toujours la propagation d’une onde, aurait besoin d’etre
+etudiee et completee, mais, si l’on parvenait à lui donner une
+forme entierement satisfaisante, elle representerait une synthese d’une grande beaute rationnelle.
+La plus importante consequence qu’on peut en tirer est
+exposee au chapitre III. Apres avoir rappele les lois de
+stabilite des trajectoires quantifiees telles qu’elles resultent
+de nombreux travaux recents, nous avons montre qu’elles
+peuvent s’interpreter comme exprimant la resonnance de
+l’onde de phase sur la longueur des trajectoires fermees
+ou quasi-fermees. Nous croyons que c’est là la premiere
+explication physiquement plausible proposee pour ces conditions de stabilite de Bohr-Sommerfeld.
+Les difficultes soulevees par les deplacements simultanes
+de deux centres electriques sont etudiees au chapitre IV, en
+particulier dans le cas des mouvements circulaires du noyau
+et de l’electron autour de leur centre de gravite dans l’atome
+
+d’hydrogene.
+Au chapitre V, guide
+
+par les resultats anterieurement
+cherchons à nous representer la possibilite
+d’une concentration de l’energie radiante autour de certains
+points singuliers et nous montrons quelle harmonie profonde semble exister entre les points de vue opposes de
+Newton et de Fresnel et etre revelee par l’identite de nombreuses previsions. La theorie electromagnetique ne peut
+etre integralement conservee sous sa forme actuelle, mais
+son remaniement est un travail difficile, nous suggerons à
+ce propos une theorie qualitative des interferences.
+Au chapitre VI, nous resumons les diverses theories successives de la diffusion des rayons X et y par les corps
+
+obtenus,
+
+nous
+
+107
+
+insistant
+
+particulierement sur la toute recente
+Dehye et A.-H. Compton qui rend, semble-t-il, presque tangible l’existence des quanta de lumiere.
+Enfin, au chapitre VII, nous introduisons l’onde de phase
+dans la Mecanique statistique, nous retrouvons aussi la
+valeur de l’element d’extension en phase que Planck a proposee et nous obtenons la loi du rayonnement noir comme la
+
+amorphes
+
+en
+
+theorie de MM. P.
+
+loi de Maxwell d’un gaz forme d’atomes de lumiere à condition toutefois d’admettre une certaine coherence entre les
+mouvements de certains atomes, coherence dont l’etude des
+fluctuations de l’energie parait aussi montrer l’interet.
+Bref, j’ai developpe des idees nouvelles pouvant peut-etre
+contribuer à hâter la synthese necessaire qui, de nouveau,
+unifiera la physique des radiations aujourd’hui si etrangement scindees en deux domaines ou regnent respectivement
+deux conceptions opposees : la conception corpusculaire et
+celle des ondes. J’ai pressenti que les principes de la Dynamique du point materiel, si on savait les analyser correctement, se presenteraient sans doute comme exprimant des
+propagations et des concordances de phases et j’ai cherche,
+de mon mieux, à tirer de la, l’explication d’un certain
+nombre d’enigmes posees par la theorie des Quanta. En
+tentant cet effort je suis parvenu à quelques conclusions
+interessa.ntes quipermettent peut-etre d’esperer arriver à des
+resultats plus complets en poursuivant dans la meme voie.
+Mais il faudrait d’abord constituer une theorie electromagnetique nouvelle conforme naturellement au principe de
+Relativite, rendant compte de la structure discontinue de
+l’energie radiante et de la nature physique des ondes de
+phase, laissant enfin à la theorie de Maxwell-Lorentz un
+
+d’approximation statistique qui expliquerait la
+legitimite de son emploi et l’exactitude de ses previsions
+dans un tres grand nombre de cas.
+
+caractere
+
+J’ai intentionnellement laisse assez vagues les definitions
+de l’onde de phase et du phenomene periodique dont elle
+
+108
+
+quelque sorte la traduction ainsi que celle du
+de
+lumiere. La presente theorie doit donc plutot
+quantum
+etre consideree comme une forme dont le contenu physique
+n’est pas entierement precise que comme une doctrine homogene definitivement constituee.
+serait
+
+en
+
+Le Gerant : F. AMIRAULT.
+.
+
+LAVAL.
+
+- IMPRIMERIE
+
+BARNEOUD.
+
+109
+
+LOUIS-JEAN
+avenue
+
+d’Embrun, 05003 GAP cedex
+Tel. : 92.53.17.00
+- Mai 1992
+
+Depot legal : 348
+Imprime en
+
+France
+
+Annales de la Fondation Louis de Broglie is a quarterly journal
+theoretical physics intended to publication of original studies, and also
+more general articles of historical or philosophical interest. Unpublished
+works by Louis de Broglie, and certain classical texts are also published.
+Lectures given at the Fondation Louis de Broglie Seminars are
+published along with original works by various authors on foundations
+of wave-mechanics, quantum physics, or other branches of physics. Particular attention is paid to works giving a clear and detailed description
+of phenomena, in the spirit of the Fondation, which quoting Louis de
+Broglie, should be «[...]] the setting of bases for a renewed microphysics, and research of its possible experimental consequences, or eventual
+
+on
+
+practical applications. »
+
+-
+
+Manuscripts
+
+in
+
+duplicate
+
+should be submitted to ::
+
+FONDATION L O UIS DE BROGLIE
+-
+
+23, quai de Conti, 75006 Paris, France.
+Their length should not, as a rule, exceed 6,000 words.
+
+Accepted languages are French and English.
+The title, and a short abstract of about 100 words,
+both French and English.
+
+-
+
+-
+
+should be
+
+provided
+
+in
+
+References should be listed on separate pages at the end of the manuscript.
+Illustrations, on distinct sheets, identified and numbered at the back, ought
+to be of high quality, allowing easy reproduction.
+Manuscripts presented in computerized form will be highly appreciated, as
+well as the supply of a copy disk, in case of acceptance.
+Prior to publication, a copyright transfer to Fondation Louis de Broglie will
+be required.
+Proofs will be sent to authors for typographic corrections, other changes
+being strictly excluded.
+Publication, and the supply of 25 reprints, are both free of charge.
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Subscription
+
+rates for Volume 17
+
+(1992,
+
+4
+
+issues)
+
+Individual subscribers (strictly personal use)
+France 400 FF
+Outside France 500 FF
+
+Others subscribers
+Outside France 600 FF
+
+France 500 FF
+
+Banque INDOSUEZ - 96, boulevard Haussmann,
+Compte n° 000-381-404
+
+75008
+
+Paris,
+
+France
+
+Les ANNALES
+
+DE LA
+
+FONDATION LOUIS
+
+DE
+
+BROGLIE sont editees
+Broglie. Elles sont
+
+tous les trimestres par la Fondation Louis de
+
+destinees à la
+
+publication d’etudes originales de physique theorique et
+d’exposes generaux pouvant comporter un aspect historique ou philosophique. On pourra y trouver notamment des inedits de Louis de Broglie
+et certains textes classiques.
+Les articles publies dans les Annales reproduisent soit des exposes
+faits devant le Seminaire de la Fondation Louis de Broglie soit des
+etudes sur les fondements de la mecanique ondulatoire, de la physique
+quantique ou d’autres branches de la physique. Le critere de choix est que
+ces travaux contribuent à donner une image plus detaillee et plus claire
+des phenomenes, et qu’ils rapprochent du but de la Fondation, qui est,
+selon les mots de Louis de Broglie, « [...de poser les bases d’une nouvelle
+microphysique, et d’en rechercher les consequences experimentales et les
+applications pratiques possibles. »
+Les manuscrits soumis pour
+dou ble exemplaire à ::
+
+-
+
+publication
+
+dans la
+
+revue
+
+seront adresses
+
+en
+
+FONDATION L O UIS DE BROGLIE
+
+23, quai de Conti, 75006 Paris.
+La longueur des articles ne depassera pas 6 000 mots, sauf accord exceptionnel avec la Redaction.
+Les langues admises sont le francais et l’anglais. Toutefois, si l’auteur et le
+laboratoire sont tous deux francais, le manuscrit devra etre redige en francais.
+Le titre et un court resume (1 00 mots environ) devront etre fournis dans les
+deux langues.
+Les references seront regroupees sur des pages distinctes.
+Les figures seront fournies sur feuilles separees, identifiees et numerotees au
+dos. Elles devront imperativement etre d’une haute qualite permettant leur
+reproduction directe.
+La presentation des manuscrits à l’aide d’un traitement de texte informatise
+de preference) sera tres appreciee, ainsi que la fourniture d’une disquette
+en cas d’acceptation du manuscrit.
+Avant publication, un transfert de copyright de l’auteur à la Fondation Louis
+de Broglie devra etre regularise.
+Une epreuve sera adressee a l’auteur pour corrections typographiques, a
+l’exclusion de toute autre modification.
+La publication dans les Annales de la Fondation Louis de Broglie est gratuite
+et l’auteur recevra gracieusement 25 tires-a-part.
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+-
+
+Abonnement
+
+au
+
+Volume 17
+
+(annee 1992, 4 numeros)
+individuels (usage personnel exclusivement)
+
+Abonnes
+France 400 FF
+Etranger 500 FF
+Tous autres abonnes (Universites, bibliotheques,
+France 500 FF
+Etranger 600 FF
+
+etc ... )
+
+Reglement par cheque ou virement bancaire a :
+Banque INDOSUEZ - 96, boulevard Haussmann, 75008
+Compte n° 000-381-404
+
+Paris
+
+ANNALES
+
+DE LA
+
+FONDATION LOUIS
+
+DE
+
+BROGLIE
+
+VOL. 17 N° 1 - 1992
+
+CENTENAIRE DE LA NAISSANCE DE LOUIS DE BROGLIE
+
+L. de BROGLIE
+
+Recherches
+
+sur
+
+Investigations
+
+la theorie des quanta
+on
+
+_____________
+
+quantum theory
+
+Ce premier numero de
+du centenaire de
+la naissance de Louis de Broglie lui rend hommage en proposant une reproduction photographique de l’edition originale de sa these, parue en
+J924.
+
+FONDATION LOUIS DE BROGLIE
+23, quai de Conti - 75006 PARIS
+Depot legal : 41854 01-1992 - Imprime en France
+
+1
+
+
